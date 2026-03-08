@@ -1,0 +1,241 @@
+/* ===========================
+   ZetaCAD - Özel Tema Renkleri
+   =========================== */
+
+:root {
+  --md-primary-fg-color:        #0A2540;
+  --md-primary-fg-color--light: #1a3a5c;
+  --md-primary-fg-color--dark:  #061828;
+  --md-accent-fg-color:         #00C2FF;
+  --md-accent-fg-color--transparent: #00C2FF1A;
+
+  /* Özel değişkenler */
+  --zeta-blue:    #00C2FF;
+  --zeta-navy:    #0A2540;
+  --zeta-dark:    #061828;
+  --zeta-surface: #0D2E4A;
+}
+
+/* Dark mode renkleri */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color:         #0A1929;
+  --md-default-fg-color:         #E8F0FE;
+  --md-default-fg-color--light:  #90CAF9;
+  --md-code-bg-color:            #0D2E4A;
+  --md-accent-fg-color:          #00C2FF;
+}
+
+/* ===========================
+   Logo & Header
+   =========================== */
+.md-header {
+  background: linear-gradient(135deg, #0A2540 0%, #0D3560 100%);
+  box-shadow: 0 2px 20px rgba(0, 194, 255, 0.15);
+}
+
+.md-header__title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* ===========================
+   Navigasyon Tabları
+   =========================== */
+.md-tabs {
+  background: linear-gradient(135deg, #061828 0%, #0A2540 100%);
+  border-bottom: 1px solid rgba(0, 194, 255, 0.2);
+}
+
+.md-tabs__link--active {
+  color: var(--zeta-blue) !important;
+  border-bottom: 2px solid var(--zeta-blue);
+}
+
+/* ===========================
+   İçerik Alanı
+   =========================== */
+.md-content__inner h1 {
+  color: var(--zeta-navy);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  border-bottom: 3px solid var(--zeta-blue);
+  padding-bottom: 0.4rem;
+}
+
+[data-md-color-scheme="slate"] .md-content__inner h1 {
+  color: #E8F0FE;
+}
+
+.md-content__inner h2 {
+  color: var(--zeta-navy);
+  font-weight: 700;
+}
+
+[data-md-color-scheme="slate"] .md-content__inner h2 {
+  color: #90CAF9;
+}
+
+/* ===========================
+   Admonition (Uyarı Kutuları)
+   =========================== */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: var(--zeta-blue);
+}
+
+/* ===========================
+   Kod Blokları
+   =========================== */
+.md-typeset code {
+  background-color: rgba(0, 194, 255, 0.08);
+  color: var(--zeta-blue);
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background-color: rgba(0, 194, 255, 0.12);
+}
+
+/* ===========================
+   Butonlar / Linkler
+   =========================== */
+.md-typeset a {
+  color: #0066CC;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: var(--zeta-blue);
+}
+
+.md-typeset a:hover {
+  color: var(--zeta-blue);
+  text-decoration: underline;
+}
+
+/* ===========================
+   Arama Kutusu
+   =========================== */
+.md-search__input {
+  background-color: rgba(255,255,255,0.08);
+  border: 1px solid rgba(0, 194, 255, 0.3);
+  border-radius: 8px;
+}
+
+.md-search__input:focus {
+  border-color: var(--zeta-blue);
+  box-shadow: 0 0 0 3px rgba(0, 194, 255, 0.15);
+}
+
+/* ===========================
+   Footer
+   =========================== */
+.md-footer {
+  background: var(--zeta-dark);
+  border-top: 1px solid rgba(0, 194, 255, 0.2);
+}
+
+/* ===========================
+   Ana Sayfa Hero Bölümü
+   =========================== */
+.zeta-hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  background: linear-gradient(135deg, #0A2540 0%, #0D3560 100%);
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.zeta-hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(ellipse at center, rgba(0,194,255,0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.zeta-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  color: white !important;
+  border: none !important;
+  margin-bottom: 0.75rem;
+}
+
+.zeta-hero p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+.zeta-badge {
+  display: inline-block;
+  background: rgba(0, 194, 255, 0.15);
+  border: 1px solid rgba(0, 194, 255, 0.4);
+  color: var(--zeta-blue);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+/* Hızlı Başlangıç Kartları */
+.zeta-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.zeta-card {
+  background: var(--md-default-bg-color);
+  border: 1px solid rgba(0, 194, 255, 0.15);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+  text-decoration: none !important;
+  display: block;
+}
+
+.zeta-card:hover {
+  border-color: var(--zeta-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 194, 255, 0.12);
+}
+
+.zeta-card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.zeta-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+}
+
+.zeta-card p {
+  margin: 0;
+  font-size: 0.88rem;
+  opacity: 0.7;
+  line-height: 1.5;
+}
