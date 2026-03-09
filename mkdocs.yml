@@ -10,20 +10,19 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: tr
-  logo: .assets/logo.png
-  favicon: .assets/favicon.png
-  font:
-    text: Roboto
-    code: Roboto Mono
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  # JEST YAZI TİPLERİ İÇİN GOOGLE FONTS İPTAL EDİLDİ (CSS'ten sistem fontu verilecek)
+  font: false 
   palette:
     - scheme: default
-      primary: custom
+      primary: white
       accent: custom
       toggle:
         icon: material/weather-night
         name: Karanlık moda geç
     - scheme: slate
-      primary: custom
+      primary: black
       accent: custom
       toggle:
         icon: material/weather-sunny
@@ -42,7 +41,7 @@ theme:
     - toc.follow
 
 extra_css:
-  - .assets/extra.css
+  - assets/extra.css
 
 extra:
   social:
@@ -50,18 +49,6 @@ extra:
       link: https://github.com/ahmedakbayir
   version:
     provider: mike
-  analytics:
-    feedback:
-      title: Bu sayfa yardımcı oldu mu?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: Evet, yardımcı oldu
-          data: 1
-          note: Geri bildiriminiz için teşekkürler!
-        - icon: material/emoticon-sad-outline
-          name: Hayır, iyileştirme gerekli
-          data: 0
-          note: Geri bildiriminizi aldık, geliştireceğiz.
 
 plugins:
   - search:
@@ -82,33 +69,25 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
   - tables
-  - footnotes
-  - def_list
   - toc:
       permalink: true
       title: Bu Sayfada
 
 nav:
-  - Ana Sayfa: index.md
-  - Baslangic:
-    - baslangic/index.md
-    - Genel Bakis: baslangic/genel-bakis.md
+  - Başlangıç:
+    - Genel Bakış: baslangic/genel-bakis.md
     - Kurulum: baslangic/kurulum.md
-    - Ilk Proje: baslangic/ilk-proje.md
-    - Arayuz Tanitimi: baslangic/arayuz.md
-  - Kullanim Kilavuzu:
-    - kullanim-kilavuzu/index.md
-    - Akilli Nesneler: kullanim-kilavuzu/cizim-araclari.md
+    - İlk Proje: baslangic/ilk-proje.md
+    - Arayüz Tanıtımı: baslangic/arayuz.md
+  - Kullanım Kılavuzu:
+    - Akıllı Nesneler: kullanim-kilavuzu/cizim-araclari.md
     - Mimari Plan: kullanim-kilavuzu/duvarlar.md
-    - Tesisat Tasarimi: kullanim-kilavuzu/tesisat.md
-    - Boru Capi Tasarimi: kullanim-kilavuzu/kapi-pencere.md
+    - Tesisat Tasarımı: kullanim-kilavuzu/tesisat.md
+    - Boru Çapı Tasarımı: kullanim-kilavuzu/kapi-pencere.md
     - Otomatik Kontrol: kullanim-kilavuzu/odalar.md
-    - 3D Kati Model: kullanim-kilavuzu/3d-gorunum.md
-    - Disa Aktarma ve E-Imza: kullanim-kilavuzu/disari-aktarma.md
+    - 3D Katı Model: kullanim-kilavuzu/3d-gorunum.md
+    - Dışa Aktarma ve E-İmza: kullanim-kilavuzu/disari-aktarma.md
     - DIPOS Dijital Onay: kullanim-kilavuzu/ai-ozellikleri.md
