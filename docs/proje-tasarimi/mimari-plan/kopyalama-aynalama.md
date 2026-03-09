@@ -1,0 +1,22 @@
+# Kopyalama ve Aynalama
+
+**Kopyeleme ve Aynalama****  
+** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](mahalvebirim.htm) [![Sonraki](prev.jpg)](tesisat.htm)  
+---|---  
+  
+Mimari planları katlar arasında kopyelebilirsiniz. Bunun için kopyelenecek katta Ctrl+C ye basınız (veya _düzenle_ menüsünden _kopyele_ seçeneğin tıklayın), daha sonra planı yapıştıracağınız kata geçip Ctrl+V ye basınız (veya _düzenle_ menüsünden _yapıştır_ seçeneğine tıklayın). Mimari plan tüm unsur ve tanımlarıyla yeni kata kopyelenecektir.   
+  
+Mimari planda aynalama yapmak için ise çizim panelinde bulunan aynalama ![mirror](mirror.jpg) butonuna basınız.   
+Ancak aynalama yapmadan önce, kaynak birim seçili olmalıdır. Tek birim içinde de aynalama yapılabilir ancak her halükarda aynalama kaynağını oluşturacak birimden bir mahalin seçiliolamsı gerekmektedir. Aynalama butonuna bastıktan sonra ayna doğrultusunu belirlemek gerekir. Bunun için aynalamının merkezinde iki noktaya tıklayınız. Şimdi seçili birimden ayna doğrultusunda mimari plan elemanları aynalanacaktır.   
+  
+**Aynalamadan Önce :**_Aynalama kaynağını teşkil edecek birimden bir mahal seçili olmalıdır.  
+_   
+![ayna1](ayna1.png)   
+  
+**Aynalama Doğrultusu:** Aynalama doğrultusu kaynak birimde yer elan elemanların hangi doğrultuda nereye aynalanacağını belirler. Bu doğrultuyu kaynak ile hedefin ortasına simetri oluşturacak şekilde yerleştirmelisiniz.   
+  
+![ayna2](ayna2.png)   
+  
+**Aynalamadan Sonra :** Kaynak birimde bulunan tüm mimari unsur ve tanımlar hedef birimde oluşturuldu.**  
+  
+**![clip0039](clip0039.jpg)
