@@ -78,10 +78,9 @@ markdown_extensions:
 
 nav:
   - Başlangıç:
-    - Genel Bakış: baslangic/genel-bakis.md
     - Kurulum: baslangic/kurulum.md
-    - İlk Proje: baslangic/ilk-proje.md
     - Arayüz Tanıtımı: baslangic/arayuz.md
+    - İlk Proje: baslangic/ilk-proje.md
   - Kullanım Kılavuzu:
     - Akıllı Nesneler: kullanim-kilavuzu/cizim-araclari.md
     - Mimari Plan: kullanim-kilavuzu/duvarlar.md
