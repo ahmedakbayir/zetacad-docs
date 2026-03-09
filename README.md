@@ -1,6 +1,6 @@
 # ZetaCAD Docs
 
-ZetaCAD için [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) ile hazırlanmış resmi Türkçe yardım dokumanı.
+ZetaCAD için hazırlanmış resmi Türkçe yardım dokumanı.
 
 **📖 Canlı Site:** https://ahmedakbayir.github.io/zetacad-docs/
 
