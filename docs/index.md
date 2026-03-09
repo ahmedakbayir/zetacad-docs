@@ -8,17 +8,14 @@
 
 <div class="zeta-cards">
   <a href="baslangic/" class="zeta-card">
-    <span class="zeta-card-icon">:rocket:</span>
     <h3>Baslangic</h3>
     <p>ZetaCAD'i indirin, kurun ve ilk projenizi olusturun.</p>
   </a>
   <a href="kullanim-kilavuzu/" class="zeta-card">
-    <span class="zeta-card-icon">:wrench:</span>
     <h3>Kullanim Kilavuzu</h3>
     <p>Akilli nesneler, tesisat tasarimi, otomatik kontrol ve daha fazlasi.</p>
   </a>
   <a href="kullanim-kilavuzu/disari-aktarma/" class="zeta-card">
-    <span class="zeta-card-icon">:page_facing_up:</span>
     <h3>Disa Aktarma & E-Imza</h3>
     <p>Projenizi DXF, PDF olarak kaydedin veya e-imza ile imzalayin.</p>
   </a>
