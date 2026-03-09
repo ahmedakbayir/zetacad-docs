@@ -39,19 +39,6 @@
 }
 
 /* ===========================
-   Navigasyon Tabları
-   =========================== */
-.md-tabs {
-  background: linear-gradient(135deg, #061828 0%, #0A2540 100%);
-  border-bottom: 1px solid rgba(0, 194, 255, 0.2);
-}
-
-.md-tabs__link--active {
-  color: var(--zeta-blue) !important;
-  border-bottom: 2px solid var(--zeta-blue);
-}
-
-/* ===========================
    İçerik Alanı
    =========================== */
 .md-content__inner h1 {

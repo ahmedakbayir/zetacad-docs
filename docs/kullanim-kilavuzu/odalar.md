@@ -1,30 +1,40 @@
-# Odalar & Alanlar
+# Otomatik Kontrol
 
-## Otomatik Oda Tespiti
+ZetaCAD'in en onemli ozelliklerinden biri, tamamlanan veya tamamlanmakta olan projeyi **yaklasik 400 noktadan** otomatik olarak kontrol edebilmesidir.
 
-ZetaCAD, kapalı duvar döngülerini otomatik olarak algılar ve oda olarak tanımlar. Bunun için özel bir adım gerekmez; duvarlarınız kapalı bir alan oluşturduğunda oda kendiliğinden tespit edilir.
+## Kontrol Sistemi
 
-## Oda Bilgilerini Görüntüleme
+ZetaCAD'in yapay zekasi, projeyi ilgili teknik sartnameye gore otomatik olarak denetler. Bu kontrol:
 
-1. `S` tuşuyla seçim aracına geçin
-2. Oda içine tıklayın
-3. Sağ panelde oda bilgileri görünür:
-    - **Alan** (m²)
-    - **Çevre** (m)
-    - **Oda Adı**
+- Hicbir insan inisiyatifine ihtiyac duymadan gerceklesir
+- Sartnameyle uyumsuz olan en ufak hatayi dahi fark eder
+- Hatanin ne oldugunu acikca belirtir
+- Duzeltme icin gerekli yollari onerir
 
-## Oda İsimlendirme
+## Kontrol Edilen Alanlar
 
-1. Odaya tıklayın
-2. Sağ panelde **Oda Adı** alanına tıklayın
-3. İsmi yazın (örn. *Salon*, *Yatak Odası*, *Mutfak*)
-4. `Enter` ile onaylayın
+| Alan | Ornek Kontroller |
+|------|-----------------|
+| **Boru caplari** | Hatlarin caplari sartname sinirlarinda mi? |
+| **Basinc kayiplari** | Toplam basinc kaybi izin verilen aralikta mi? |
+| **Cihaz kapasiteleri** | Tesisat cihazlarinin kapasiteleri dogru mu? |
+| **Hat uzunluklari** | Hat uzunluklari sartname limitlerine uygun mu? |
+| **Vana konumlari** | Vanalar dogru konumlarda mi? |
+| **Sayac ve regulator** | Sayac ve regulator uygun tipte mi? |
+| **Mesafe kontrolleri** | Cihazlar arasi mesafeler sartnameye uygun mu? |
+| **Genel proje** | Proje butunlugu ve tutarliligi |
 
-Oda adı çizim alanında odanın ortasında görünür.
+## Kontrol Sonuclari
 
-## Alan Hesabı
+Kontrol sonucunda tespit edilen sorunlar bir rapor halinde sunulur. Her sorun icin:
 
-ZetaCAD her oda için net iç alanı otomatik hesaplar. Duvar kalınlıkları hesaba katılır; gösterilen değer döşeme alanını temsil eder.
+- Sorunun tipi ve aciklamasi
+- Sorunun yeri (hangi hat, eleman veya bolge)
+- Onerilern cozum yolu
 
-!!! info "Toplam Alan"
-    Tüm odaların toplam alanını görmek için menü çubuğundan **Görünüm → Alan Özeti**'ni açabilirsiniz.
+!!! warning "Sartname Uygunlugu"
+    ZetaCAD'in otomatik kontrol sistemi, projenin ilgili teknik sartnameye uygunlugunu saglamak icin tasarlanmistir. Kontrol sonuclarini dikkatle inceleyip gerekli duzeltmeleri yapmak muellifin sorumlulugundadIr.
+
+## Surekli Kontrol
+
+Kontrol sadece proje bittiginde degil, proje hazirlanirken de calistirilabilir. Bu sayede hatalar erkenden tespit edilir ve duzeltme maliyeti minimumda tutulur.

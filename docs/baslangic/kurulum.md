@@ -2,32 +2,36 @@
 
 ## Sistem Gereksinimleri
 
-| Bileşen | Minimum |
+| Bilesen | Minimum |
 |---|---|
-| İşletim Sistemi | Windows 10 (64-bit) |
+| Isletim Sistemi | Windows 10 veya Windows 11 (tavsiye edilir) |
+| Islemci | 1 GHz veya daha hizli islemci veya SoC |
 | RAM | 4 GB |
-| Depolama | 500 MB boş alan |
-| Ekran | 1366 × 768 çözünürlük |
+| Ekran Karti | DirectX 9 veya sonrasi (WWDM 1.0 surucusuyle) |
+| Ekran Cozunurlugu | 1024 x 600 ve ustu |
 
-## İndirme ve Kurulum
+!!! warning "Windows Surumu"
+    Windows 10'un altindaki isletim sistemlerinde program calistirilabilse de performans sorunlari yasanabilecegi icin kullanmaniz onerilmemektedir.
 
-1. ZetaCAD kurulum dosyasını indirin (`.exe`)
-2. İndirilen `.exe` dosyasına çift tıklayın
-3. Kurulum sihirbazındaki adımları takip edin
-4. Kurulum tamamlandığında masaüstündeki **ZetaCAD** kısayolundan programı başlatın
+## Indirme
 
-!!! warning "Windows Güvenlik Uyarısı"
-    Windows Defender bilinmeyen yayıncıdan gelen uygulamalar için uyarı verebilir.
-    **"Daha fazla bilgi" → "Yine de çalıştır"** seçeneğine tıklayarak devam edebilirsiniz.
+ZetaCAD iki farkli surum olarak sunulmaktadir:
 
-## İlk Açılış
+- **ZetaCAD Free (Ucretsiz)**: Egitim amacli demo versiyon. Cikti ve DXF olusturma haric, kullanim ve surede hicbir kisitlama yoktur.
+- **ZetaCAD Studio (Ucretli)**: Tam surumde tum ozellikler aktiftir. Bolgenize ait surum linkini satin alma isleminden sonra alirsiniz.
 
-ZetaCAD ilk açıldığında sizi **Hoş Geldiniz** ekranı karşılar. Buradan:
+## Kurulum Adimlari
 
-- **Yeni Proje** oluşturabilirsiniz
-- Daha önce kaydettiğiniz **Son Projeler**i açabilirsiniz
-- **Örnek Proje**yi inceleyebilirsiniz
+1. Size gonderilen **ZetaCAD Studio** ve **ZetaCAD Web Modulu** linklerinden ayri ayri setup dosyalarini indirin
+2. Setup dosyalarini cift tiklayarak program kurulumlarini tamamlayin
+3. Kurulumlar bittikten sonra **ZetaCAD Studio**'yu calistirin
+4. **"Yardim"** menusunden **"Hakkinda"** panelini acin
+5. **"Ayarlar"** menusunden **"Firma Bilgileri"** panelini acin
+6. Size verilen **Seri Numarasi**, **Kullanici Adi** ve **Sifre** bilgilerini girerek **"Kullanici Bilgilerini Kontrol Et ve Kaydet"** butonuna tiklayin
 
-## Güncelleme
+## Destek Iletisim
 
-ZetaCAD, yeni sürüm çıktığında otomatik bildirim gösterir. Güncellemeyi o anda yükleyebilir ya da erteleyebilirsiniz.
+Kurulum ve elektronik imza konularinda destek icin:
+
+- **Telefon**: +90 216 402 10 00 (pbx)
+- **Web**: [destek.zetacad.com](https://destek.zetacad.com/)

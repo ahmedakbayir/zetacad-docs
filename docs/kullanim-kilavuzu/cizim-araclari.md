@@ -1,58 +1,44 @@
-# Çizim Araçları
+# Akilli Nesneler
 
-## Seçim Aracı (`S`)
+ZetaCAD'de standart CAD programlarindaki gibi primitif cizim nesneleri (cizgi, daire, dikdortgen) yoktur. Bunlarin yerine **ozellestirilmis ve gelismis tanimli nesneler** bulunur. Bu akilli nesneler, dogalgaz tesisat projesinin tum bilesen ve hesaplamalarini otomatik olarak yonetir.
 
-Mevcut elemanları seçmek, taşımak ve özelliklerini düzenlemek için kullanılır.
+## Mimari Nesneler
 
-- **Tek eleman seçimi**: Elemana tıklayın
-- **Çoklu seçim**: `CTRL` basılı tutarak birden fazla elemana tıklayın
-- **Alan seçimi**: Boş bir alandan sürükleyerek dikdörtgen seçim yapın
-- **Taşıma**: Seçili elemanı sürükleyin veya ok tuşlarıyla kaydırın
+| Nesne | Aciklama |
+|-------|----------|
+| **Duvar** | Kalinlik, yukseklik ve malzeme bilgisi tasiyan mimari duvar |
+| **Kapi** | Duvar uzerine yerlesen, acilma yonu ve genisligi olan kapi |
+| **Pencere** | Duvar uzerine yerlesen, boyut bilgisi olan pencere |
+| **Kolon** | Yapisal kolon elemani |
 
-## Duvar Aracı (`W`)
+## Tesisat Nesneleri
 
-→ Bkz. [Duvarlar](duvarlar.md)
+| Nesne | Aciklama |
+|-------|----------|
+| **Kombi** | Dogalgaz kombisi (kapasite bilgisi icerir) |
+| **Soba** | Dogalgaz sobasi |
+| **Ocak** | Dogalgaz ocagi |
+| **Sofben** | Dogalgaz sofbeni |
+| **Sayac** | Gaz sayaci |
+| **Regulator** | Basinc regulatoru |
+| **Vana** | Kesme vanasi (D:1, D:2 vb. numaralandirma) |
+| **Boru Hatti** | Dogalgaz boru hatti (cap, uzunluk, kayip bilgileri) |
 
-## Kapı Aracı (`D`)
+## Nesne Davranislari
 
-→ Bkz. [Kapı & Pencereler](kapi-pencere.md)
+ZetaCAD'deki akilli nesneler birbirleriyle etkilesim icerisindedir:
 
-## Pencere Aracı (`P`)
+- **Duvar-Kapi iliskisi**: Kapi yalnizca duvar uzerine yerlestirilebilir. Kapi silindiginde duvar butunlugu geri gelir.
+- **Duvar kesisimleri**: Iki duvar kesistiginde program kesisim noktasini otomatik olarak isler.
+- **Hat-Cihaz iliskisi**: Boru hatlari tesisat cihazlarina baglanir ve hat topolojisi otomatik olusturulur.
+- **Oda tespiti**: Kapali duvar donguleri otomatik olarak oda olarak tanimlanir.
 
-→ Bkz. [Kapı & Pencereler](kapi-pencere.md)
+## BIM Avantaji
 
-## Ölçü Aracı (`M`)
+Her nesne muhendislik bilgisi tasidigi icin ZetaCAD:
 
-İki nokta arasına boyut çizgisi ekler.
-
-1. `M` tuşuna basın
-2. Ölçmek istediğiniz ilk noktaya tıklayın
-3. İkinci noktaya tıklayın
-4. Boyut çizgisini konumlandırmak için üçüncü bir noktaya tıklayın
-
-## Kolon Aracı (`C`)
-
-Yapısal kolon eklemek için kullanılır.
-
-1. `C` tuşuna basın
-2. Kolon yerleştirmek istediğiniz noktaya tıklayın
-3. Sağ panelden kolon boyutlarını ayarlayın
-
-## Merdiven Aracı (`T`)
-
-Kat planına merdiven ekler.
-
-1. `T` tuşuna basın
-2. Merdivenin başlangıç köşesini tıklayın
-3. Bitiş köşesini tıklayın
-4. Sağ panelden basamak sayısını ve yönü ayarlayın
-
-## Izgara ve Snap Ayarları
-
-| Ayar | Kısayol | Açıklama |
-|------|---------|---------|
-| Izgarayı göster/gizle | `G` | Çizim alanındaki arka plan ızgarası |
-| Snap aç/kapat | `F3` | Noktaları ızgara veya elemanlara yapıştırma |
-
-!!! tip "Hassas Çizim"
-    Snap açık durumdayken duvar uçları, köşeler ve orta noktalar otomatik olarak yakalanır. Hassas çizim için snap'i her zaman açık tutun.
+- Hatlarin caplarini otomatik hesaplayabilir
+- Basinc kayiplarini analiz edebilir
+- Sartname uygunlugunu kontrol edebilir
+- Otomatik 3D kati model olusturabilir
+- Proje ciktisini dogru formatta uretebilir
