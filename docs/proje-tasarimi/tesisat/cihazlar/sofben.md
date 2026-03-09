@@ -1,12 +1,12 @@
 # Şofben
 
 **Şofben****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](soba.htm) [![Sonraki](prev.jpg)](genelcihaz.htm)  
+** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](soba.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](genelcihaz.htm)  
 ---|---  
   
 Şofben bireysel sıcak su ihtiyacı için kullanılır. Şofbenler hava ile ilşkiler açısından hermetik ve bacalı olmak üzere ikiye ayrılır. Tiplerine göre şartname kontrolünde ayrı kriterlere tabi tutulurlar. Şofben eklemek için ilgili ekle menülerini kullanmalısınız. **  
   
-** ![hSofbn](hSofbn.png)   
+** ![hSofbn](../../../assets/resimler/hSofbn.png)   
 |  Bacalı şofbenler tesisata eklendikleri zaman, kendilerini bir baca ile beraber çizerler. Baca gösterimi Zetacad 2.0 sürümünde şematiktir.   
   
 Bacalı şofbenlerin bulundukları mahalde atmosfere ulaşan bir havalandırma menfezi olmalıdır. Havalandırma menfezlerinde en fazla iki kademeye izin verilir. Bacalı şofbenler 8 m³ altındaki mahalde bulunamaz, ve bulunduğu mahal _yatak odası_ olamaz.   

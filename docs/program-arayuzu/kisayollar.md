@@ -1,7 +1,7 @@
 # Klavye ve Fare Kısayolları
 
 **Klavye ve Fare Kısayolları****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](projebil.htm) [![Sonraki](prev.jpg)](yeniproje.htm)  
+** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](projebil.htm) [![Sonraki](../assets/resimler/prev.jpg)](yeniproje.htm)  
 ---|---  
   
   

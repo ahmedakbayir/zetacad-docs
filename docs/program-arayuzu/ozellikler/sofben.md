@@ -1,7 +1,7 @@
 # Şofben Özellikleri
 
 **Şofben Özellikleri****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](ocakozellikleri.htm) [![Sonraki](prev.jpg)](genelcihazozellikleri.htm)  
+** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](ocakozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](genelcihazozellikleri.htm)  
 ---|---  
   
 **_Tip :_** Bu açılır kutudan şofben tipini seçiniz. Mevcut değerler Hermetik,Bacalı.   
@@ -9,6 +9,6 @@
 **_Hava Çıkışı :_** Hermetik şofbenler için hava çıkış yönünü belirleyiniz.   
   
   
-|  ![sofProp](sofProp.png)   
+|  ![sofProp](../../assets/resimler/sofProp.png)   
   
 ---|---

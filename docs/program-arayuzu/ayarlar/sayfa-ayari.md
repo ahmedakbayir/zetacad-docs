@@ -1,7 +1,7 @@
 # Sayfa Ayarı
 
 **Sayfa Ayarı****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](katlar.htm) [![Sonraki](prev.jpg)](secenekler.htm)  
+** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](katlar.htm) [![Sonraki](../../assets/resimler/prev.jpg)](secenekler.htm)  
 ---|---  
   
 _Kat planlarının çalışma alanının boyutunu buradan blirleyebilirisiniz. Bu sayfa ayarı projenin bütünün basıldığı birleştir komutunda etkin değildir. Baskı aşamasında mümkün olan en küçük sayfa boyutu otomatik hesaplanır. Buradan girilen sayfa ayarı sadece çalışma alanınızın boyutlarını belirler.  
@@ -11,6 +11,6 @@ _
 **Boy :** Sayfa boyunu cm cinsinden burada görebilirsiniz . Eğer sayfa boyutu özel ise bu değeri değiştirebilirsiniz.   
 **Yerleşim :** Sayfa yerleşiminin dikey yada yatay olduğunu burada belirtiniz.   
 **Cetvel Göster :** Bu seçenek çalışma alanında gerçek ölçüleri gösteren yatay ve dikey cetveller oluşturur.   
-|  ![sayfayar](sayfayar.png)   
+|  ![sayfayar](../../assets/resimler/sayfayar.png)   
   
 ---|---

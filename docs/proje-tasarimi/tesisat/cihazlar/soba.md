@@ -1,12 +1,12 @@
 # Soba
 
 **Soba****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](ocak.htm) [![Sonraki](prev.jpg)](Þofben.htm)  
+** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](ocak.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](Þofben.htm)  
 ---|---  
   
 Doğalgaz sobaları bireysel ısınma amacıyla kullanılır. Hava ile ilişkileri açısından sobalar ikiye ayrılır. Bacalı (B TİPİ) , Hermetik (C TİPİ) olmak üzere üçe ayrılan kombiler, tiplerine göre şartname kontrolünde ayrı kriterlere tabi tutulurlar. Soba eklemek için ilgili ekle menülerini kullanmalısınız. **  
   
-** ![sobaB](sobaB.png)   
+** ![sobaB](../../../assets/resimler/sobaB.png)   
 |  **Bacalı Soba  
   
 **Bacalı sobalar tesisata eklendikleri zaman, kendilerini bir baca ile beraber çizerler. Baca gösterimi Zetacad 2.0 sürümünde şematiktir.   
@@ -14,7 +14,7 @@ Doğalgaz sobaları bireysel ısınma amacıyla kullanılır. Hava ile ilişkile
 Bacalı sobaların bulundukları mahalde atmosfere ulaşan bir havalandırma menfezi olmalıdır. Havalndırma menfezlerinde en fazla iki kademeye izin verilir. Bacalı sobalar 8 m³ altındaki mahalde bulunamaz, ve bulunduğu mahal _yatak odası, banyo, WC_ olamaz.   
   
 ---|---  
-![sobH](sobH.png)   
+![sobH](../../../assets/resimler/sobH.png)   
 |  **Hermetik Soba  
   
 **Hermetik sobalar tesisata eklendikleri zaman kendilerini bir atmosfer borusu ile beraber çizerler. Bu atmosfer borusunun yönü iher zaman sobadan bağlı bulunduğu duvara doğrudur. Atmosfer borusu 4 m uzunluğu geçemez ve muhakkak surette açık alana ulaşmalıdır.   

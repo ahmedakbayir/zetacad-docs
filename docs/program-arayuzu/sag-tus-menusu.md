@@ -1,14 +1,14 @@
 # Sağ Tuş Menüsü
 
 **Sağ Tuş Menüsü****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](menuler.htm) [![Sonraki](prev.jpg)](butonlar.htm)  
+** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](menuler.htm) [![Sonraki](../assets/resimler/prev.jpg)](butonlar.htm)  
 ---|---  
   
 Zetacad tasarım ortamında herhangi bir nesneye veya konuma farenizin sağ tuşu ile basığınızda bir çok Windows uyumlu programda olduğu gibi bir sağ tuş menüsü açılacaktır. Bu menüye PopUp menü veya İçerik Menüsü ismi de verilir.   
   
 Zetacad içerik menüsü açılırken , seçili olan nesneyi dikkate alarak içeriğini düzenler.   
   
-![popmenu](popmenu.png)![popmenu1](popmenu1.png)![popmenu2](popmenu2.png)   
+![popmenu](../assets/resimler/popmenu.png)![popmenu1](../assets/resimler/popmenu1.png)![popmenu2](../assets/resimler/popmenu2.png)   
   
 _Seçimi Sil_   
 |  Seçili olan nesneyi siler.   

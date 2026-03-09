@@ -1,7 +1,7 @@
 # Sayaç Özellikleri
 
 **Sayaç Özellikleri****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](regozellikleri.htm) [![Sonraki](prev.jpg)](kombiozellikleri.htm)  
+** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](regozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](kombiozellikleri.htm)  
 ---|---  
   
 **_Tip :_** Bu açılır kutudan sayaş tipini seçiniz. Mevcut değerler G4,G6,G10,G16,G25,G40,G65   
@@ -11,6 +11,6 @@ Bağlantı Çapı : _**Burada sayaç tipine göre değişen bağlantı çapını
 **_Debi :_** Sayaç üzerinden geçen aktif tüketim değerini görebilirsiniz.   
 **_Min-Max Debi :_** Şartnamede but ip sayaç için izin verilen en düşük ve en yüksek debi değerlerini görebilirsiniz.   
   
-|  ![sayProp](sayProp.png)   
+|  ![sayProp](../../assets/resimler/sayProp.png)   
   
 ---|---

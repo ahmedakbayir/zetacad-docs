@@ -1,7 +1,7 @@
 # Kombi Özellikleri
 
 **Kombi Özellikleri****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](sayacozellikleri.htm) [![Sonraki](prev.jpg)](sobaozellikleri.htm)  
+** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](sayacozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](sobaozellikleri.htm)  
 ---|---  
   
 **_Marka :_** Bu açılır kutudan kombi markasını seçiniz.   
@@ -11,6 +11,6 @@ Kapasite : _**Kombi kapasitesini kcal/saat cinsinden giriniz.
 **_Hava Çıkışı :_** Hermetik kombiler için hava çıkış yönünü belirleyiniz.   
   
   
-|  ![kombiProp](kombiProp.png)   
+|  ![kombiProp](../../assets/resimler/kombiProp.png)   
   
 ---|---
