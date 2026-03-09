@@ -67,6 +67,7 @@ extra:
 plugins:
   - search:
       lang: tr
+  - glightbox
 
 markdown_extensions:
   - admonition
