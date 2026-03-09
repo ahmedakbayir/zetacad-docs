@@ -1,52 +1,59 @@
-# İlk Projenizi Oluşturun
+# Ilk Projenizi Olusturun
 
-Bu rehberde sıfırdan basit bir kat planı çizerek ZetaCAD'in temel iş akışını öğreneceksiniz.
+Bu rehberde sifirdan basit bir dogalgaz tesisat projesi olusturarak ZetaCAD'in temel is akisini ogreneceksiniz.
 
-## Yeni Proje Açma
+## Yeni Proje Acma
 
-1. ZetaCAD'i başlatın
-2. Hoş Geldiniz ekranında **"Yeni Proje"** butonuna tıklayın
-3. Proje adını girin ve kayıt konumunu seçin
-4. **Tamam**'a tıklayın — boş çizim alanı açılır
+1. ZetaCAD Studio'yu baslatin
+2. **"Dosya"** menusunden **"Yeni Proje"** secin
+3. Proje tipini belirleyin (ic tesisat, kolon, vb.)
+4. Proje adini girin ve kayit konumunu secin
 
-## 1. Duvar Çizimi
+## 1. Mimari Plan Cizimi
 
-1. Sol panelden **Duvar** aracını seçin veya `W` tuşuna basın
-2. Çizim alanında bir noktaya tıklayın (başlangıç noktası)
-3. İkinci noktaya tıklayın (duvarın bitişi)
-4. Kapalı bir oda oluşturmak için duvarları birbirine bağlayın
-5. `ESC` ile duvar aracından çıkın
+Oncelikle dogalgaz tesisatinin yerlestirilecegi mimari plani cizersiniz:
 
-!!! tip "Snap Kullanımı"
-    `F3` ile snap açık olduğunda duvar uçları otomatik olarak birbirine yapışır. Kapalı oda oluşturmak için snap'in açık olduğundan emin olun.
+1. Duvarlari yerlestirin -- ZetaCAD'de duvar bir akilli nesnedir, basit bir cizgi degil
+2. Kapi ve pencere bosluklarini duvarlara ekleyin
+3. Oda tanimlari otomatik olarak olusur
 
-## 2. Kapı Ekleme
+!!! tip "Akilli Nesneler"
+    ZetaCAD'de her nesne kendi tanimina sahiptir. Duvar duvardIr, kapi kapidir. Program bu nesnelerin tumunu anlayarak proje kontrolu yapabilir.
 
-1. `D` tuşuna basın veya sol panelden **Kapı** aracını seçin
-2. Kapı eklemek istediğiniz duvarın üzerine tıklayın
-3. Kapının açılma yönünü ayarlamak için sağ paneldeki **Açı** değerini değiştirin
+## 2. Tesisat Elemanlarini Yerlestirme
 
-## 3. Pencere Ekleme
+Mimari plan hazir olduktan sonra dogalgaz tesisat elemanlarini yerlestirin:
 
-1. `P` tuşuna basın veya **Pencere** aracını seçin
-2. Duvar üzerinde pencere konumuna tıklayın
-3. Sağ panelden pencere genişliğini ayarlayın
+- Kombi, soba, ocak, sofben gibi cihazlari uygun konumlara ekleyin
+- Vana ve regulatorleri yerlestirin
+- Sayac noktasini belirleyin
 
-## 4. Oda Tespiti
+## 3. Boru Hatlari Cizimi
 
-Kapalı bir alan oluşturduğunuzda ZetaCAD odayı otomatik olarak algılar:
+Tesisat elemanlari arasinda boru hatlari cizin. ZetaCAD, hatlari otomatik olarak numaralandirir ve gruplandirir.
 
-1. Kapalı alanın içine tıklayın
-2. Sağ panelde oda bilgileri görünür (alan m², çevre)
-3. Oda adını buradan girebilirsiniz (örn. *Salon*, *Yatak Odası*)
+## 4. Otomatik Boru Capi Tasarimi
 
-## 5. Projeyi Kaydetme
+ZetaCAD, cizdiqiniz hatlarin caplarini en optimum degerlerde tasarlayabilir. Bu ozellik su kriterleri dikkate alir:
 
-- `CTRL + S` ile kaydedin
-- Proje `.zpd` uzantısıyla kaydedilir
+- Hattin toplam kayiplari
+- Malzeme ve imalat maliyetleri
+- Sartname kisitlari
+- Estetik gorunum
+- Kullanicinin kendi ozel sartlari
 
-## Sonraki Adımlar
+## 5. Otomatik Kontrol
 
-- [Tesisat eklemeyi](../kullanim-kilavuzu/tesisat.md) öğrenin
-- [3D görünümü](../kullanim-kilavuzu/3d-gorunum.md) keşfedin
-- [DXF / PDF olarak dışa aktarın](../kullanim-kilavuzu/disari-aktarma.md)
+Proje tamamlandiginda veya tamamlanmakta iken, ZetaCAD projeyi yaklasik **400 noktadan** otomatik olarak kontrol eder. Program, sartnameyle uyumsuz olan en ufak hatayi dahi fark ederek uyarir ve hatanin duzeltilmesi icin gerekli yollari onerir.
+
+## 6. E-Imza ve Gonderme
+
+1. Projeyi **e-imza** ile imzalayin (5070 sayili Elektronik Imza Kanunu'na uygun)
+2. **DIPOS** (Dijital Proje Onay Sistemi) uzerinden gaz dagitim sirketine gonderin
+3. Proje durumunu DIPOS uzerinden takip edin
+
+## Sonraki Adimlar
+
+- [Akilli Nesneler](../kullanim-kilavuzu/cizim-araclari.md) hakkinda daha fazla bilgi edinin
+- [Boru Capi Tasarimi](../kullanim-kilavuzu/kapi-pencere.md) detaylarini ogrenin
+- [Otomatik Kontrol](../kullanim-kilavuzu/odalar.md) ozelliklerini kesfedin

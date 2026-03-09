@@ -1,21 +1,26 @@
-# Başlangıç
+# Baslangic
 
-Bu bölümde ZetaCAD'i bilgisayarınıza nasıl kuracağınızı ve temel kullanımı öğreneceksiniz.
+Bu bolumde ZetaCAD'i bilgisayariniza nasil kuracaginizi ve temel kullanimini ogreneceksiniz.
 
 <div class="zeta-cards">
+  <a href="genel-bakis/" class="zeta-card">
+    <span class="zeta-card-icon">:mag:</span>
+    <h3>Genel Bakis</h3>
+    <p>ZetaCAD'in ne oldugunu ve nasil calistigini ogrenin.</p>
+  </a>
   <a href="kurulum/" class="zeta-card">
-    <span class="zeta-card-icon">⚙️</span>
+    <span class="zeta-card-icon">:gear:</span>
     <h3>Kurulum</h3>
-    <p>ZetaCAD'i indirin ve Windows'a kurun.</p>
+    <p>ZetaCAD Studio'yu indirin ve Windows'a kurun.</p>
   </a>
   <a href="arayuz/" class="zeta-card">
-    <span class="zeta-card-icon">🖥️</span>
-    <h3>Arayüz Tanıtımı</h3>
-    <p>Araç çubukları, paneller ve kısayollar.</p>
+    <span class="zeta-card-icon">:desktop_computer:</span>
+    <h3>Arayuz Tanitimi</h3>
+    <p>Arac cubuklari, paneller ve cizim alani.</p>
   </a>
   <a href="ilk-proje/" class="zeta-card">
-    <span class="zeta-card-icon">📁</span>
-    <h3>İlk Proje</h3>
-    <p>Adım adım ilk kat planınızı çizin.</p>
+    <span class="zeta-card-icon">:file_folder:</span>
+    <h3>Ilk Proje</h3>
+    <p>Adim adim ilk dogalgaz projenizi olusturun.</p>
   </a>
 </div>

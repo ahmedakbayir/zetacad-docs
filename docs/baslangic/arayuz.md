@@ -1,62 +1,39 @@
-# Arayüz Tanıtımı
+# Arayuz Tanitimi
 
-ZetaCAD açıldığında ekran dört ana bölüme ayrılır:
+ZetaCAD Studio acildiginda kullaniciya guclu bir proje tasarim ortami sunar. Bu ortamda yapay zeka destekli akilli muhendislik araclari ile mimari plan ve tesisati yerlestirerek projeyle ilgili tum islerin otomatik olarak tamamlanmasi saglanir.
 
-```
-┌─────────────────────────────────────────────┐
-│              MENÜ ÇUBUĞU                    │
-├──────────┬──────────────────────┬───────────┤
-│          │                      │           │
-│   SOL    │      ÇİZİM ALANI     │   SAĞ     │
-│  PANEL   │       (Canvas)       │  PANEL    │
-│ (Araçlar)│                      │(Özellikler│
-│          │                      │           │
-├──────────┴──────────────────────┴───────────┤
-│              DURUM ÇUBUĞU                   │
-└─────────────────────────────────────────────┘
-```
+## Akilli Nesneler
 
-## Sol Panel — Araçlar
+ZetaCAD'de standart CAD programlarindaki gibi primitif cizim nesneleri yoktur. Bunlarin yerine ozellestirilmis ve gelismis tanimli nesneler ve komutlar bulunur:
 
-| Araç | Kısayol | Açıklama |
-|------|---------|---------|
-| Seçim | `S` | Eleman seçme ve taşıma |
-| Duvar | `W` | Duvar çizimi |
-| Kapı | `D` | Duvara kapı ekleme |
-| Pencere | `P` | Duvara pencere ekleme |
-| Ölçü | `M` | Boyut çizgisi ekleme |
-| Kolon | `C` | Yapısal kolon ekleme |
-| Merdiven | `T` | Merdiven ekleme |
-| Tesisat | `U` | Sıhhi tesisat elemanları |
+| Nesne Tipi | Aciklama |
+|-----------|----------|
+| Duvar | Mimari duvar nesnesi (kalinlik, yukseklik bilgisi tasir) |
+| Kapi | Duvar uzerine yerlesen akilli kapi nesnesi |
+| Pencere | Duvar uzerine yerlesen akilli pencere nesnesi |
+| Vana | Tesisat hatti uzerindeki kesme vanasi |
+| Kombi | Dogalgaz kombisi cihaz nesnesi |
+| Soba | Dogalgaz sobasi cihaz nesnesi |
+| Ocak | Dogalgaz ocagi cihaz nesnesi |
+| Sofben | Dogalgaz sofbeni cihaz nesnesi |
+| Sayac | Gaz sayaci nesnesi |
+| Regulator | Basinc regulator nesnesi |
+| Boru Hatti | Dogalgaz boru hatti (cap, uzunluk, kayip bilgileri tasir) |
 
-## Sağ Panel — Özellikler
+## BIM Yaklasimi
 
-Bir eleman seçildiğinde sağ panel o elemana ait özellikleri gösterir:
+ZetaCAD bir **BIM (Building Information Modeling)** uygulamasidir. Her nesne sadece bir cizim degil, muhendislik bilgisi tasiyan akilli bir elemandIr. Bu sayede:
 
-- **Konum ve Boyut**: X, Y koordinatları ve boyutlar
-- **Kalınlık / Açı**: Duvarlarda kalınlık, kapılarda açılma açısı
-- **Etiket**: Elemana ait metin bilgisi
+- Program projenin tum unsurlarini anlar
+- Otomatik hesaplamalar yapilabilir
+- Sartname kontrolleri gerceklestirilebilir
+- 3D kati model otomatik olusturulabilir
 
-## Çizim Alanı Navigasyonu
+## Proje Panelleri
 
-| İşlem | Nasıl Yapılır |
-|-------|--------------|
-| Kaydırma | Orta tuşa basılı tutarak sürükle |
-| Yakınlaştır / Uzaklaştır | Fare tekerleği |
-| Tüm çizimi sığdır | `CTRL + SHIFT + F` |
-| Görünümü sıfırla | `CTRL + 0` |
+ZetaCAD'de projeyle ilgili tum bilgilere farkli panellerden erisilir. Secilen nesnenin ozellikleri, hat bilgileri, hesaplama sonuclari ve kontrol raporlari ilgili panellerde gosterilir.
 
-## Klavye Kısayolları
+## Ipuclari
 
-| Kısayol | Eylem |
-|---------|-------|
-| `CTRL + Z` | Geri al |
-| `CTRL + Y` | İleri al |
-| `CTRL + S` | Kaydet |
-| `CTRL + A` | Tümünü seç |
-| `DEL` | Seçili elemanı sil |
-| `ESC` | Aktif araçtan çık |
-| `G` | Izgarayı göster / gizle |
-| `F3` | Snap'i aç / kapat |
-| `3` | 3D görünüme geç |
-| `2` | 2D görünüme dön |
+!!! tip "Kolon Numaralandirma"
+    Kolon tesisati projelerinde daire numaralandirmalarini otomatik olarak ZetaCAD'a yaptirabilirsiniz. D:1 vanasini secip `Ctrl+U`'ya basip 1 yazin, ardindan `Ctrl+K` yapin. Diger daireleri ZetaCAD otomatik numaralandirir.

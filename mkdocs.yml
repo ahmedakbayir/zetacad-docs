@@ -1,5 +1,5 @@
 site_name: ZetaCAD Yardım Merkezi
-site_description: ZetaCAD - AI Destekli Mimari Çizim Yazılımı Kullanım Kılavuzu
+site_description: ZetaCAD - Yapay Zeka Destekli Doğalgaz Proje Tasarım Yazılımı Kullanım Kılavuzu
 site_author: ahmedakbayir
 site_url: https://ahmedakbayir.github.io/zetacad-docs/
 
@@ -29,8 +29,6 @@ theme:
         icon: material/weather-sunny
         name: Aydınlık moda geç
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.path
@@ -39,7 +37,6 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-    - content.tabs.link
     - content.code.copy
     - content.code.annotate
     - content.action.edit
@@ -100,18 +97,19 @@ markdown_extensions:
 
 nav:
   - Ana Sayfa: index.md
-  - Başlangıç:
+  - Baslangic:
     - baslangic/index.md
-    - Genel Bakış: baslangic/genel-bakis.md
+    - Genel Bakis: baslangic/genel-bakis.md
     - Kurulum: baslangic/kurulum.md
-    - İlk Proje: baslangic/ilk-proje.md
-    - Arayüz Tanıtımı: baslangic/arayuz.md
-  - Kullanım Kılavuzu:
+    - Ilk Proje: baslangic/ilk-proje.md
+    - Arayuz Tanitimi: baslangic/arayuz.md
+  - Kullanim Kilavuzu:
     - kullanim-kilavuzu/index.md
-    - Çizim Araçları: kullanim-kilavuzu/cizim-araclari.md
-    - Duvarlar: kullanim-kilavuzu/duvarlar.md
-    - Kapı ve Pencereler: kullanim-kilavuzu/kapi-pencere.md
-    - Odalar ve Alanlar: kullanim-kilavuzu/odalar.md
-    - Tesisat (MEP): kullanim-kilavuzu/tesisat.md
-    - 3D Görünüm: kullanim-kilavuzu/3d-gorunum.md
-    - Dışa Aktarma: kullanim-kilavuzu/disari-aktarma.md
+    - Akilli Nesneler: kullanim-kilavuzu/cizim-araclari.md
+    - Mimari Plan: kullanim-kilavuzu/duvarlar.md
+    - Tesisat Tasarimi: kullanim-kilavuzu/tesisat.md
+    - Boru Capi Tasarimi: kullanim-kilavuzu/kapi-pencere.md
+    - Otomatik Kontrol: kullanim-kilavuzu/odalar.md
+    - 3D Kati Model: kullanim-kilavuzu/3d-gorunum.md
+    - Disa Aktarma ve E-Imza: kullanim-kilavuzu/disari-aktarma.md
+    - DIPOS Dijital Onay: kullanim-kilavuzu/ai-ozellikleri.md

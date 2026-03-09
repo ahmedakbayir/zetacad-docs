@@ -1,32 +1,33 @@
-# 3D Görünüm
+# 3D Kati Model
 
-ZetaCAD, 2D kat planınızı anlık olarak 3D modele dönüştürebilir.
+ZetaCAD, 2D kat planinizi otomatik ekstruzyon ile **3D kati modele** donusturebilir. Bu ozellik projenin gorsel olarak degerlendirilmesini kolaylastirir.
 
-## 3D Görünüme Geçiş
+## 3D Model Olusturma
 
-- Klavyede `3` tuşuna basın
-- veya menü çubuğundan **Görünüm → 3D Görünüm**'ü seçin
+ZetaCAD'de 3D kati model, 2D planin otomatik olarak ekstruzyon yapilmasiyla olusturulur:
 
-2D görünüme geri dönmek için `2` tuşuna basın.
+- Duvarlar belirlenen kat yuksekligine gore 3 boyutlu hale gelir
+- Kapi ve pencere bosluklari 3D modelde gorulur
+- Tesisat elemanlari modelde yer alir
 
-## 3D Navigasyon
+## Kat Yuksekligi
 
-| İşlem | Nasıl Yapılır |
-|-------|--------------|
-| Döndürme | Sağ tuşa basılı tutarak sürükle |
-| Yakınlaştır / Uzaklaştır | Fare tekerleği |
-| Kaydırma | Orta tuşa basılı tutarak sürükle |
-| Üstten görünüm | `NUMPAD 7` |
-| Önden görünüm | `NUMPAD 1` |
-| Yandan görünüm | `NUMPAD 3` |
+3D modelde duvarlarin yuksekligi proje ayarlarindan belirlenir. Varsayilan deger genellikle 280 cm'dir ve proje ihtiyacina gore degistirilebilir.
 
-## Kat Yüksekliği
+## Goruntuleme
 
-3D görünümde duvarların yüksekliği proje ayarlarından belirlenir:
+3D modelde farkli acilardan projenizi inceleyebilirsiniz:
 
-1. Menü çubuğundan **Dosya → Proje Ayarları**'nı açın
-2. **Kat Yüksekliği** değerini girin (varsayılan: 280 cm)
-3. **Tamam**'a tıklayın — 3D model güncellenir
+| Islem | Aciklama |
+|-------|----------|
+| Dondurme | Modeli farkli acilardan gormek icin dondurme |
+| Yakinlastirma | Detaylari incelemek icin zoom |
+| Kaydirma | Modeli ekranda kaydirma |
 
-!!! info "Tavan ve Döşeme"
-    Şu sürümde tavan ve döşeme otomatik olarak oluşturulmaz. Duvarlar ve açıklıklar (kapı, pencere) 3D modelde görünür.
+## Kullanim Alani
+
+3D kati model ozellikle su durumlarda faydalidir:
+
+- Projenin genel goruntusunu degerlendirme
+- Tesisat elemanlarinin konumlarini kontrol etme
+- Musteri sunumlari ve onay sureclerinde gorsel destek

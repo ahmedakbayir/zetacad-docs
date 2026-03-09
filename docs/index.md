@@ -1,47 +1,61 @@
-# ZetaCAD Yardım Merkezi
+# ZetaCAD Yardim Merkezi
 
 <div class="zeta-hero">
-  <span class="zeta-badge">✦ Mimari Çizim Yazılımı</span>
+  <span class="zeta-badge">Dogalgaz Proje Yazilimi</span>
   <h1>ZetaCAD</h1>
-  <p>Windows için geliştirilmiş profesyonel mimari çizim uygulaması. 2D plan çiziminden 3D görünüme, tesisattan dışa aktarmaya kadar ihtiyacınız olan her şey tek bir programda.</p>
+  <p>Dogalgaz tesisat projelerinin mimari planla birlikte otomatik olarak tasarlanmasini, hesaplanmasini ve kontrolunu saglayan yapay zeka temelli e-proje yazilimi. Tekhnelogos tarafindan 1997'den beri gelistirilmektedir.</p>
 </div>
 
 <div class="zeta-cards">
   <a href="baslangic/" class="zeta-card">
-    <span class="zeta-card-icon">🚀</span>
-    <h3>Başlangıç</h3>
-    <p>ZetaCAD'i indirin, kurun ve ilk projenizi oluşturun.</p>
+    <span class="zeta-card-icon">:rocket:</span>
+    <h3>Baslangic</h3>
+    <p>ZetaCAD'i indirin, kurun ve ilk projenizi olusturun.</p>
   </a>
   <a href="kullanim-kilavuzu/" class="zeta-card">
-    <span class="zeta-card-icon">📐</span>
-    <h3>Kullanım Kılavuzu</h3>
-    <p>Tüm araçları ve özellikleri öğrenin.</p>
+    <span class="zeta-card-icon">:wrench:</span>
+    <h3>Kullanim Kilavuzu</h3>
+    <p>Akilli nesneler, tesisat tasarimi, otomatik kontrol ve daha fazlasi.</p>
   </a>
   <a href="kullanim-kilavuzu/disari-aktarma/" class="zeta-card">
-    <span class="zeta-card-icon">📄</span>
-    <h3>Dışa Aktarma</h3>
-    <p>Projenizi DXF veya PDF olarak kaydedin.</p>
+    <span class="zeta-card-icon">:page_facing_up:</span>
+    <h3>Disa Aktarma & E-Imza</h3>
+    <p>Projenizi DXF, PDF olarak kaydedin veya e-imza ile imzalayin.</p>
   </a>
 </div>
 
 ## ZetaCAD Nedir?
 
-ZetaCAD, mimari projelerinizi hızlı ve kolay bir şekilde çizmenizi sağlayan bir masaüstü uygulamasıdır. Hem 2D kat planı çizimi hem de 3D görselleştirme imkânı sunar.
+ZetaCAD, bir **Tekhnelogos** markasi olup dogalgaz tesisat projelerinin mimari planla birlikte otomatik olarak tasarlanmasini, hesaplanmasini ve kontrolunu saglayan **yapay zeka temelli bir e-proje yazilimi**dir.
 
-### Özellikler
+ZetaCAD sadece dogalgaz proje telifi yapabilmek icin gelistirilmis bir programdir. Tek amaci vardir ve tum fonksiyonlarini bu amaca gore organize eder. Standart bir CAD programindan farkli olarak, ZetaCAD'de primitif cizim nesneleri (cizgi, daire, dikdortgen) yoktur. Bunlarin yerine **ozellestirilmis ve gelismis tanimli nesneler** vardir: duvar, kapi, pencere, vana, kombi gibi.
 
-| Özellik | Açıklama |
+### Temel Ozellikler
+
+| Ozellik | Aciklama |
 |---|---|
-| 🧱 **2D Duvar Çizimi** | Snap destekli, kesişim algılayan duvar araçları |
-| 🚪 **Kapı & Pencere** | Duvara otomatik yerleşen kapı ve pencere elemanları |
-| 🏠 **Oda Tespiti** | Kapalı alanları otomatik algılar, alan hesabı yapar |
-| 🚿 **Tesisat (MEP)** | Sıhhi tesisat elemanları ve boru planlaması |
-| 📐 **3D Görünüm** | 2D plandan anlık 3D modele geçiş |
-| 📄 **DXF / PDF Export** | Çizimleri DXF veya PDF formatında dışa aktarma |
+| **Yapay Zeka Destekli Tasarim** | Projenin tum unsurlari yapay zeka ile kontrol edilir, hatalar otomatik tespit edilir |
+| **Akilli BIM Nesneleri** | Duvar, kapi, pencere, vana, kombi gibi gelismis tanimli nesneler |
+| **Otomatik Boru Capi Tasarimi** | Hatlarin caplari en optimum degerlerde otomatik belirlenir |
+| **~400 Noktadan Otomatik Kontrol** | Proje sartnameye uygunluk acisindan yaklasik 400 noktadan kontrol edilir |
+| **3D Kati Model** | 2D plandan otomatik ekstruzyon ile 3D kati model olusturma |
+| **E-Imza ve DIPOS Entegrasyonu** | Elektronik imza destegi ve dijital proje onay sistemi |
 
-## Dosya Formatı
+### Proje Tipleri
 
-ZetaCAD projeleri `.zpd` uzantısıyla kaydedilir. Bu format yalnızca ZetaCAD tarafından açılabilir.
+ZetaCAD'de asagidaki dogalgaz tesisat projeleri tasarlanabilir:
 
-!!! tip "Başlamak için"
-    ZetaCAD'i ilk kez kullanıyorsanız [Kurulum](baslangic/kurulum.md) sayfasından başlayın.
+- Kolon projeleri
+- Ic tesisat projeleri
+- Kolon ve ic tesisat projeleri
+- Merkezi sistem projeleri
+- Teknik tadilat projeleri
+- Kucuk sanayi tipi projeleri
+- Tum dusuk basinc (21-50 mbar) ve orta basinc (50-300 mbar) projeler
+
+### Hiz
+
+ZetaCAD 3.0 ile proje telifi diger programlara gore **4 kat**, elle telife gore **10 kat** daha hizlidir.
+
+!!! tip "Baslamak icin"
+    ZetaCAD'i ilk kez kullaniyorsaniz [Kurulum](baslangic/kurulum.md) sayfasindan baslayin.

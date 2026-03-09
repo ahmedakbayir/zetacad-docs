@@ -1,42 +1,35 @@
-# Kapı & Pencereler
+# Boru Capi Tasarimi
 
-## Kapı Ekleme
+ZetaCAD'in en guclu ozelliklerinden biri, dogalgaz boru hatlarinin caplarini **otomatik olarak en optimum degerlerde** tasarlayabilmesidir.
 
-Kapılar yalnızca mevcut bir duvar üzerine yerleştirilebilir.
+## Otomatik Cap Belirleme
 
-1. `D` tuşuna basın veya **Kapı** aracını seçin
-2. Kapı yerleştirmek istediğiniz duvarın üzerine tıklayın
-3. Kapı duvara otomatik olarak yerleşir
+ZetaCAD, hatlarin caplarini belirlerken asagidaki kriterleri birlikte degerlendirir:
 
-### Kapı Özellikleri
+| Kriter | Aciklama |
+|--------|----------|
+| **Toplam kayiplar** | Hattin basinc kayiplari hesaplanir |
+| **Malzeme maliyeti** | Boru malzeme ve imalat maliyetleri goz onunde bulundurulur |
+| **Sartname kisitlari** | Ilgili teknik sartnamenin belirledigi sinir degerlere uyulur |
+| **Estetik gorunum** | Projenin gorsel uyumu dikkate alinir |
+| **Kullanici sartlari** | Muellifin belirlediqi ozel kosullar uygulanir |
 
-Kapıyı seçtikten sonra sağ panelden şu ayarları yapabilirsiniz:
+## Hesaplama Yontemi
 
-| Özellik | Açıklama |
-|---------|---------|
-| Genişlik | Kapı açıklığının genişliği (cm) |
-| Açılma Yönü | Sağa / sola açılma |
-| Açı | Kapının açılma açısı (0°–180°) |
+Boru capi tasarimi, hat topolojisi uzerinden calisir:
 
-## Pencere Ekleme
+1. ZetaCAD, tesisat elemanlarinin kapasitelerini toplar
+2. Her hat segmentinin tasimasi gereken gaz debisini hesaplar
+3. Basinc kaybi formulleriyle uygun caplari belirler
+4. Sartname sinirlari icinde en ekonomik capin secilmesini saglar
 
-1. `P` tuşuna basın veya **Pencere** aracını seçin
-2. Duvar üzerinde pencere konumuna tıklayın
+## Basinc Araliklari
 
-### Pencere Özellikleri
+ZetaCAD asagidaki basinc araliklarinda cap tasarimi yapabilir:
 
-| Özellik | Açıklama |
-|---------|---------|
-| Genişlik | Pencere açıklığının genişliği (cm) |
-| Yükseklik | Pencere yüksekliği (cm) |
-| Denizlik Yüksekliği | Döşemeden pencere altına olan mesafe (cm) |
+- **Dusuk basinc**: 21-50 mbar
+- **Orta basinc**: 50-300 mbar
 
-## Düzenleme ve Taşıma
+## Sonuclarin Kontrolu
 
-- Kapı veya pencereyi seçip **sürükleyerek** duvar üzerinde konumunu değiştirebilirsiniz
-- Sadece aynı duvar üzerinde hareket ettirilebilir; farklı duvara taşımak için silip yeniden yerleştirin
-
-## Silme
-
-1. Kapı veya pencereye tıklayın
-2. `DEL` tuşuna basın — açıklık kapanır, duvar bütünlüğü geri gelir
+Otomatik cap tasariminin sonuclari, [Otomatik Kontrol](odalar.md) asamasinda yakl. 400 noktadan denetlenir. Sartname disina cikan herhangi bir deger tespit edilirse program uyari verir.

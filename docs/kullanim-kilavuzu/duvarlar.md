@@ -1,36 +1,56 @@
-# Duvarlar
+# Mimari Plan
 
-## Duvar Çizimi
+ZetaCAD'de dogalgaz tesisat projesi olusturmak icin oncelikle mimari plan cizilir. Mimari plan; duvarlar, kapilar, pencereler ve diger yapisal elemanlardan olusur.
 
-1. `W` tuşuna basın veya sol panelden **Duvar** aracını seçin
-2. Duvarın başlangıç noktasına tıklayın
-3. Bitiş noktasına tıklayın — duvar oluşur
-4. Zincir modda devam edebilir ya da `ESC` ile aracı bırakabilirsiniz
+## Duvar Cizimi
 
-!!! tip "Kapalı Oda Oluşturma"
-    Snap açıkken son duvarın bitiş noktasını ilk duvarın başlangıç noktasına yaklaştırın; otomatik olarak yapışır ve kapalı oda tamamlanır.
+ZetaCAD'de duvar, primitif bir cizgi degil, kalinlik ve yukseklik bilgisi tasiyan akilli bir nesnedir.
 
-## Duvar Kalınlığı
+1. Duvar aracini secin
+2. Duvar baslangic noktasina tiklayin
+3. Bitis noktasina tiklayin -- duvar olusur
+4. Zincir modda devam edebilir ya da araci birakabilirsiniz
 
-Duvarı çizmeden önce veya çizdikten sonra sağ panelden kalınlık değerini ayarlayabilirsiniz.
+!!! tip "Kapali Oda Olusturma"
+    Son duvarin bitis noktasini ilk duvarin baslangic noktasina yaklastirdiginizda otomatik olarak yapisir ve kapali oda tamamlanir.
 
-- **İç duvar** için tipik değer: 10–15 cm
-- **Dış duvar** için tipik değer: 20–30 cm
+## Duvar Kalinligi
 
-## Duvar Kesişimleri
+Duvari cizmeden once veya cizdikten sonra kalinlik degerini ayarlayabilirsiniz:
 
-İki duvar kesiştiğinde ZetaCAD kesişim noktasını otomatik olarak işler. Elle müdahaleye gerek yoktur.
+- **Ic duvar** icin tipik deger: 10-15 cm
+- **Dis duvar** icin tipik deger: 20-30 cm
 
-## Duvar Düzenleme
+## Kapi ve Pencere Ekleme
 
-Mevcut bir duvarı düzenlemek için:
+Kapilar ve pencereler yalnizca mevcut bir duvar uzerine yerlestirilebilir:
 
-1. `S` tuşuna basarak seçim aracına geçin
-2. Düzenlemek istediğiniz duvara tıklayın
-3. Sağ panelden uzunluk, kalınlık gibi özellikleri değiştirin
-4. Duvarı taşımak için sürükleyin
+- Kapi aracini secip duvara tiklayin -- kapi duvara otomatik yerlesir
+- Pencere aracini secip duvara tiklayin -- pencere duvara otomatik yerlesir
 
-## Duvar Silme
+### Kapi Ozellikleri
 
-1. Silmek istediğiniz duvara tıklayın
-2. `DEL` tuşuna basın
+| Ozellik | Aciklama |
+|---------|----------|
+| Genislik | Kapi acikliginin genisligi (cm) |
+| Acilma Yonu | Saga / sola acilma |
+
+### Pencere Ozellikleri
+
+| Ozellik | Aciklama |
+|---------|----------|
+| Genislik | Pencere acikliginin genisligi (cm) |
+| Yukseklik | Pencere yuksekligi (cm) |
+| Denizlik Yuksekligi | Dosemeden pencere altina olan mesafe (cm) |
+
+## Duvar Kesisimleri
+
+Iki duvar kesistiginde ZetaCAD kesisim noktasini otomatik olarak isler. Elle mudahaleye gerek yoktur.
+
+## Duzenleme
+
+Mevcut bir elemani duzenlemek icin:
+
+1. Secim aracina gecin
+2. Duzenlemek istediginiz elemana tiklayin
+3. Ozelliklerini degistirin veya surukleyerek konumunu degistirin

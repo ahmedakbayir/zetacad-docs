@@ -1,37 +1,47 @@
-# Tesisat (MEP)
+# Tesisat Tasarimi
 
-ZetaCAD, kat planına sıhhi tesisat elemanları ve boru hatları eklemenizi sağlar.
+ZetaCAD'de dogalgaz tesisatinin tum elemanlari akilli nesneler olarak yerlestirilir ve boru hatlari ile birbirine baglanir.
 
-## Tesisat Aracını Açma
+## Tesisat Elemanlari
 
-Sol panelden **Tesisat** aracını seçin veya `U` tuşuna basın. Tesisat alt menüsü açılır.
+Dogalgaz projesinde kullanilan temel tesisat elemanlari:
 
-## Eklenebilen Elemanlar
+| Eleman | Aciklama |
+|--------|----------|
+| Kombi | Dogalgaz kombisi (kapasite: kcal/h) |
+| Soba | Dogalgaz sobasi |
+| Ocak | Dogalgaz ocagi |
+| Sofben | Dogalgaz sofbeni |
+| Sayac | Gaz sayaci |
+| Regulator | Basinc regulatoru |
+| Vana | Kesme vanasi |
 
-| Eleman | Açıklama |
-|--------|---------|
-| Lavabo | Banyo ve mutfak lavabosu |
-| Klozet | Tuvalet taşı |
-| Duş / Küvet | Banyo elemanları |
-| Evye | Mutfak evyesi |
-| Çamaşır Makinesi | Beyaz eşya bağlantısı |
-| Su Sayacı | Giriş sayaç noktası |
-| Vana | Boru hattı kesme vanası |
+## Eleman Yerlestirme
 
-## Eleman Yerleştirme
+1. Tesisat menusunden eklemek istediginiz elemani secin
+2. Cizim alaninda yerlestirmek istediginiz noktaya tiklayin
+3. Elemanin yonunu ve ozelliklerini ayarlayin
 
-1. Tesisat menüsünden eklemek istediğiniz elemanı seçin
-2. Çizim alanında yerleştirmek istediğiniz noktaya tıklayın
-3. Yönü ayarlamak için sağ paneldeki **Döndür** değerini kullanın
+!!! tip "Konum Secimi"
+    Tesisat elemanlari mimari plan uzerinde uygun konumlara yerlestirilmelidir. ZetaCAD, elemanlarin konumlarini sartname kontrolu sirasinda degerlendirir.
 
-## Boru Bağlantıları
+## Boru Hatlari
 
-Elemanlar yerleştirildikten sonra aralarına boru hattı çizebilirsiniz:
+Elemanlar yerlestirildikten sonra aralarinda boru hatlari cizilir:
 
-1. Tesisat menüsünde **Boru** aracını seçin
-2. Başlangıç noktasına (tesisat elemanı veya boru ağzı) tıklayın
-3. Bitiş noktasına tıklayın
-4. `ESC` ile aracı bırakın
+1. Boru hatti aracini secin
+2. Baslangic noktasina (tesisat elemani veya boru agzi) tiklayin
+3. Bitis noktasina tiklayin
+4. Hat otomatik olarak numaralanir ve gruplanir
 
-!!! tip "Boru Çapı"
-    Her boru hattı için sağ panelden boru çapını belirleyebilirsiniz. Standart değerler: temiz su 1/2" – 3/4", pis su 4" – 6".
+## Hat Topolojisi
+
+ZetaCAD, cizdiqiniz hatlarin topolojisini otomatik olarak olusturur. Bu topoloji:
+
+- Boru capi tasariminda kullanilir
+- Basinc kaybi hesaplamalarinda kullanilir
+- Sartname kontrolunde degerlendirilir
+
+## Vana Numaralandirma
+
+Kolon tesisati projelerinde vanalar **D:1**, **D:2** seklinde numaralandirilir. ZetaCAD bu numaralandirmayi otomatik olarak yapabilir.
