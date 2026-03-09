@@ -1,10 +1,10 @@
 # Çalışma Modu
 
 **Çalışma Modu****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](butonlar.htm) [![Sonraki](prev.jpg)](katgecis.htm)  
+** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](butonlar.htm) [![Sonraki](../assets/resimler/prev.jpg)](katgecis.htm)  
 ---|---  
   
-![modbar](modbar.png)   
+![modbar](../assets/resimler/modbar.png)   
   
 Çalışma modu çubuğundaki seçeneklerle, proje üzerinde ne yapacağınızı belirlersiniz. Çalışam modunu belirlemek için çubukta yer alan ilgili butona tıklayınız.   
   

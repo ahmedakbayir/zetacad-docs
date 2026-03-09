@@ -1,7 +1,7 @@
 # Regülatör Özellikleri
 
 **Regülatör Özellikleri****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](serviskutusuozellikleri.htm) [![Sonraki](prev.jpg)](sayacozellikleri.htm)  
+** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](serviskutusuozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](sayacozellikleri.htm)  
 ---|---  
   
 **_Marka :_** Regülatörün markasını seçiniz.   
@@ -10,6 +10,6 @@
   
   
   
-|  ![regProp](regProp.png)   
+|  ![regProp](../../assets/resimler/regProp.png)   
   
 ---|---

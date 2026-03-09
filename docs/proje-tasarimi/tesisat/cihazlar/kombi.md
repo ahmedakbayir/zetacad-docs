@@ -1,12 +1,12 @@
 # Kombi
 
 **Kombi****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](cihazlar.htm) [![Sonraki](prev.jpg)](ocak.htm)  
+** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](cihazlar.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](ocak.htm)  
 ---|---  
   
 Kombi bireysel ısınma ve sıcak su ihtiyacının en temel cihazıdır. Kendisine gelen gazı yakarak, içinde dolaşan suyu ısıtan kombi cihazı bu suyu birim içi ihtiyaca sunar. Hava ile ilişkiler açısından kombiler üçe ayrılır. Bacalı (B TİPİ) , Hermetik (C TİPİ) ve Yoğuşmalı (C TİPİ) olmak üzere üçe ayrılan kombiler, tiplerine göre şartname kontrolünde ayrı kriterlere tabi tutulurlar. Kombi eklemek için ilgili ekle menülerini kullanmalısınız. **  
   
-** ![bkombi](bkombi.png)   
+** ![bkombi](../../../assets/resimler/bkombi.png)   
 |  **Bacalı Kombi  
   
 **Bacalı kombiler tesisata eklendikleri zaman, kendilerini bir baca ile beraber çizerler. Baca gösterimi Zetacad 2.0 sürümünde şematiktir.   
@@ -14,7 +14,7 @@ Kombi bireysel ısınma ve sıcak su ihtiyacının en temel cihazıdır. Kendisi
 Bacalı kombilerin bulundukları mahalde atmosfere ulaşan bir havalandırma menfezi olmalıdır. Havalndırma menfezlerinde en fazla iki kademeye izin verilir. Bacalı kombiler 8 m³ altındaki mahalde bulunamaz, ve bulunduğu mahal _yatak odası, banyo, WC_ olamaz.   
   
 ---|---  
-![hkombi](hkombi.png)   
+![hkombi](../../../assets/resimler/hkombi.png)   
 |  **Hermetik Kombi - Yoğuşmalı Kombi  
   
 **Hermetik kombiler tesisata eklendikleri zaman kendilerini bir atmosfer borusu ile beraber çizerler. Bu atmosfer borusunun yönü ilk eklendiğinde otomatik tayin edilir, daha sonra istenirse özellikler panelinden değiştirilebilinir. Atmosfer borusu 4 m uzunluğu geçemez ve muhakkak surette açık alana ulaşmalıdır.   

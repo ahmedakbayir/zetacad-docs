@@ -1,14 +1,14 @@
 # Vanalar
 
 **Vanalar****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](serviskutusu.htm) [![Sonraki](prev.jpg)](regulator.htm)  
+** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](serviskutusu.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](regulator.htm)  
 ---|---  
   
 Vanalar tesisatta hem şartname uyumunu sağlayan, hem de tasarım ve hesaplamalarda tüketim miktarını belirleyen unsurlardır. Vanalar tiplerine göre 5 ayrı başlıkta ele alınır.   
   
 **1\. Ana Kesme Vanası  
   
-** ![akv](akv.png)   
+** ![akv](../../../assets/resimler/akv.png)   
 |  Ana kesme vanası bina bağlantı hattında kullanımdan önce konumlandırılan teknik şartname gereği olarak zorunlu olan bir vanadır. Bu vanayı tesisatınıza yerleştirdiğiniz zaman, gerekli tanımsal gösterimler (AKV, H=1.8 m vb.) otomatik olarak sağlanır. Tesisatınız şartnameye göre kontrol edildiğinde AKV vanası zorunlu olarak istenir.   
   
 ---|---  
@@ -16,7 +16,7 @@ Vanalar tesisatta hem şartname uyumunu sağlayan, hem de tasarım ve hesaplamal
   
 **2\. Cihaz Vanası  
   
-** ![chv](chv.png)   
+** ![chv](../../../assets/resimler/chv.png)   
 |  Cihaz vanası, cihaz bağlantı hattında bulunması gereken bir vanadır. Herhangi bir hatta bir cihaz eklendiği zaman, o hatta cihaz vanası otomatik olarak eklenir. Tesisatınız şartnameye göre kontrol edildiğinde cihazlardan önce cihaz vanası zorunlu olarak istenir.   
   
   
@@ -25,7 +25,7 @@ Vanalar tesisatta hem şartname uyumunu sağlayan, hem de tasarım ve hesaplamal
 **  
 ****3\. Emniyet Vanası  
   
-** ![env](env.png)   
+** ![env](../../../assets/resimler/env.png)   
 |  Emniyet vanası tesisatın herhangi bir noktasında genel bir amaç için gaz geçişini kontrol etmek için kullanılır. Eminyet vanalarının zorunlu olarak istendiği nadir durumlar vardır.   
   
 ---|---  
@@ -33,7 +33,7 @@ Vanalar tesisatta hem şartname uyumunu sağlayan, hem de tasarım ve hesaplamal
 **  
 ****4\. Tüketim Vanası  
   
-** ![tkv](tkv.png)   
+** ![tkv](../../../assets/resimler/tkv.png)   
 |  Tüketim vanaları Zetacad tesisat tasarımında çok önemli bir unsurdur. Çünkü bu vanalar sadece şartname uyumluluğunu sağlamakla kalmazlar aynı zamanda tasarım ve hesaba zemin teşkil eden tüm tüketim değerlerini oluştururlar. Yani, Zetacad herhangi bir kolon hattında ne kadar debi olduğunu o hattın servis verdiği tüketim vanalarının konum ve değerlerinden otomatik hesaplar. Vanaların kendi bireysel debileri eş zaman faktörleri ile birleştirilerilmesiyle hat debileri ortaya çıkar.   
   
 Tüketim vanasının kendi bireysel debisi, hizmet verdiği bağımsız birimdeki kullanımı belirler. Bir tüketim vanası ilk yaratıldığında otomatik olarak 3.5 m³/h değerinde bir debiye sahiptir. İstenirse [vana özellikleri ](vanaozellikleri.htm) panelinden bu debi değeri değiştirilir. Tüketim vanalarının hizmet verdiği bağımsız birimi özelliker panelinden belirtmemiz gerekmektedir.   
@@ -55,7 +55,7 @@ Tüketim vanasının kendi bireysel debisi, hizmet verdiği bağımsız birimdek
 **  
 ****5\. Yan Bina Tüketim Vanası  
   
-** ![ybv](ybv.png)   
+** ![ybv](../../../assets/resimler/ybv.png)   
 |  Normal tüketim vanası gibi, yan bina tüketim vanası da, eklendiği hattın o ucunda yan binaya bir servis verildiğini belirler. Bununla birlikte vananın servis verdiği yan binadaki daire sayısı girilerek bu tüketimden dolayı oluşan hat debisi ototmatik hesaplanarak o hattı taşıyan diğer kolon hatlarına yansıtılır. Yan bian ağzı ile ilgili bilgiler ototatik olarak ilgili hat etiketinde gösterilir.   
   
 ---|---  

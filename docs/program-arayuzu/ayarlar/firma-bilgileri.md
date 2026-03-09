@@ -1,7 +1,7 @@
 # Firma Bilgileri
 
 **Firma Bilgileri****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](hermetikbaca.htm) [![Sonraki](prev.jpg)](katlar.htm)  
+** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](hermetikbaca.htm) [![Sonraki](../../assets/resimler/prev.jpg)](katlar.htm)  
 ---|---  
   
 _Firma Bilgileri formuna ayarlar menüsünden ulaşabilirsiniz. Bu formda firmanıza ait bilgileri bir kereye mahsus olmak üzere giriniz. Böylelikle proje kapaklarında firma bilgileriniz otomaik olarak yer alacaktır.  
@@ -13,6 +13,6 @@ _
 **Firma Logosu :** Firmanızın logosunu buraya yüklediğiniz durumda proje kapağında isim yerine logo yer alır. Ancak projenizin oluştrulan dxf kopyesinde logonuz yer almaz.   
   
 **Firma bilgilerinde yapılan değişiklikleri**** _Kaydet_****butınu ile kaydediniz.**   
-|  ![firmaBil](firmaBil.png)   
+|  ![firmaBil](../../assets/resimler/firmaBil.png)   
   
 ---|---

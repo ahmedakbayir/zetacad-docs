@@ -1,7 +1,7 @@
 # Cihazlar
 
 **Cihazlar****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](digertes.htm) [![Sonraki](prev.jpg)](kombi.htm)  
+** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](digertes.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](kombi.htm)  
 ---|---  
   
 Birim içi gaz tüketiminin nihai noktası cihazlardır. Cihazlar Zetacad programında oldukça kapsamlı bir içerik ve etkiye sahiptirler. Herhangi bir cihaz eklendiği hattın ucunda kapasitesi oranında bir tüketim unsuru oluşturur ve bu tüketim o hatta gaz ileten tüm hatlardaki hesaba etkili olur. Zetacad'de cihazlar fonksiyonlarına göre sınıflanmışlardır ve bir cihazın mahal ve birim konumu şartnameye göre eksiksiz olarak kontrol edilir.   
