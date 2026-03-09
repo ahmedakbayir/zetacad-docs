@@ -39,14 +39,20 @@
 }
 
 /* ===========================
-   İçerik Alanı
+   İçerik Alanı - Tipografi
    =========================== */
+.md-typeset {
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+
 .md-content__inner h1 {
-  color: var(--zeta-navy);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  border-bottom: 3px solid var(--zeta-blue);
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  border-bottom: 2px solid var(--zeta-blue);
   padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
 }
 
 [data-md-color-scheme="slate"] .md-content__inner h1 {
@@ -54,12 +60,111 @@
 }
 
 .md-content__inner h2 {
-  color: var(--zeta-navy);
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 [data-md-color-scheme="slate"] .md-content__inner h2 {
   color: #90CAF9;
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.md-content__inner h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.md-content__inner h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.md-typeset p {
+  margin-bottom: 0.8rem;
+}
+
+/* ===========================
+   Sidebar Navigasyonu
+   =========================== */
+
+/* Sidebar genel */
+.md-sidebar--primary .md-sidebar__inner {
+  padding-top: 0.6rem;
+}
+
+/* Section başlıkları (üst menü grupları) */
+.md-nav--primary > .md-nav__list > .md-nav__item {
+  margin-bottom: 0.2rem;
+}
+
+/* Üst seviye section label'ları - belirgin ayır */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link,
+.md-nav--primary > .md-nav__list > .md-nav__item > label.md-nav__link {
+  font-weight: 700;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--zeta-navy);
+  padding: 0.6rem 0.6rem 0.3rem;
+  margin-top: 0.4rem;
+}
+
+[data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link,
+[data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item > label.md-nav__link {
+  color: #90CAF9;
+}
+
+/* Section altındaki alt menü öğeleri */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list {
+  padding-left: 0.4rem;
+  margin-left: 0.4rem;
+  border-left: 2px solid rgba(0, 194, 255, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list {
+  border-left-color: rgba(0, 194, 255, 0.25);
+}
+
+/* Alt menü linklerinin stili */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link {
+  font-weight: 400;
+  font-size: 0.72rem;
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+  margin: 1px 0;
+}
+
+/* Aktif sayfa vurgusu */
+.md-nav__link--active {
+  font-weight: 600 !important;
+  color: var(--zeta-blue) !important;
+  background: rgba(0, 194, 255, 0.06);
+  border-radius: 4px;
+}
+
+/* Hover efekti */
+.md-nav__link:hover {
+  color: var(--zeta-blue);
+  background: rgba(0, 194, 255, 0.04);
+  border-radius: 4px;
+}
+
+/* Section arası çizgi ayırıcı */
+.md-nav--primary > .md-nav__list > .md-nav__item + .md-nav__item {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  padding-top: 0.3rem;
+}
+
+[data-md-color-scheme="slate"] .md-nav--primary > .md-nav__list > .md-nav__item + .md-nav__item {
+  border-top-color: rgba(255, 255, 255, 0.06);
 }
 
 /* ===========================
@@ -84,6 +189,7 @@
   color: var(--zeta-blue);
   border-radius: 4px;
   padding: 0.1em 0.4em;
+  font-size: 0.85em;
 }
 
 [data-md-color-scheme="slate"] .md-typeset code {
@@ -205,12 +311,6 @@
   border-color: var(--zeta-blue);
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(0, 194, 255, 0.12);
-}
-
-.zeta-card-icon {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
-  display: block;
 }
 
 .zeta-card h3 {

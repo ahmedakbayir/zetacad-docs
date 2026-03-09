@@ -13,8 +13,8 @@ theme:
   logo: .assets/logo.png
   favicon: .assets/favicon.png
   font:
-    text: Inter
-    code: JetBrains Mono
+    text: Roboto
+    code: Roboto Mono
   palette:
     - scheme: default
       primary: custom
@@ -29,11 +29,10 @@ theme:
         icon: material/weather-sunny
         name: Aydınlık moda geç
   features:
-    - navigation.sections
-    - navigation.expand
     - navigation.path
     - navigation.top
     - navigation.footer
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - search.share
