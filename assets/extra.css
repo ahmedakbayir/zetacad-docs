@@ -1,0 +1,148 @@
+/* ==========================================
+   ZetaCAD Yardım Merkezi - Jest Tarzı (Karanlık Mod + Font Uyumlu)
+   ========================================== */
+
+:root {
+  /* Jest dökümantasyonuna çok benzeyen keskin yeşil */
+  --zeta-green: #15c213; 
+  --zeta-text-dark: #1c1e21; /* Gündüz modu metin rengi */
+  
+  /* JEST Orijinal Yazı Tipi Ailesi */
+  --md-text-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
+  --md-code-font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+  /* Tema Değişkenleri */
+  --md-accent-fg-color: var(--zeta-green);
+  --md-typeset-a-color: var(--zeta-green);
+  --md-text-color: var(--zeta-text-dark);
+}
+
+/* Karanlık Mod (Slate) İçin Yazı Rengi Düzeltmeleri */
+[data-md-color-scheme="slate"] {
+  --zeta-text-dark: #f5f6f7; /* Gece modunda yazılar açık gri olur */
+  --md-text-color: var(--zeta-text-dark);
+  --md-default-bg-color: #1b1b1d; /* Jest koyu modu arka planı */
+}
+
+/* Yazı Tiplerini Uygula */
+body, .md-typeset, input {
+  font-family: var(--md-text-font-family) !important;
+}
+
+/* ===========================
+   Üst Menü (Header)
+   =========================== */
+.md-header {
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+}
+
+/* Gündüz modunda header yazıları siyah */
+[data-md-color-scheme="default"] .md-header__title, 
+[data-md-color-scheme="default"] .md-header__button {
+  color: #000000 !important;
+  font-weight: 700;
+}
+
+/* Gece modunda header yazıları beyaz */
+[data-md-color-scheme="slate"] .md-header__title, 
+[data-md-color-scheme="slate"] .md-header__button {
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+/* Üst arama çubuğu gündüz modu */
+[data-md-color-scheme="default"] .md-search__input {
+  background-color: #f5f6f7;
+  color: #000;
+}
+
+/* ===========================
+   Sol Menü (Sidebar)
+   =========================== */
+.md-nav__item .md-nav__link--active {
+  color: var(--zeta-green) !important;
+  background-color: rgba(21, 194, 19, 0.1) !important;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.md-nav__link:hover {
+  color: var(--zeta-green);
+}
+
+/* ===========================
+   Tipografi ve Başlıklar (Gece/Gündüz Duyarlı)
+   =========================== */
+.md-typeset h1 {
+  font-weight: 800;
+  font-size: 2.5em;
+  letter-spacing: -0.03em;
+  color: var(--md-text-color); /* Sabit siyah iptal edildi */
+  margin-bottom: 1.5rem;
+}
+
+.md-typeset h2, .md-typeset h3, .md-typeset h4 {
+  font-weight: 700;
+  color: var(--md-text-color); /* Sabit siyah iptal edildi */
+  border-bottom: none; 
+}
+
+.md-typeset h2 {
+  margin-top: 2.5rem;
+}
+
+/* ===========================
+   Uyarı/Bilgi Kutuları (Admonitions)
+   =========================== */
+.md-typeset .admonition {
+  border-radius: 4px;
+  border-width: 0 0 0 4px;
+  box-shadow: none;
+}
+
+/* Gündüz modunda gri kutu */
+[data-md-color-scheme="default"] .md-typeset .admonition {
+  background-color: #f5f6f7; 
+}
+
+/* Gece modunda koyu kutu */
+[data-md-color-scheme="slate"] .md-typeset .admonition {
+  background-color: #242526; 
+}
+
+/* Yeşil uyarı kutusu (Tip) - Gündüz Modu */
+[data-md-color-scheme="default"] .md-typeset .admonition.tip {
+  background-color: #e6f7e6; 
+}
+
+/* Yeşil uyarı kutusu (Tip) - Gece Modu */
+[data-md-color-scheme="slate"] .md-typeset .admonition.tip {
+  background-color: rgba(21, 194, 19, 0.15); 
+}
+
+.md-typeset .admonition.tip {
+  border-left-color: var(--zeta-green);
+}
+
+.md-typeset .admonition.tip .admonition-title {
+  color: var(--zeta-green);
+}
+@media screen and (min-width: 76.25em) {
+    
+    /* Çizgiyi sola (dışa) alıyoruz ve hiza problemini çözüyoruz */
+    .md-nav--primary .md-nav__item--nested > .md-nav {
+        border-left: 1px solid var(--md-default-fg-color--lightest);
+        margin-left: 0.5rem; /* 1.25rem'den 0.5rem'e düşürdük: Çizgi dışarı çıktı */
+    }
+    
+    /* Hover (Üzerine gelince) efekti */
+    .md-nav--primary .md-nav__item--nested:hover > .md-nav {
+        border-left-color: var(--md-default-fg-color--lighter);
+        transition: border-color 0.3s ease;
+    }
+    
+    /* Alt menüdeki yazıların girintisini azaltıyoruz */
+    .md-nav--primary .md-nav__item--nested > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link {
+        padding-left: 0.75rem !important; /* 1rem'den 0.75rem'e düşürdük: Yazılar çizgiye yaklaştı */
+    }
+}
