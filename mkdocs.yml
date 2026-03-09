@@ -77,16 +77,86 @@ markdown_extensions:
       title: Bu Sayfada
 
 nav:
-  - Başlangıç:
-    - Kurulum: baslangic/kurulum.md
-    - Arayüz Tanıtımı: baslangic/arayuz.md
-    - İlk Proje: baslangic/ilk-proje.md
-  - Kullanım Kılavuzu:
-    - Akıllı Nesneler: kullanim-kilavuzu/cizim-araclari.md
-    - Mimari Plan: kullanim-kilavuzu/duvarlar.md
-    - Tesisat Tasarımı: kullanim-kilavuzu/tesisat.md
-    - Boru Çapı Tasarımı: kullanim-kilavuzu/kapi-pencere.md
-    - Otomatik Kontrol: kullanim-kilavuzu/odalar.md
-    - 3D Katı Model: kullanim-kilavuzu/3d-gorunum.md
-    - Dışa Aktarma ve E-İmza: kullanim-kilavuzu/disari-aktarma.md
-    - DIPOS Dijital Onay: kullanim-kilavuzu/ai-ozellikleri.md
+  - ZetaCad Nedir: index.md
+  - Program Arayüzü:
+    - Genel Bakış: program-arayuzu/genel-bakis.md
+    - Kurulum: program-arayuzu/kurulum.md
+    - Arabirim Elemanları:
+      - Çizim Paneli: program-arayuzu/cizim-paneli.md
+      - Menüler: program-arayuzu/menuler.md
+      - Sağ Tuş Menüsü: program-arayuzu/sag-tus-menusu.md
+      - Araç Çubuğu: program-arayuzu/arac-cubugu.md
+      - Çalışma Modu: program-arayuzu/calisma-modu.md
+      - Kat Geçiş Çubuğu: program-arayuzu/kat-gecis-cubugu.md
+      - Detay Penceresi: program-arayuzu/detay-penceresi.md
+    - Özellikler Paneli:
+      - Duvar Özellikleri: program-arayuzu/ozellikler/duvar.md
+      - Mahal Özellikleri: program-arayuzu/ozellikler/mahal.md
+      - Birim Özellikleri: program-arayuzu/ozellikler/birim.md
+      - Kolon Özellikleri: program-arayuzu/ozellikler/kolon.md
+      - Kiriş Özellikleri: program-arayuzu/ozellikler/kiris.md
+      - Kapı Özellikleri: program-arayuzu/ozellikler/kapi.md
+      - Pencere Özellikleri: program-arayuzu/ozellikler/pencere.md
+      - Merdiven Özellikleri: program-arayuzu/ozellikler/merdiven.md
+      - Dönel Merdiven Özellikleri: program-arayuzu/ozellikler/donel-merdiven.md
+      - Merdiven Sahanlığı Özellikleri: program-arayuzu/ozellikler/merdiven-sahanligi.md
+      - Tesisat Özellikleri: program-arayuzu/ozellikler/tesisat.md
+      - Vana Özellikleri: program-arayuzu/ozellikler/vana.md
+      - Servis Kutusu Özellikleri: program-arayuzu/ozellikler/servis-kutusu.md
+      - Regülatör Özellikleri: program-arayuzu/ozellikler/regulator.md
+      - Sayaç Özellikleri: program-arayuzu/ozellikler/sayac.md
+      - Kombi Özellikleri: program-arayuzu/ozellikler/kombi.md
+      - Soba Özellikleri: program-arayuzu/ozellikler/soba.md
+      - Ocak Özellikleri: program-arayuzu/ozellikler/ocak.md
+      - Şofben Özellikleri: program-arayuzu/ozellikler/sofben.md
+      - Genel Cihaz Özellikleri: program-arayuzu/ozellikler/genel-cihaz.md
+      - Hermetik Baca Özellikleri: program-arayuzu/ozellikler/hermetik-baca.md
+    - Ayarlar:
+      - Firma Bilgileri: program-arayuzu/ayarlar/firma-bilgileri.md
+      - Katlar: program-arayuzu/ayarlar/katlar.md
+      - Sayfa Ayarı: program-arayuzu/ayarlar/sayfa-ayari.md
+      - Seçenekler: program-arayuzu/ayarlar/secenekler.md
+    - Proje Bilgileri: program-arayuzu/proje-bilgileri.md
+    - Klavye ve Fare Kısayolları: program-arayuzu/kisayollar.md
+  - Proje Tasarımı:
+    - Yeni Proje: proje-tasarimi/yeni-proje.md
+    - Mimari Plan:
+      - Genel Bilgi: proje-tasarimi/mimari-plan/index.md
+      - Oda ve Duvar Çizimi: proje-tasarimi/mimari-plan/oda-duvar.md
+      - Mimari Plan Elemanları: proje-tasarimi/mimari-plan/elemanlar.md
+      - Merdiven Sistemleri: proje-tasarimi/mimari-plan/merdiven-sistemleri.md
+      - Mahal ve Birim Tanımları: proje-tasarimi/mimari-plan/mahal-birim.md
+      - Kopyalama ve Aynalama: proje-tasarimi/mimari-plan/kopyalama-aynalama.md
+    - Tesisat:
+      - Genel Bilgi: proje-tasarimi/tesisat/index.md
+      - Hat Çizimleri: proje-tasarimi/tesisat/hat-cizimleri.md
+      - Hat Modifikasyonu: proje-tasarimi/tesisat/hat-modifikasyonu.md
+      - Tesisat Elemanları:
+        - Genel Bilgi: proje-tasarimi/tesisat/elemanlar/index.md
+        - Servis Kutusu: proje-tasarimi/tesisat/elemanlar/servis-kutusu.md
+        - Vanalar: proje-tasarimi/tesisat/elemanlar/vanalar.md
+        - Regülatör: proje-tasarimi/tesisat/elemanlar/regulator.md
+        - Sayaç: proje-tasarimi/tesisat/elemanlar/sayac.md
+        - Diğer Tesisat Elemanları: proje-tasarimi/tesisat/elemanlar/diger.md
+      - Cihazlar:
+        - Genel Bilgi: proje-tasarimi/tesisat/cihazlar/index.md
+        - Kombi: proje-tasarimi/tesisat/cihazlar/kombi.md
+        - Ocak: proje-tasarimi/tesisat/cihazlar/ocak.md
+        - Soba: proje-tasarimi/tesisat/cihazlar/soba.md
+        - Şofben: proje-tasarimi/tesisat/cihazlar/sofben.md
+        - Genel Cihaz: proje-tasarimi/tesisat/cihazlar/genel-cihaz.md
+        - Tüketim Hesabı: proje-tasarimi/tesisat/cihazlar/tuketim-hesabi.md
+    - Hesaplamalar:
+      - Genel Bilgi: proje-tasarimi/hesaplamalar/index.md
+      - Lokal Kayıplar: proje-tasarimi/hesaplamalar/lokal-kayiplar.md
+      - Boru Çapı Hesapları: proje-tasarimi/hesaplamalar/boru-capi.md
+      - Kritik Hat Analizi: proje-tasarimi/hesaplamalar/kritik-hat.md
+    - Otomatik Çap Tasarımı: proje-tasarimi/otomatik-cap-tasarimi.md
+    - Tadilat Projesi: proje-tasarimi/tadilat-projesi.md
+    - Kontrol:
+      - Genel Bilgi: proje-tasarimi/kontrol/index.md
+      - Hata Giderme: proje-tasarimi/kontrol/hata-giderme.md
+    - Dijital Onay: proje-tasarimi/dijital-onay.md
+    - Baskı: proje-tasarimi/baski.md
+    - Katı Model: proje-tasarimi/kati-model.md
+    - Eskiz Çalışması: proje-tasarimi/eskiz-calismasi.md
