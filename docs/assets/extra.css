@@ -127,3 +127,22 @@ body, .md-typeset, input {
 .md-typeset .admonition.tip .admonition-title {
   color: var(--zeta-green);
 }
+@media screen and (min-width: 76.25em) {
+    
+    /* Çizgiyi sola (dışa) alıyoruz ve hiza problemini çözüyoruz */
+    .md-nav--primary .md-nav__item--nested > .md-nav {
+        border-left: 1px solid var(--md-default-fg-color--lightest);
+        margin-left: 0.5rem; /* 1.25rem'den 0.5rem'e düşürdük: Çizgi dışarı çıktı */
+    }
+    
+    /* Hover (Üzerine gelince) efekti */
+    .md-nav--primary .md-nav__item--nested:hover > .md-nav {
+        border-left-color: var(--md-default-fg-color--lighter);
+        transition: border-color 0.3s ease;
+    }
+    
+    /* Alt menüdeki yazıların girintisini azaltıyoruz */
+    .md-nav--primary .md-nav__item--nested > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link {
+        padding-left: 0.75rem !important; /* 1rem'den 0.75rem'e düşürdük: Yazılar çizgiye yaklaştı */
+    }
+}
