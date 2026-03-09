@@ -1,12 +1,12 @@
 # Ocak Özellikleri
 
 **Ocak Özellikleri****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](sobaozellikleri.htm) [![Sonraki](prev.jpg)](sofbenozellikleri.htm)  
+** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](sobaozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](sofbenozellikleri.htm)  
 ---|---  
   
 Ocak özellikleri içersinde değiştirmeye açık bir değer yoktur.   
   
   
-|  ![ocakProp](ocakProp.png)   
+|  ![ocakProp](../../assets/resimler/ocakProp.png)   
   
 ---|---

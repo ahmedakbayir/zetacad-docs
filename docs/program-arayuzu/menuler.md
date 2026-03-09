@@ -1,7 +1,7 @@
 # Menüler
 
 **Menüler****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](cizimpaneli.htm) [![Sonraki](prev.jpg)](sagtusmenu.htm)  
+** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](cizimpaneli.htm) [![Sonraki](../assets/resimler/prev.jpg)](sagtusmenu.htm)  
 ---|---  
   
 **Dosya Menüsü  

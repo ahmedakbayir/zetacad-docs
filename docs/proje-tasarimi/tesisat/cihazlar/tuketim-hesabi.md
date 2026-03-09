@@ -1,7 +1,7 @@
 # Tüketim Hesabı
 
 **Tüketim Hesabı****  
-** |  [![Basa Dön](home.jpg)](zetacadnedir.htm) [![Önceki](next.jpg)](genelcihaz.htm) [![Sonraki](prev.jpg)](hesaplamalar.htm)  
+** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](genelcihaz.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](hesaplamalar.htm)  
 ---|---  
   
 _Cihaz Tüketim Hesabını kombi,soba,şofben ve standart ocak dışındaki genel amaçlı cihazların debisini hesaplamak çin kullanabilirsiniz. Bu hesap formuna,__[genel cihaz](genelcihaz.htm)_ _ın_ _[özellikler](genelcihazozellikleri.htm)_ _panelindeki tüketim hesabı butonundan girebilirsiniz.  
@@ -17,6 +17,6 @@ _Cihazın tipine göre ilgili tüketim hesaplarını kullanıp alt kısmdaki top
 **Genel Tüketim Hesabı :** Eğer cihazınız yukarıdaki seçeneklerden farklı ise, doğrudan kapasitesini girerek gerekli debiyi hesaplayıp Toplama Ekle butonu ile toplam tabosuna ekleyebilirsiniz.   
   
 **Toplam Tüketim :** Bu kısımda toplam tablosuna attığınız tüm hesapların toplamını debi olarak görürsünüz. Tamam butonuna bastığınızda Genel Cihaz özelliklerindeki debi kutusuna bu değer yazılır.   
-|  ![tukHesap](tukHesap.png)   
+|  ![tukHesap](../../../assets/resimler/tukHesap.png)   
   
 ---|---
