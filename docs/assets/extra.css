@@ -34,6 +34,7 @@ body, .md-typeset, input {
    =========================== */
 .md-header {
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+  border-bottom: 2px solid var(--zeta-green) !important; /* YENİ EKLENDİ: İnce ZetaCAD Yeşili Ayırma Çizgisi */
 }
 
 /* Gündüz modunda header yazıları siyah */
@@ -127,8 +128,32 @@ body, .md-typeset, input {
 .md-typeset .admonition.tip .admonition-title {
   color: var(--zeta-green);
 }
+
+/* =========================================================
+   1. FOOTER (ALT SAYFA GEÇİŞLERİ) - DÜZELTİLMİŞ HALİ
+   ========================================================= */
+/* "Önceki/Sonraki" metnini gizle */
+.md-footer__direction {
+    display: none !important;
+}
+
+/* Yönlendirme yazısı gizlendiği için başlığın üstünde kalan boşluğu sıfırla */
+.md-footer__title {
+    margin-top: 0 !important;
+}
+
+/* Footer butonlarının üst ve alt boşluğunu kararında daralt (Hizalamayı bozmadan) */
+.md-footer__link {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+}
+
+
+
+/* =========================================================
+   SOL MENÜ (TREE VIEW) DİKEY HİYERARŞİ ÇİZGİLERİ
+   ========================================================= */
 @media screen and (min-width: 76.25em) {
-    
     /* Çizgiyi sola (dışa) alıyoruz ve hiza problemini çözüyoruz */
     .md-nav--primary .md-nav__item--nested > .md-nav {
         border-left: 1px solid var(--md-default-fg-color--lightest);
@@ -144,5 +169,18 @@ body, .md-typeset, input {
     /* Alt menüdeki yazıların girintisini azaltıyoruz */
     .md-nav--primary .md-nav__item--nested > .md-nav > .md-nav__list > .md-nav__item > .md-nav__link {
         padding-left: 0.75rem !important; /* 1rem'den 0.75rem'e düşürdük: Yazılar çizgiye yaklaştı */
+    }
+}
+
+
+/* =========================================================
+   2. İÇERİK VE SOL MENÜ (SIDEBAR) ARASI DİKEY ÇİZGİ
+   ========================================================= */
+@media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+        /* Aydınlık/Karanlık moda otomatik uyum sağlayan ince dikey çizgi */
+        border-right: 1px solid var(--md-default-fg-color--lightest);
+        /* Çizgi ile menü yazıları arasına nefes alma payı */
+        padding-right: 1rem; 
     }
 }
