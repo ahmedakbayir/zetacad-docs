@@ -1,8 +1,6 @@
 # Tesisat Elemanları
 
-**Tesisat Elemanları****  
-** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](hatmodifikasyonu.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](serviskutusu.htm)  
----|---  
+**Tesisat Elemanları**
   
 Zetacad programında, TE, HAÇ AYRIMI, DİRSEK gibi tesisat hareketini belirleyen tesisat elemanları, hattın geometrik hareketinden otomatik olarak çıkarılır, dolayısıyla bu tür hareket elemanları kullanıcı tarafından eklenmez. Bununla birlikte tesisatta gaz hareketinin biçimini belirleyen elemanların eklenebilmesi için bir çok yol sunulmuştur.   
   

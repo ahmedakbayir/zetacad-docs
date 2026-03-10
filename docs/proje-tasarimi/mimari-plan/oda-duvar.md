@@ -1,8 +1,6 @@
 # Oda ve Duvar Çizimi
 
-**Oda ve Duvar Çizimi****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](mimariplan.htm) [![Sonraki](../../assets/resimler/prev.jpg)](mimeleman.htm)  
----|---  
+**Oda ve Duvar Çizimi**
   
 Mimari planı çizmek için iki tür araç kullanabilirsiniz. Oda veya Duvar. Oda aracını seçmek için çizim panelinden oda ![oda](../../assets/resimler/oda.jpg) butonunu seçiniz. Artık çalışma alanında odanın iki diagonal köşesini belirlemek için iki ayrı noktaya tıklamalısınız. İlk tıklamadan sonra çalışma alanında ikinci nokta için gezerken oda aracı size oluşacak odanın ölçülerini verir. Bu ölçüler seçeneklerdeki _Gerçek Ölçüler Kullan_ seçeneğine göre, gerçek veya kağıt ölçülerini gösterebilir.   
   

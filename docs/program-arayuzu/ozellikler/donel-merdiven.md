@@ -1,8 +1,6 @@
 # Dönel Merdiven Özellikleri
 
-**Dönel Merdiven Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](merdivenozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](merdivensahanligiozellikleri.htm)  
----|---  
+**Dönel Merdiven Özellikleri**
   
 **_Alt Kot :_** Merdivenin başlangıç kotunu cm cinsinden giriniz.   
 **_Üst Kot :_** Merdivenin üst kotunu cm cinsinden giriniz.   

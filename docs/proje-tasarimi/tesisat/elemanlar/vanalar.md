@@ -1,8 +1,6 @@
 # Vanalar
 
-**Vanalar****  
-** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](serviskutusu.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](regulator.htm)  
----|---  
+**Vanalar**
   
 Vanalar tesisatta hem şartname uyumunu sağlayan, hem de tasarım ve hesaplamalarda tüketim miktarını belirleyen unsurlardır. Vanalar tiplerine göre 5 ayrı başlıkta ele alınır.   
   

@@ -1,9 +1,7 @@
 # Proje Bilgileri
 
-**Proje Bilgileri****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](secenekler.htm) [![Sonraki](../assets/resimler/prev.jpg)](shortcuts.htm)  
----|---  
-  
+**Proje Bilgileri**
+
 Proje Bilgileri penceresi 4 ayrı açılır/kapanır panelden oluşmaktadır. Bu pencereye Poje menüsünden ulaşabilirsiniz.   
   
 **Proje Paneli**   

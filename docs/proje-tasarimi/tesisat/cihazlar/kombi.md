@@ -1,8 +1,6 @@
 # Kombi
 
-**Kombi****  
-** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](cihazlar.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](ocak.htm)  
----|---  
+**Kombi**
   
 Kombi bireysel ısınma ve sıcak su ihtiyacının en temel cihazıdır. Kendisine gelen gazı yakarak, içinde dolaşan suyu ısıtan kombi cihazı bu suyu birim içi ihtiyaca sunar. Hava ile ilişkiler açısından kombiler üçe ayrılır. Bacalı (B TİPİ) , Hermetik (C TİPİ) ve Yoğuşmalı (C TİPİ) olmak üzere üçe ayrılan kombiler, tiplerine göre şartname kontrolünde ayrı kriterlere tabi tutulurlar. Kombi eklemek için ilgili ekle menülerini kullanmalısınız. **  
   

@@ -1,8 +1,6 @@
 # Mahal Özellikleri
 
-**Mahal Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](duvarozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](birimozellikleri.htm)  
----|---  
+**Mahal Özellikleri**
   
 **_Mahal Tanımı :_** Bu açılır kutudan mahalin ne olduğu belirlenir.   
 **_Mahal Alanı :_** Burada mahalin alanını görebilirsiniz.   

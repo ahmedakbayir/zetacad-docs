@@ -1,8 +1,6 @@
 # Çalışma Modu
 
-**Çalışma Modu****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](butonlar.htm) [![Sonraki](../assets/resimler/prev.jpg)](katgecis.htm)  
----|---  
+**Çalışma Modu**
   
 ![modbar](../assets/resimler/modbar.png)   
   

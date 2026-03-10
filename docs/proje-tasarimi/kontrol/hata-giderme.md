@@ -1,9 +1,7 @@
 # Hata Giderme
 
-**Hata Giderme****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](kontrol.htm) [![Sonraki](../../assets/resimler/prev.jpg)](dijitalonay.htm)  
----|---  
-  
+**Hata Giderme**
+
 Kontrol sonucu raporda aşağıda yer alan hatalar bildrililebilir. Bu hataların ne anlama geldiklerini, ve bunları gidermek için ne yapmak gerektiğini bu bölümden inceleyebilirsiniz.   
   
 **1\. Vaziyet Planı Hataları  

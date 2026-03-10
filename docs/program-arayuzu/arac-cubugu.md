@@ -1,8 +1,7 @@
 # Araç Çubuğu
 
-**Araç çubuğu****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](sagtusmenu.htm) [![Sonraki](../assets/resimler/prev.jpg)](calismamodu.htm)  
----|---  
+**Araç çubuğu**
+ 
   
 ![toolbar](../assets/resimler/toolbar.png)   
   

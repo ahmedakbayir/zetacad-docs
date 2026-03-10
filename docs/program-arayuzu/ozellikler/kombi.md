@@ -1,8 +1,6 @@
 # Kombi Özellikleri
 
-**Kombi Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](sayacozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](sobaozellikleri.htm)  
----|---  
+**Kombi Özellikleri**
   
 **_Marka :_** Bu açılır kutudan kombi markasını seçiniz.   
 **_Tip :_** Bu açılır kutudan kombi tipini seçiniz. Mevcut değerler Hermetik,Bacalı,Yoğuşmalı   

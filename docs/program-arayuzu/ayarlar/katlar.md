@@ -1,8 +1,6 @@
 # Katlar
 
-**Katlar****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](firmabilgileri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](sayfaayari.htm)  
----|---  
+**Katlar**
   
 _Projenizde yer alan katları buradan ekleyebilirsiniz. Eklediğiniz katın özellklerini aynı şekilde bu panelden takip edebilirsiniz. Katlar paneline, ekranın sağında yer alan özellikler panelinin alt kısmından veya ayarlar menüsünden ulaşabilirsiniz.  
 _   

@@ -1,8 +1,6 @@
 # Servis Kutusu Özellikleri
 
-**Servis Kutusu Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](vanaozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](regozellikleri.htm)  
----|---  
+**Servis Kutusu Özellikleri**
   
 **_Kutu Tipi:_** Servis kutusunun tipini bu açılır kutudan belirleyiniz. Mevcut değerler şunlardır. S200 , S300 , CES200.   
 **_Kutu çıkışı :_** Kutu çıkış yönünü seçiniz.   

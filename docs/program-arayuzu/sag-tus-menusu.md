@@ -1,8 +1,6 @@
 # Sağ Tuş Menüsü
 
-**Sağ Tuş Menüsü****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](menuler.htm) [![Sonraki](../assets/resimler/prev.jpg)](butonlar.htm)  
----|---  
+**Sağ Tuş Menüsü**
   
 Zetacad tasarım ortamında herhangi bir nesneye veya konuma farenizin sağ tuşu ile basığınızda bir çok Windows uyumlu programda olduğu gibi bir sağ tuş menüsü açılacaktır. Bu menüye PopUp menü veya İçerik Menüsü ismi de verilir.   
   

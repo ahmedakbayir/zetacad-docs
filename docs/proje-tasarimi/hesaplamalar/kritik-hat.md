@@ -1,8 +1,6 @@
 # Kritik Hat Analizi
 
-**Kritik Hat Analizi****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](borucap.htm) [![Sonraki](../../assets/resimler/prev.jpg)](otomatiktasarim.htm)  
----|---  
+**Kritik Hat Analizi**
   
 Kritik hat analizi sadece en kritik devrenin değerlerini değil, aynı zamanda tesisattaki muhtemel tüm yolların analizini yapabilmemiz için bize ayrıntılı bir pencere sunar. Kritik hat analizinde, Zetacad kritik devreyle birlikte tüm tesisat yollarını kolon,daire içi ve kolon+daire içi olmak üzere listeleler. Her bir tesisat yolunu seçerek o yol üzerindeki tüm hatların değerlerine ulaşabiliriz. Kritik hat analizi bize, kritik devrenin haricinde , kayıp limitlerinin aşılabileceği diğer riskli yolları da görmemizi ve tesiat üzerineki değişiklikleri ona göre yapmamızı sağlar.   
   

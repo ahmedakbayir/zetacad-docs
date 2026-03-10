@@ -1,8 +1,6 @@
 # Vana Özellikleri
 
-**Vana Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](hatozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](serviskutusuozellikleri.htm)  
----|---  
+**Vana Özellikleri**
   
 **_Vana Tipi :_** Bu açılır kutudan vana tipini belirleyebilirsiniz. Şu değerler mevcuttur. Ana Kesme , Tüketim (Ağız), Cihaz,Eminiyet, Yan Bina.   
   

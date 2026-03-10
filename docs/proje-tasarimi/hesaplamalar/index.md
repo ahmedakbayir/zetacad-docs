@@ -1,8 +1,6 @@
 # Hesaplamalar
 
-**Hesaplamalar****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](tukhesap.htm) [![Sonraki](../../assets/resimler/prev.jpg)](lokalkay.htm)  
----|---  
+**Hesaplamalar**
   
 Bir doğalgaz tesisatının hesapları, tesisatın her bir hattında gazın _hızını_ ve _basınç kaybını_ bulmaya yöneliktir.   
   

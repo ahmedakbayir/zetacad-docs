@@ -1,8 +1,6 @@
 # Kopyalama ve Aynalama
 
-**Kopyeleme ve Aynalama****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](mahalvebirim.htm) [![Sonraki](../../assets/resimler/prev.jpg)](tesisat.htm)  
----|---  
+**Kopyeleme ve Aynalama**
   
 Mimari planları katlar arasında kopyelebilirsiniz. Bunun için kopyelenecek katta Ctrl+C ye basınız (veya _düzenle_ menüsünden _kopyele_ seçeneğin tıklayın), daha sonra planı yapıştıracağınız kata geçip Ctrl+V ye basınız (veya _düzenle_ menüsünden _yapıştır_ seçeneğine tıklayın). Mimari plan tüm unsur ve tanımlarıyla yeni kata kopyelenecektir.   
   

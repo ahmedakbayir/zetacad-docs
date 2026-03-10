@@ -1,8 +1,6 @@
 # Hat Modifikasyonu
 
-**Hat Modifikasyonu****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](hatcizim.htm) [![Sonraki](../../assets/resimler/prev.jpg)](tesisatelemanlarý.htm)  
----|---  
+**Hat Modifikasyonu**
   
 Tesisatın konumlandırılması hat noktaları aracılığıyla modifiye edilebilir. Bunun için tesisatın her boru parçası birleşiminde bir modifikasyon noktası sunulur. Modifikasyon noktası fare ile seçilerek, standart sürükle bırak yöntemi aracılığıyla taşınabilir. Bu taşıma esnasında mimari plan snap (dayama) için esas teşkil eder. Bu bağlamda duvar satıhları ve muhtelif duvar dönüş noktalarına belirli yakınlıklarda fare hareketi buralara duyarlılık göstererek , taşıdığımız nokta buralara snap edilir. Bilindiği gibi snap özelliği F3 tuşuyla açılıp kapanabilir.   
   

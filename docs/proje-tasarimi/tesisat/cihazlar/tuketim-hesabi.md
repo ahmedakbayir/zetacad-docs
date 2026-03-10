@@ -1,8 +1,6 @@
 # Tüketim Hesabı
 
-**Tüketim Hesabı****  
-** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](genelcihaz.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](hesaplamalar.htm)  
----|---  
+**Tüketim Hesabı**
   
 _Cihaz Tüketim Hesabını kombi,soba,şofben ve standart ocak dışındaki genel amaçlı cihazların debisini hesaplamak çin kullanabilirsiniz. Bu hesap formuna,__[genel cihaz](genelcihaz.htm)_ _ın_ _[özellikler](genelcihazozellikleri.htm)_ _panelindeki tüketim hesabı butonundan girebilirsiniz.  
   

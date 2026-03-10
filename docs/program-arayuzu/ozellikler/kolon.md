@@ -1,8 +1,6 @@
 # Kolon Özellikleri
 
-**Kolon Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](birimozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](krisozellikleri.htm)  
----|---  
+**Kolon Özellikleri**
   
 **_Pozisyon:_** Bu panelden kolonun duvardaki yerleşimini belirleyebilirsiniz.   
 **_En :_** Kolonun genişliğini cm cinsinden belirleyebilirsiniz.   

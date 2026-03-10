@@ -1,8 +1,6 @@
 # Şofben
 
-**Şofben****  
-** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](soba.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](genelcihaz.htm)  
----|---  
+**Şofben**
   
 Şofben bireysel sıcak su ihtiyacı için kullanılır. Şofbenler hava ile ilşkiler açısından hermetik ve bacalı olmak üzere ikiye ayrılır. Tiplerine göre şartname kontrolünde ayrı kriterlere tabi tutulurlar. Şofben eklemek için ilgili ekle menülerini kullanmalısınız. **  
   

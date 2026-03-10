@@ -1,8 +1,6 @@
 # Birim Özellikleri
 
-**Birim Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](mahalozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](kolonozellikleri.htm)  
----|---  
+**Birim Özellikleri**
   
 _Otomatik olarak analiz edilerek sınırları blirlenen seçili birimin özellikleri bu panelde yer alır._**_  
 Birim Tanımı : _**İçindeki mahallerden birimin (mesken,dükkan veya ortak alan ) tiplerinden hangisi olduğu otomatik belirlenir ve burada gösterilir.   

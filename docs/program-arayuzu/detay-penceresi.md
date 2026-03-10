@@ -1,8 +1,6 @@
 # Detay Penceresi
 
-**Detay Penceresi****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](katgecis.htm) [![Sonraki](../assets/resimler/prev.jpg)](ozellikler.htm)  
----|---  
+**Detay Penceresi**
   
 ![detayWnd](../assets/resimler/detayWnd.png)   
 |  Detay penceresi çizim ekranının sağ üst köşesinde isteğe bağlı olarak açılır. Bu pencereyi açamak için Ctrl+q klavye kısayolunu veya görünüm menüsünden Detay Penceresi seçeneğini kullanabilirsiniz. Bu pencere ilk açıldığında 300x300 boyutlarındadır, pencereyi tüm çizim alanına yaymak için araç çubuğundaki Detay Büyüt ![clip0035](../assets/resimler/clip0035.jpg) butonunu kullanabilirsiniz.   

@@ -1,8 +1,6 @@
 # Soba
 
-**Soba****  
-** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](ocak.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](Þofben.htm)  
----|---  
+**Soba**
   
 Doğalgaz sobaları bireysel ısınma amacıyla kullanılır. Hava ile ilişkileri açısından sobalar ikiye ayrılır. Bacalı (B TİPİ) , Hermetik (C TİPİ) olmak üzere üçe ayrılan kombiler, tiplerine göre şartname kontrolünde ayrı kriterlere tabi tutulurlar. Soba eklemek için ilgili ekle menülerini kullanmalısınız. **  
   

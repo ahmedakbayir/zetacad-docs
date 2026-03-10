@@ -1,8 +1,6 @@
 # Kat Geçiş Çubuğu
 
-**Kat Geçiş Çubuğu****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](calismamodu.htm) [![Sonraki](../assets/resimler/prev.jpg)](detaypenceresi.htm)  
----|---  
+**Kat Geçiş Çubuğu**
   
 ![katbar](../assets/resimler/katbar.png)   
   

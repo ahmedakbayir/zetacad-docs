@@ -1,9 +1,7 @@
 # Yeni Proje
 
-**Yeni Proje****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](shortcuts.htm) [![Sonraki](../assets/resimler/prev.jpg)](mimariplan.htm)  
----|---  
-  
+**Yeni Proje**
+
 Yeni bir projeye başlamak için Dosya menüsünden Yeni Proje seçeeğini seçiniz.   
   
 Bir projeye başlamadan önce kat bilgileri ve proje bilgileri girilmelidir.   

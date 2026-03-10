@@ -1,8 +1,6 @@
 # Mahal ve Birim Tanımları
 
-**Mahal ve Birim Tanımlari****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](merdivensistemleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](kopyelemeveaynalama.htm)  
----|---  
+**Mahal ve Birim Tanımlari**
   
 Zetacad mimari planda çizilen oda ve duvarların kesişiminden tüm kapalı alanlar otomatik olarak analiz edilir. En küçük kapalı alana _mahal_ adı verilir. Mahaller kapalı alan analizinden otomatik olarak oluştuğu gibi Zetacad 2.0.01512 nolu versiyonundan itibaren bağımsiz birimleri de (sınırlarını) otomatik olarak analiz eder. Mahal ve birim tanımları hem mahal etiketlerinin, sayaç ve ağiz daire etiketlerinin otomatik gösterimi için, hem de şartname kontrolü için önemlidir.   
   

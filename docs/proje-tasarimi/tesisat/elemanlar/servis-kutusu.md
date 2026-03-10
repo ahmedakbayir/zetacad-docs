@@ -1,8 +1,6 @@
 # Servis Kutusu
 
-**Servis Kutusu****  
-** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](tesisatelemanlarý.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](vanalar.htm)  
----|---  
+**Servis Kutusu**
   
 Servis kutusu tesisat için en zorunlu elemandır ve tesşsat anacaks ervis kutusu ile başlatılabilinir. Servis kutusunu eklemek için bir komut çağırmanıza gerek yoktur, tesisat moduna geçtiğinizde eğer henüz bir servis kutunuz yoksa Zetacad otomatik olarak en uygun duvara servis kutusunu yerleştirir ve kullanıcılar isterlerse servis kutusunu kırmızı taşıma noktasından sürükleyeek istedikleri herhangi bir konuma taşıyabilirler. Servis kutusunun tüm bilgilerine ilgili [özellikler](serviskutusuozellikleri.htm) panelinden ulaşarak hem izleyip hem değiştirebilirsiniz.   
   

@@ -1,8 +1,6 @@
 # Kontrol
 
-**Kontrol****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](tadilatprojesi.htm) [![Sonraki](../../assets/resimler/prev.jpg)](hatagiderme.htm)  
----|---  
+**Kontrol**
   
 Zetacad Programı, doğalgaz projesinin ilgili teknik şartnamalere uygunluğunu dikkate alarak doğru tasarlanmasını sağlayacak yapılar üzerine kuruludur. Tesisatta veya mimari planda tamamen hatalı davranışlar yapılmadan engellenir. Örneğin br noktadan sonra hat en fazla üç kola ayrılabilir, dördüncü bir hat ayrımının çizilmesine izin verilmez.Bu gibi mantıksal kontoller hat ve mimari plan çizilerken yapılır. Bunların haricinde, tasarım esnasında kontrolü uygun lmayan hususlar tasarım sonrası bir kontrol sürecinde gerçekleştirilir.   
   

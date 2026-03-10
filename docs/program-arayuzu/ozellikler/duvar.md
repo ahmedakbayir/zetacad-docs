@@ -1,8 +1,6 @@
 # Duvar Özellikleri
 
-**Duvar Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](ozellikler.htm) [![Sonraki](../../assets/resimler/prev.jpg)](mahalozellikleri.htm)  
----|---  
+**Duvar Özellikleri**
   
 **_Duvar Tipi :_** Bu açılır kutudan duvarın tipi seçilir. Duvar tipi şu değerlerden biri olabilir.   
 Normal Duvar - Açık Duvar - Camekan - Balkon Duvarı   

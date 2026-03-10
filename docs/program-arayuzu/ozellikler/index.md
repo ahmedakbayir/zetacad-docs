@@ -1,9 +1,6 @@
 # Özellikler Paneli
 
-**Özellikler Paneli****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](detaypenceresi.htm) [![Sonraki](../../assets/resimler/prev.jpg)](duvarozellikleri.htm)  
----|---  
-  
+**Özellikler Paneli**
   
   
 |    

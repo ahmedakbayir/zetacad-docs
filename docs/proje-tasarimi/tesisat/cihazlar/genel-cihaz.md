@@ -1,8 +1,6 @@
 # Genel Cihaz
 
-**Genel Cihaz****  
-** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](Þofben.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](tukhesap.htm)  
----|---  
+**Genel Cihaz**
   
 Doğalaz tesisatlarında standart cihazların dışında özel bir amaç için üetilmiş cihazlar da bulunur. ZetaCad programında _Genel Cihaz_ adı altında tplanan bu cihazlar tesisat tasarım ve hesabında belirli bir kapasiteden hesaplanan debi ile işlem görürler. Bir genel cihazın debisini manuel olarak belirleyebileceğiniz gibi, bek hesabı, radyant göz hesabı gibi özel tüketim hesaplarını da devreye sokabilirsiniz.   
   

@@ -1,8 +1,6 @@
 # Eskiz Çalışması
 
-**Eskiz Çalışması****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](katimodel.htm)  
----|---  
+**Eskiz Çalışması**
   
 Eskiz Çalışması, diğer adıyla _Boru Çapı Hesap Makinası,_ özelleştirilmiş bir hesap makinası gibi düşünülebilir. Bu formda projenizden bağımsız olarak çeşitli basınç, yük ortamlarında, tüm boru çapı değerlerinde, ne tür sonuçlar elde edebileceğinizi görebilirsiniz. Tesisatınızi Zetacad'e değil de,kendiniz tasarlamak isterseniz, eskiz çalışması formu size çok yardımcı olacaktır.   
   

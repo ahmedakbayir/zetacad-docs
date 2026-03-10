@@ -1,8 +1,6 @@
 # Tesisat
 
-**Tesisat****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](kopyelemeveaynalama.htm) [![Sonraki](../../assets/resimler/prev.jpg)](hatcizim.htm)  
----|---  
+**Tesisat**
   
 Tesisat planı çizebilmek için öncelikle [Çalışma Modu ](calismamodu.htm)çubuğunda Tesisat modunda olmalısınız. Bununla beraber hangi katın tesisat planını çizecekseniz [kat geçiş](katgecis.htm) çubuğunda o katın seçili olmasını sağlayınız.   
   

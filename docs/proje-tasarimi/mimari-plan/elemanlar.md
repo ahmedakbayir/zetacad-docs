@@ -1,8 +1,6 @@
 # Mimari Plan Elemanları
 
-**Mimari plan elemanları****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](odaduvar.htm) [![Sonraki](../../assets/resimler/prev.jpg)](merdivensistemleri.htm)  
----|---  
+**Mimari plan elemanları**
   
 Mimari planı daha kullanılışlı kılmak için mimari plan elemanlarını eklemelisiniz. Bunlar kapı, pencere,kolon,kriş,menfez ve merdiven sistemleridir. Merdiven sistemleri daha geniş olarak [bir sonraki bölümde](merdivensistemleri.htm) ele alınmıştır.   
   

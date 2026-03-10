@@ -1,8 +1,6 @@
 # Sayaç Özellikleri
 
-**Sayaç Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](regozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](kombiozellikleri.htm)  
----|---  
+**Sayaç Özellikleri**
   
 **_Tip :_** Bu açılır kutudan sayaş tipini seçiniz. Mevcut değerler G4,G6,G10,G16,G25,G40,G65   
 **_Birim :_** Sayacın hizmet verdiği birimi burada görebilirsiniz. Değiştirmek için sayaca bağlı tüketim vanasının özelliklerini kullanmalısınız.   

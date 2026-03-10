@@ -1,9 +1,7 @@
 # Baskı
 
-**Baskı****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](dijitalonay.htm) [![Sonraki](../assets/resimler/prev.jpg)](katimodel.htm)  
----|---  
-  
+**Baskı**
+
 Projenizi tamamladıktan sonra veya herhangi bir esnada, projeyi bir bütün olarak veya kısmen basmak isteyebilirsiniz. Bunu kendi yazıcınız(vyea plotter) aracılığıyla veya piyasada bası işini yapan bürolar vasıtasıyla yaptırmak geekebilir. her iki durmda da Zetacad uygun çözümleri sunar.   
   
 Kendi yazıcınız veya plotter cihazınız aracılığıyla bastırmak için ilgili yerlerdeki _Yazdır_ ![clip0022](../assets/resimler/clip0022.jpg) butonuna bastğınızda karşınıza standart windows yazdırma diyaloğu çıkar. Bu diyalog aracılığıyla aktif unsuru yazıcınıza gönderebilirsiniz.   

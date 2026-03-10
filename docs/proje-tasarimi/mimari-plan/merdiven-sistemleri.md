@@ -1,8 +1,6 @@
 # Merdiven Sistemleri
 
-**Merdiven Sistemleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](mimeleman.htm) [![Sonraki](../../assets/resimler/prev.jpg)](mahalvebirim.htm)  
----|---  
+**Merdiven Sistemleri**
   
 Merdiven sistemleri ZetaCad'de çok seçenekli bir şekilde yer almaktadır. Bir merdiven sistemi düz merdiven, dönel merdiven ve merdiven sahanlığı olam üzere 3 çeşit merdiven elemanından oluşabilir.   
   

@@ -1,8 +1,6 @@
 # Otomatik Çap Tasarımı
 
-**Otomatik Çap Tasarımı****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](kritikhatanalizi.htm) [![Sonraki](../assets/resimler/prev.jpg)](tadilatprojesi.htm)  
----|---  
+**Otomatik Çap Tasarımı**
   
 Tesisatın konumlandırmasını tamamladıktan sonra, yani hatlarınızı çiizp tüketim unsurlarını yerleştirdikten sonra eğer isterseniz Zetacad sizin için en uygun hat çaplarını hesaplayarak tasarlayabilir. Burada çok özel **yapay zeka algoritmaları** kullanılarak, bir hattın çapı tüm devredeki kayıp miktarı, hattaki gaz hızı ve maliyet ekonomisi dikkate alınarak çaplandırma yapılır.   
   

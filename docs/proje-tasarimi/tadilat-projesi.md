@@ -1,8 +1,6 @@
 # Tadilat Projesi
 
-**Tadilat Projesi - İçTesisat****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](otomatiktasarim.htm) [![Sonraki](../assets/resimler/prev.jpg)](kontrol.htm)  
----|---  
+**Tadilat Projesi - İçTesisat**
   
 Eğer projeniz mevcut bir sıfır kolon projesi üzerine, daire içi tesisat ekklemek ise buna Tadilat Projesi denir Zetacad'de [Proje Bilgilerinde](projebil.htm) bu İç Tesisat seçeneği olarak geçer. (Bu durum Teknik Tadilatla karıştırılmamalıdır).   
   

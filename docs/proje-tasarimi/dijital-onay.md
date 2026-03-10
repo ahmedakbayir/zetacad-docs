@@ -1,8 +1,6 @@
 # Dijital Onay
 
-**Dijital Onay****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](hatagiderme.htm) [![Sonraki](../assets/resimler/prev.jpg)](baski.htm)  
----|---  
+**Dijital Onay**
   
 Eğer gaz dağıtım şirketiniz ile Tekhnelogos arasında bir anlaşma yapılmışsa, projelerinizi programın arayüzünden onay için digital ortamda gaz dağıtım şirketine gönderebilir ve onay durumunu buradan takip edebilirsiniz.   
   

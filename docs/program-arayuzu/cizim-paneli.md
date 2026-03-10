@@ -1,8 +1,6 @@
 # Çizim Paneli
 
-**Çizim Paneli****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](genelbakýþ.htm) [![Sonraki](../assets/resimler/prev.jpg)](menuler.htm)  
----|---  
+**Çizim Paneli**
   
 Çizim Panelinde yer alan araçlar sırasıyla şunlardır.   
   

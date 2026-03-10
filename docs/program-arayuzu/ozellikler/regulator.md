@@ -1,8 +1,6 @@
 # Regülatör Özellikleri
 
-**Regülatör Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](serviskutusuozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](sayacozellikleri.htm)  
----|---  
+**Regülatör Özellikleri**
   
 **_Marka :_** Regülatörün markasını seçiniz.   
 **_Muhafazalı :_** Regülatör muhafaza içinde ise bu seçeneği işaretleyiniz.   

@@ -1,8 +1,6 @@
 # Firma Bilgileri
 
-**Firma Bilgileri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](hermetikbaca.htm) [![Sonraki](../../assets/resimler/prev.jpg)](katlar.htm)  
----|---  
+**Firma Bilgileri**
   
 _Firma Bilgileri formuna ayarlar menüsünden ulaşabilirsiniz. Bu formda firmanıza ait bilgileri bir kereye mahsus olmak üzere giriniz. Böylelikle proje kapaklarında firma bilgileriniz otomaik olarak yer alacaktır.  
 _   

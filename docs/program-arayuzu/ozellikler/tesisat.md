@@ -1,8 +1,6 @@
 # Tesisat Özellikleri
 
-**Tesisat Özellikleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](merdivensahanligiozellikleri.htm) [![Sonraki](../../assets/resimler/prev.jpg)](vanaozellikleri.htm)  
----|---  
+**Tesisat Özellikleri**
   
 **_Hat Numaraları:_** Bu seçenekle hat numaralarını proje üzerinde gizleyip/gösterebilirsiniz.   
 **_Seçili Nokta Kotu :_** Tesisatta aktif noktanın binada yada mevcut kattaki kotunu görebilir ve değiştirebilirsiniz.   

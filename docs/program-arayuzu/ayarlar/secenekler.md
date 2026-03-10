@@ -1,8 +1,6 @@
 # Seçenekler
 
-**Seçenekler****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](sayfaayari.htm) [![Sonraki](../../assets/resimler/prev.jpg)](projebil.htm)  
----|---  
+**Seçenekler**
   
 _Genel olarak tesisat ve mimari planla ilgili bazı tercihlerinizi buradan yapabilirsiniz.  
 _   

@@ -1,8 +1,6 @@
 # Katı Model
 
-**Katı Model****  
-** |  [![Basa Dön](../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../assets/resimler/next.jpg)](baski.htm) [![Sonraki](../assets/resimler/prev.jpg)](eskizÇalýþmasý.htm)  
----|---  
+**Katı Model**
   
 Katı Modelleme özelliği Zetacad'in en güçlü özelliklerinden birisidir. Katı model sayesinde mimarı planın ve tesisatın 3 boyutlu ortamda gerçeğe yakın görüntüsünü izleyebilir, ve bu görüntünün istediğiniz yerine odaklanıp,istedğiniz şekilde çevirebilirsiniz. 3 boyutlu görüntü özellikle karmaşık tesisatları tasarlarken size yardımcı olur, işi ustalarınıza aktarırken daha güçlü bir gösterim olanağı ve müşterilerinize işinizi daha kolay anlatma imkanı sunar.   
   

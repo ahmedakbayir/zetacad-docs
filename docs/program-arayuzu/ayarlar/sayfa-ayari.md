@@ -1,8 +1,6 @@
 # Sayfa Ayarı
 
-**Sayfa Ayarı****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](katlar.htm) [![Sonraki](../../assets/resimler/prev.jpg)](secenekler.htm)  
----|---  
+**Sayfa Ayarı**
   
 _Kat planlarının çalışma alanının boyutunu buradan blirleyebilirisiniz. Bu sayfa ayarı projenin bütünün basıldığı birleştir komutunda etkin değildir. Baskı aşamasında mümkün olan en küçük sayfa boyutu otomatik hesaplanır. Buradan girilen sayfa ayarı sadece çalışma alanınızın boyutlarını belirler.  
 _   

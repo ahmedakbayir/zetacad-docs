@@ -1,8 +1,6 @@
 # Hat Çizimleri
 
-**Hat Çizimleri****  
-** |  [![Basa Dön](../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../assets/resimler/next.jpg)](tesisat.htm) [![Sonraki](../../assets/resimler/prev.jpg)](hatmodifikasyonu.htm)  
----|---  
+**Hat Çizimleri**
   
 Tesiat moduna geçtiniz ve otomatik çıkan servis kutusunu doğru yere konumladınız.Şimdi hatları çizmeniz veya daha doğru bir tabirle tanımlamanız gerekmektedir.   
   

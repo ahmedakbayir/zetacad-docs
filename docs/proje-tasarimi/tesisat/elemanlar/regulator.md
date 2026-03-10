@@ -1,8 +1,6 @@
 # Regülatör
 
-**Regülatör****  
-** |  [![Basa Dön](../../../assets/resimler/home.jpg)](zetacadnedir.htm) [![Önceki](../../../assets/resimler/next.jpg)](vanalar.htm) [![Sonraki](../../../assets/resimler/prev.jpg)](sayac.htm)  
----|---  
+**Regülatör**
   
 Servis kutusu çıkış basıncının 300 mbar olduğu durumlarda, tesisatın herhangi bir noktasına yerleştireceğimiz regülatörlerle o noktadan itibaren aktif olacak gaz basıncını belirleyebiliriz. Böylelikle regülatörler 300 mbar servis basıncına sahip tesisatlarda hesap ve tasarımın otomatik ve doğru yapılabilmesi için önem arzetmektedirler. Tesisata eklenen regülatörün tanımsal gösterimleri otomatik olarak yaplır.   
   
