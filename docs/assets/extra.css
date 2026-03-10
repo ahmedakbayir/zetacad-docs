@@ -35,12 +35,12 @@ body, .md-typeset, input {
 .md-header {
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
   border-bottom: 2px solid var(--zeta-green) !important;
-  background: linear-gradient(135deg, rgba(21, 194, 19, 0.06) 0%, rgba(21, 194, 19, 0.02) 40%, transparent 70%) !important;
+  background: linear-gradient(135deg, rgba(21, 194, 19, 0.06) 0%, rgba(21, 194, 19, 0.02) 40%, transparent 70%), #ffffff !important;
 }
 
 /* Gece modunda header gradient biraz daha belirgin */
 [data-md-color-scheme="slate"] .md-header {
-  background: linear-gradient(135deg, rgba(21, 194, 19, 0.1) 0%, rgba(21, 194, 19, 0.03) 40%, transparent 70%) !important;
+  background: linear-gradient(135deg, rgba(21, 194, 19, 0.1) 0%, rgba(21, 194, 19, 0.03) 40%, transparent 70%), #1b1b1d !important;
 }
 
 /* Gündüz modunda header yazıları siyah */
