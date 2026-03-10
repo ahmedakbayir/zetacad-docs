@@ -1,8 +1,11 @@
+ZetaCAD, içerisinde doğal gaz proje tasarımı için tüm ihtiyaçlarınızı barındıran yapay zekalı temelli bir elektronik proje yazılımıdır
+
+![ZetaCAD Neleri Kontrol Eder?](assets/resimler/zetacadgiris.png){width="100" }
+
 ## ZetaCAD Neleri Kontrol Eder?
 
-ZetaCAD, içerisinde doğal gaz proje tasarımı için tüm ihtiyaçlarınızı barındıran yapay zekalı temelli bir elektronik proje yazılımıdır. Doğal gaz tesisat tasarımında, hesaplamasında ve kontrolünde, ilgili gaz dağıtım firmasının son güncel şartnamesi ve buna bağlı teknik yayın ve bildirimlerini esas alarak doğalgaz projesini en doğru biçimde ortaya koyar. Bir projenin hatasız olarak telif edilebilmesi için ZetaCAD bir çok kategoride yaklaşık 400 noktadan bir projeyi kontrol eder.
+Doğal gaz tesisat tasarımında, hesaplamasında ve kontrolünde, ilgili gaz dağıtım firmasının son güncel şartnamesi ve buna bağlı teknik yayın ve bildirimlerini esas alarak doğalgaz projesini en doğru biçimde ortaya koyar. Bir projenin hatasız olarak telif edilebilmesi için ZetaCAD bir çok kategoride yaklaşık 400 noktadan bir projeyi kontrol eder.
 
-![ZetaCAD Neleri Kontrol Eder?](assets/resimler/zetacad-nedir-neleri-kontrol-eder.jpeg)
 
 ???+ warning
 

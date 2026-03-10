@@ -117,6 +117,7 @@ Material tasarım buton
 Kart şeklinde özellik listesi.
 
 12. Resim + Açıklama
+
 ![zetacad-arayuz](../assets/resimler/zetaweb.png)
 
 Program arayüzü yukarıdaki gibidir.
@@ -131,7 +132,8 @@ Resim + açıklama.
 
 ![ekran1](../assets/resimler/ahlatcı.png)
 
-![ekran2](../assets/resimler/ChatGPT%20Image%2027%20Şub%202026%2020_20_23.png)
+
+![ekran2](../assets/resimler/udas.png)
 
 </div>
 
