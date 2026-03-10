@@ -17,4 +17,3 @@ _Cihazın tipine göre ilgili tüketim hesaplarını kullanıp alt kısmdaki top
 **Toplam Tüketim :** Bu kısımda toplam tablosuna attığınız tüm hesapların toplamını debi olarak görürsünüz. Tamam butonuna bastığınızda Genel Cihaz özelliklerindeki debi kutusuna bu değer yazılır.   
 |  ![tukHesap](../../../assets/resimler/tukHesap.png)   
   
----|---

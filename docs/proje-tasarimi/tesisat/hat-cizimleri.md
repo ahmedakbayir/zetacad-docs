@@ -15,7 +15,7 @@ Bunun dışında standart hat çizim yolu klavyeyi kullanmaktır. Klavyedeki ok 
 ![hatciz2](../../assets/resimler/hatciz2.png)   
 |  ![hatciz3](../../assets/resimler/hatciz3.png)   
   
----|---  
+  
   
   
 Yukarıdaki örnekte, önce kutudan sağa doğru bir dayama noktasına gidilmiş ve sonra düzlemde yukarı hareketiyle tesisat 90 derecelik açıyla oturma odasının köşesine dayanmıştır. Daha sonra ise fare ile ilk köşeye tıklanarak kalem buraya alınmıştır. Şimdi kavyeden gelen çizim komutu bu noktaya uygulanacaktır. Nitekim aşağıdaki resimde bu noktadan tekrar sağa doğru çizilmiş hat gözükmektedir.   
@@ -26,7 +26,7 @@ Yukarıdaki örnekte, önce kutudan sağa doğru bir dayama noktasına gidilmiş
 ![vertciz](../../assets/resimler/vertciz.png)   
 |  Uzayda yukarı yada aşağı hareketler (iniş çıkış hatları) ise klavyede shift tuşuyla beraber yukarı aşağı ok tuşlarını kulanarak yapılır. Bu tuşlara bastıkça uzayda yukarı ya da aşağıya hat çizebilirsiniz, bu çizim kat planında daire olarak gösterilir ve iniş çıkışın miktarı çizim esnasında gösterilir.   
   
----|---  
+  
   
   
 **Manuel Uzunluk Belirleme  

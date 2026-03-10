@@ -22,8 +22,8 @@
 |  Projenin kağıtta yerleşimini ayarlamak için kullanılır.   
   
 ![kris](../assets/resimler/kris.png)   
-|  **_Kriş_**   
-|  Mimari plana kriş çizmek için kullanılır   
+|  **_Kiriş_**   
+|  Mimari plana kiriş çizmek için kullanılır   
   
 ![slice1_4](../assets/resimler/slice1_4.jpg)   
 |  **_Refreans Noktası_**   

@@ -10,4 +10,3 @@
   
 |  ![sboxProp](../../assets/resimler/sboxProp.png)   
   
----|---

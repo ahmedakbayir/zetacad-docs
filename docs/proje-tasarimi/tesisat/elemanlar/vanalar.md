@@ -9,7 +9,7 @@ Vanalar tesisatta hem şartname uyumunu sağlayan, hem de tasarım ve hesaplamal
 ** ![akv](../../../assets/resimler/akv.png)   
 |  Ana kesme vanası bina bağlantı hattında kullanımdan önce konumlandırılan teknik şartname gereği olarak zorunlu olan bir vanadır. Bu vanayı tesisatınıza yerleştirdiğiniz zaman, gerekli tanımsal gösterimler (AKV, H=1.8 m vb.) otomatik olarak sağlanır. Tesisatınız şartnameye göre kontrol edildiğinde AKV vanası zorunlu olarak istenir.   
   
----|---  
+  
   
   
 **2\. Cihaz Vanası  
@@ -18,7 +18,7 @@ Vanalar tesisatta hem şartname uyumunu sağlayan, hem de tasarım ve hesaplamal
 |  Cihaz vanası, cihaz bağlantı hattında bulunması gereken bir vanadır. Herhangi bir hatta bir cihaz eklendiği zaman, o hatta cihaz vanası otomatik olarak eklenir. Tesisatınız şartnameye göre kontrol edildiğinde cihazlardan önce cihaz vanası zorunlu olarak istenir.   
   
   
----|---  
+  
   
 **  
 ****3\. Emniyet Vanası  
@@ -26,7 +26,7 @@ Vanalar tesisatta hem şartname uyumunu sağlayan, hem de tasarım ve hesaplamal
 ** ![env](../../../assets/resimler/env.png)   
 |  Emniyet vanası tesisatın herhangi bir noktasında genel bir amaç için gaz geçişini kontrol etmek için kullanılır. Eminyet vanalarının zorunlu olarak istendiği nadir durumlar vardır.   
   
----|---  
+  
   
 **  
 ****4\. Tüketim Vanası  
@@ -48,7 +48,7 @@ Tüketim vanasının kendi bireysel debisi, hizmet verdiği bağımsız birimdek
   
 **5.** Bir tüketim vanasının debisi 3.5 olarak belirlendiği halde servis verdiği birim içinde cihazların eş zaman faktörü ile oluşturduğu toplam debi 5.0 değerini aşar ise, bu durumda tüketim vanasındaki 3.5 değeri otomatik olarak daire içindeki toplama eşitlenir. Şartname gereği artık birimin kolona yükü bu fazla değer dikkate alınarak hesaplanır.   
   
----|---  
+  
   
 **  
 ****5\. Yan Bina Tüketim Vanası  
@@ -56,7 +56,7 @@ Tüketim vanasının kendi bireysel debisi, hizmet verdiği bağımsız birimdek
 ** ![ybv](../../../assets/resimler/ybv.png)   
 |  Normal tüketim vanası gibi, yan bina tüketim vanası da, eklendiği hattın o ucunda yan binaya bir servis verildiğini belirler. Bununla birlikte vananın servis verdiği yan binadaki daire sayısı girilerek bu tüketimden dolayı oluşan hat debisi ototmatik hesaplanarak o hattı taşıyan diğer kolon hatlarına yansıtılır. Yan bian ağzı ile ilgili bilgiler ototatik olarak ilgili hat etiketinde gösterilir.   
   
----|---  
+  
   
 **  
 **

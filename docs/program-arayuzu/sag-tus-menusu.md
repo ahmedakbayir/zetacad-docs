@@ -11,7 +11,7 @@ Zetacad içerik menüsü açılırken , seçili olan nesneyi dikkate alarak içe
 _Seçimi Sil_   
 |  Seçili olan nesneyi siler.   
   
----|---  
+  
 _Odaya Kapı Aç_   
 |  Diğer mahallerden seçili mahale kapılar açar. Odalardan koridora kapıları açmak için kullanılır.   
   

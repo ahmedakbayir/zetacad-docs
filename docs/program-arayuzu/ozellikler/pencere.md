@@ -7,4 +7,3 @@
 **_Kot :_** Pencerenin zeminden yüksekliğini cm cinsinden verebilirsiniz.   
 |  ![wndProp](../../assets/resimler/wndProp.png)   
   
----|---

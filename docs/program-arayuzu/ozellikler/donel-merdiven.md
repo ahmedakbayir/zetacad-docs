@@ -11,4 +11,3 @@
 **_Merkez Pozisyonu:_** Merdiven merkezinin bulunduğu konumu seçiniz.   
 |  ![clip0010](../../assets/resimler/clip0010.jpg)   
   
----|---

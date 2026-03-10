@@ -18,4 +18,3 @@ _
 **Baskıda birleştir :** Eğer belirli katlarda yer alan her şey aynı ise o katları baskı aşamasında tek bir çizimde birleştirebilirsiniz. Baskıda birleştir seçeneği seçili ise, kat alt katla beraber çizilir.   
 |  ![katayar](../../assets/resimler/katayar.png)   
   
----|---

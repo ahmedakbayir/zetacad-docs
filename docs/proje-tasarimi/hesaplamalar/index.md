@@ -50,7 +50,7 @@ Yukarıdaki maddelerde görebileceğiniz gibi, Zetacad'de hesap tamamen otomatik
 Hız Hesap Formülü   
 |  _Formül 1_   
   
----|---  
+  
   
 |    
   
@@ -69,7 +69,7 @@ Kayıp Hesap Formülü
 Hız Hesap Formülü   
 |  _Formül 3_   
   
----|---  
+  
   
 |    
   

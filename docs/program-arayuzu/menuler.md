@@ -7,7 +7,7 @@
 ** _Yeni Proje_   
 |  Yeni proje başlatır.   
   
----|---  
+  
 _Proje Aç_   
 |  Bilgisayarınızdan mevut bir projeyi yüklemek için _Proje Aç_ diyaloğunu açar.   
   
@@ -30,7 +30,7 @@ _Kapat_
 ** _Proje Bilgileri_   
 |  Proje bilgilerini girmek için ilgili formu açar.   
   
----|---  
+  
 _Tadilat Projesi Başlat_   
 |  Programda açılmış olan mevcut sıfır projeden yeni bir Tadilat projesi oluşturmak için ilgili sihirbazı başlatır.   
   
@@ -53,7 +53,7 @@ _Proje Onay_
 ** _Kopyele_   
 |  Mimari planı veya tesisatı kopyeler.   
   
----|---  
+  
 _Yapıştır_   
 |  Kopyelenmiş mimari planı veya tesisatı ilgili yere yapıştırır.   
   
@@ -85,7 +85,7 @@ _Alt katın merdiven sistemini kopyele_
 ** _Eskiz çalışması_   
 |  Eskiz çalışma formunu açar.   
   
----|---  
+  
 _Hesap makinesi_   
 |  Windows Standart hesap makinesini başlatır.   
   
@@ -96,7 +96,7 @@ _Hesap makinesi_
 ** _Pencere_   
 |  Seçili duvara pencere ekler veya seçili mahale pencere açar.   
   
----|---  
+  
 _Kapı_   
 |  Seçili duvara kapı ekler veya seçili mahale kapı açar.   
   
@@ -227,7 +227,7 @@ _İniş-çıkış ekle_
 ** _Lokal kayıplar_   
 |  Lokal kayıplar formunu açar.   
   
----|---  
+  
 _Boru çapı hesapları_   
 |  Boru çapı hesap formunu açar.   
   
@@ -250,7 +250,7 @@ _Kritik hat analizi_
 ** _Mimari plan_   
 |  Çalışma modunu mimari plana geçirir.   
   
----|---  
+  
 _Tesisat planı_   
 |  Çalışma modunu tesisat planına geçirir.   
   
@@ -285,7 +285,7 @@ _Proje kapağı_
 ** _Firma bilgileri_   
 |  Firma bilgileri formunu açar.   
   
----|---  
+  
 _Katlar_   
 |  Kat ayar panelini açar.   
   
@@ -302,7 +302,7 @@ _Seçenekler_
 ** _Yardım dosyası_   
 |  Bu yardım dosyasını açar.   
   
----|---  
+  
 _Zetacad web sitesi_   
 |  www.zetacad.com sitesini explorer da açar.   
   

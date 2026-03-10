@@ -9,4 +9,3 @@ Katı model için 2 seçenek vardır. İster sadece aktif katı, isterseniz tüm
 ![katimodel](../assets/resimler/katimodel.png)   
 |  Katı model penceresinde, binayı ortogonal veya perspektif modunda inceleyebilirsiniz. Soldaki Scroll çubuğunu hareket ettirdiğinizde (veya PgUp,PgDwn) binaya yaklaşıp uzaklaşabilirsiniz, farenin sağ tuşuyla görüntüyü süreklediğinizde ise bakış açısnızı döndürebilirsiniz.   
   
----|---

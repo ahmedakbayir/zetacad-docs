@@ -8,7 +8,7 @@
 Ctrl+C   
 |  Mimari planı veya tesisatı kopyeler.   
   
----|---  
+  
 Ctrl+V   
 |  Kopyelenmiş mimari planı veya tesisatı ilgili yere yapıştırır.   
   
@@ -115,7 +115,7 @@ Ctrl+T
 ** Sağ Tuş   
 |  Farenin sağ tuşuna bastığınızda bir Popup Menü açılır. Bu menünün içeriği çalışma modu ve seçili nesneye göre değişir.   
   
----|---  
+  
 Tekerlek   
 |  Farenin orta tekerleğini döndürerek, projeye yaklaşıp uzaklaşabilirsiniz. (Zoom)   
   
@@ -135,7 +135,7 @@ Tekerlek Sürükleme
 Hat etiketi üzerinde çift tıklama   
 |  Etiket yazısının konumunu değiştirir.   
   
----|---  
+  
 Hat üzerine çift tıklama   
 |  Hattı tıklanan noktadan böler   
   

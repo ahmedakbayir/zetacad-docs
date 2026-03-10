@@ -13,4 +13,3 @@ _
 **Firma bilgilerinde yapılan değişiklikleri**** _Kaydet_****butınu ile kaydediniz.**   
 |  ![firmaBil](../../assets/resimler/firmaBil.png)   
   
----|---

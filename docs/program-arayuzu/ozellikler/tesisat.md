@@ -14,4 +14,3 @@
   
 |  ![tesProp](../../assets/resimler/tesProp.png)   
   
----|---

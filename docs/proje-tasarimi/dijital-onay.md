@@ -12,7 +12,7 @@ Bir projenin 4 onay durumu vardır.
   
 |  **1\. Proje onaya gönderilmiş:** Bu durumda projniz onay için cevap bekleme modundadır ve onay formu size onay durumunu (cevabı) öğrenme imkanı sunar.   
   
----|---  
+  
 ![onay0](../assets/resimler/onay0.png)   
   
   

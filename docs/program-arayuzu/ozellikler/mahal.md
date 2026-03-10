@@ -10,4 +10,3 @@
 ![pencere](../../assets/resimler/pencere.jpg) Mahale Pencere Aç ![menfez](../../assets/resimler/menfez.jpg) Mahale Menfez Aç ![merdiven3b](../../assets/resimler/merdiven3b.jpg) Mahale Merdiven Ekle   
 |  ![mahProp](../../assets/resimler/mahProp.png)   
   
----|---

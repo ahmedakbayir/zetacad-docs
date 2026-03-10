@@ -7,7 +7,7 @@ __
 Ocak eklemek için ilgili ekle menülerini kullanmalısınız. Tesisate eklenen ocaklar şartname uyumu açısından bazı kriterlere göre kontrol edilirler. Ocaklar A Tipi cihazlara girdiğinden, ocağın bulunduğu mahalde atmosfere ulaşabilen bir hava menfezi aranır. (Ocak ilk eklendiğinde bu menfez otomatik olarak da eklenir). Ayrıca ocaklar yatak odası, banyo, WC gibi mahallerde konumlandırılamazlar.   
 |  ![ocak](../../../assets/resimler/ocak.png)   
   
----|---  
+  
   
 __  
 _

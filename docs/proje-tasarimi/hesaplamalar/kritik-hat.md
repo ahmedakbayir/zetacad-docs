@@ -11,4 +11,3 @@ Kritik hat analizi formunu açamak için, _Hesap_ menüsünden _Kritik Hat Anali
 |    
 Tüm tesisat yollları başlığı altında, Kolon, İç Tesisat ve Kolon+İç Tesisat olmak üzere gazın takip ettiği tüm devreler kendi grubuna ait renkle yer alır. Kırmızı renkli satır ise Zetacad'in kayıp değerinin maksimum olamsı nedeniyle seçtiği, kritik devreyi göstermektedir. Ayrıca alt kısımda bulunan kutucuklarda seçilen kritik hat ayrıca yazılır. Herhangib bir tesisat yolu seçiliyken, o yolu oluşturan hatlar numaraları ve kayıp değerleriyle sağ tarafta sıralanır. Böylelikle kaybı oluşturan ana hatlar belli olur. Dahası isterseniz ağaç yapısı şeklinde listelenen bu hatları + işaretine basarak açabilir ve yandaki resimde olduğu gibi hatla ilgili daha detaylı bilgiye ulaşabilirsiniz.   
   
----|---

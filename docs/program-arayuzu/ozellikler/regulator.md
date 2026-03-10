@@ -10,4 +10,3 @@
   
 |  ![regProp](../../assets/resimler/regProp.png)   
   
----|---

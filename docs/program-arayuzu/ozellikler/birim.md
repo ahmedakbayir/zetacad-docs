@@ -9,4 +9,3 @@ Birim Tanımı : _**İçindeki mahallerden birimin (mesken,dükkan veya ortak al
   
 |  ![birProp](../../assets/resimler/birProp.png)   
   
----|---

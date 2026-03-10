@@ -20,7 +20,7 @@ _**Servis Kutusu Tipleri
 **S200**   
 |  S200 servis kutusu duvar yüzeyinde konumlanabilir, ve yandan veya önden hat çıkışı sağlayabilir.   
   
----|---  
+  
 **S300**   
 |  S300 servis kutusu duvar yüzeyinde konumlanabilir, ve sadece önden hat çıkışı sağlayabilir.   
   

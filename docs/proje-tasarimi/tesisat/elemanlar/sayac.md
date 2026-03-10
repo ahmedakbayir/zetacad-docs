@@ -8,4 +8,3 @@
 Sayaçların tanımlarını [sayaç özellikleri](sayacozellikleri.htm) panelinden yapabilirsiniz. Ayrıca bu panelde herhangi sayaçtan geçen gazın debisini ve izin verilen maksimum ve minumum debiyi görebilirsiniz. Sayacın debisi izin verilen aralıkta değil ise, şartname kontrolünde bu size hata olarak bildirilecektir.   
   
   
----|---

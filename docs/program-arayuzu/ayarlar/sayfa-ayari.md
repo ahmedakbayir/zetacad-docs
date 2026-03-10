@@ -11,4 +11,3 @@ _
 **Cetvel Göster :** Bu seçenek çalışma alanında gerçek ölçüleri gösteren yatay ve dikey cetveller oluşturur.   
 |  ![sayfayar](../../assets/resimler/sayfayar.png)   
   
----|---

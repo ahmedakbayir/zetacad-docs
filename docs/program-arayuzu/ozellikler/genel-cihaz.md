@@ -7,4 +7,3 @@
 **_Tüketim Hesabı:_** Kapasiteyi otomatik hesaplatmak için bu butona basınız. Detaylar için [Tüketim Hesabı](tukhesap.htm) kısmına bakınız.   
 |  ![cihProp](../../assets/resimler/cihProp.png)   
   
----|---

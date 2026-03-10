@@ -11,7 +11,7 @@ Doğalgaz sobaları bireysel ısınma amacıyla kullanılır. Hava ile ilişkile
   
 Bacalı sobaların bulundukları mahalde atmosfere ulaşan bir havalandırma menfezi olmalıdır. Havalndırma menfezlerinde en fazla iki kademeye izin verilir. Bacalı sobalar 8 m³ altındaki mahalde bulunamaz, ve bulunduğu mahal _yatak odası, banyo, WC_ olamaz.   
   
----|---  
+  
 ![sobH](../../../assets/resimler/sobH.png)   
 |  **Hermetik Soba  
   

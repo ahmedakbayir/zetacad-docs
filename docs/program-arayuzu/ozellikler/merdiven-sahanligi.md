@@ -7,4 +7,3 @@
   
 |  ![sahProp](../../assets/resimler/sahProp.png)   
   
----|---

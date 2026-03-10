@@ -8,7 +8,7 @@ Proje Bilgileri penceresi 4 ayrı açılır/kapanır panelden oluşmaktadır. Bu
 Bu panelde proje adını, regülatör ve servis hattı kayıt numarasını belirleyebilirsiniz.   
 |  ![prj1](../assets/resimler/prj1.png)   
   
----|---  
+  
 **Bina Paneli**   
 Bu panelde bina adres bilgilerini girebilirsiniz. Ayrıca eğer bina müstakil bir bina ise, yani bütün mimari planlar tek bir bağımsiz birim ise, _Müstakil Bina_ kutucuğunu işaretleyiniz. Bu durumda tesisatınız bağımsız birim analizleri ve hat mahal kontrolleri buna göre yapılacaktır.   
 |  ![prj2](../assets/resimler/prj2.png)   

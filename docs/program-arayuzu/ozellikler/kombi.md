@@ -11,4 +11,3 @@ Kapasite : _**Kombi kapasitesini kcal/saat cinsinden giriniz.
   
 |  ![kombiProp](../../assets/resimler/kombiProp.png)   
   
----|---

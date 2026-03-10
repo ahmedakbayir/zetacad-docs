@@ -9,4 +9,3 @@
   
 |  ![kolProp](../../assets/resimler/kolProp.png)   
   
----|---

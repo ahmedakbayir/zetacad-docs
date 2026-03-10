@@ -11,7 +11,7 @@ Kombi bireysel ısınma ve sıcak su ihtiyacının en temel cihazıdır. Kendisi
   
 Bacalı kombilerin bulundukları mahalde atmosfere ulaşan bir havalandırma menfezi olmalıdır. Havalndırma menfezlerinde en fazla iki kademeye izin verilir. Bacalı kombiler 8 m³ altındaki mahalde bulunamaz, ve bulunduğu mahal _yatak odası, banyo, WC_ olamaz.   
   
----|---  
+  
 ![hkombi](../../../assets/resimler/hkombi.png)   
 |  **Hermetik Kombi - Yoğuşmalı Kombi  
   

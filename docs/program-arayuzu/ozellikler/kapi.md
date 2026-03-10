@@ -8,4 +8,3 @@
   
 |  ![doorProp](../../assets/resimler/doorProp.png)   
   
----|---

@@ -11,4 +11,3 @@ Normal Duvar - Açık Duvar - Camekan - Balkon Duvarı
 **_İşlem Butonları :_**![divpath](../../assets/resimler/divpath.jpg) Duvarı Böl ![door](../../assets/resimler/door.jpg) Kapı Ekle ![pencere](../../assets/resimler/pencere.jpg) Pencere Ekle ![kolon](../../assets/resimler/kolon.jpg)Kolon Ekle   
 |  ![dProp](../../assets/resimler/dProp.png)   
   
----|---

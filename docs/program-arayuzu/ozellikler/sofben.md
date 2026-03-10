@@ -9,4 +9,3 @@
   
 |  ![sofProp](../../assets/resimler/sofProp.png)   
   
----|---

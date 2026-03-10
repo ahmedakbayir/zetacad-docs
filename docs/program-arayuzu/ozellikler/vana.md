@@ -9,7 +9,7 @@
 **_Muhafazalı :_** Vana eğer muhafazalı ise bu seçeneği işaretleyin.   
 |  ![nanProp](../../assets/resimler/nanProp.png)   
   
----|---  
+  
   
   
 _Vana Tipine Göre, Vana Ek Özellikleri belirebilir._   
@@ -21,7 +21,7 @@ _Vana Tipine Göre, Vana Ek Özellikleri belirebilir._
   
 |  ![akvProp](../../assets/resimler/akvProp.png)   
   
----|---  
+  
   
   
   
@@ -33,7 +33,7 @@ _Vana Tipine Göre, Vana Ek Özellikleri belirebilir._
 **_Selonoid Vana :_** Eğer tüketim vanasından sonra selenoid vana kullanılmışsa bu seçeneği işaretleyiniz.   
 |  ![tukProp](../../assets/resimler/tukProp.png)   
   
----|---  
+  
   
   
 **Vana Tipi; Yan Bina ise :**   
@@ -43,4 +43,3 @@ _Vana Tipine Göre, Vana Ek Özellikleri belirebilir._
 **_Tesisat No:_** Yan binanın servis hattı kayıt numarsını giriniz.   
 |  ![yanprop](../../assets/resimler/yanprop.png)   
   
----|---

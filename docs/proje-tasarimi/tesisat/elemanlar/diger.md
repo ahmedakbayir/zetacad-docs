@@ -8,7 +8,7 @@ Tasarım ve hesaplamaları etkilemediği halde, şartname uyumu için gerekli ol
 |  ![toprak](../../../assets/resimler/toprak.png)   
   
   
----|---  
+  
 **İzolasyon Flanşı**   
 |  ![izofla](../../../assets/resimler/izofla.png)   
   

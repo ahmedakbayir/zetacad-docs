@@ -9,4 +9,3 @@ Mimari plan çalışma modunda , bu pencerede kat planının belirli kısmı dah
   
 **Normal çizim ekranında aktif olan tüm komutlar bu pencerede de aktiftir.**   
   
----|---

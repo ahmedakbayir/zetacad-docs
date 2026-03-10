@@ -7,4 +7,3 @@
   
 |  ![krProp](../../assets/resimler/krProp.png)   
   
----|---

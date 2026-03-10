@@ -11,7 +11,7 @@ Bacalı şofbenlerin bulundukları mahalde atmosfere ulaşan bir havalandırma m
   
 Hermetik şofbenler ise ortak mahal olmadıktan sonra birim içinde herhangi bir yere konulabilirler.   
   
----|---  
+  
   
   
 **Şofben Tüketim Değerleri  

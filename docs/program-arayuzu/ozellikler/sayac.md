@@ -11,4 +11,3 @@ Bağlantı Çapı : _**Burada sayaç tipine göre değişen bağlantı çapını
   
 |  ![sayProp](../../assets/resimler/sayProp.png)   
   
----|---
