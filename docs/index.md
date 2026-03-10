@@ -1,4 +1,4 @@
-ZetaCAD, içerisinde doğal gaz proje tasarımı için tüm ihtiyaçlarınızı barındıran yapay zekalı temelli bir elektronik proje yazılımıdır
+ZetaCAD, doğal gaz tesisat projelerinin çizimi, hesaplanması, kontrol edilmesi ve dijital olarak gönderilmesini sağlayan uzmanlaşmış bir CAD mühendislik yazılımıdır.
 
 ![ZetaCAD Neleri Kontrol Eder?](assets/resimler/zetacadgiris.png){width="500" }
 
