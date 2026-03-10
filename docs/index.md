@@ -1,26 +1,23 @@
 ZetaCAD, içerisinde doğal gaz proje tasarımı için tüm ihtiyaçlarınızı barındıran yapay zekalı temelli bir elektronik proje yazılımıdır
 
-![ZetaCAD Neleri Kontrol Eder?](assets/resimler/zetacadgiris.png){width="100" }
+![ZetaCAD Neleri Kontrol Eder?](assets/resimler/zetacadgiris.png){width="500" }
 
 ## ZetaCAD Neleri Kontrol Eder?
 
 Doğal gaz tesisat tasarımında, hesaplamasında ve kontrolünde, ilgili gaz dağıtım firmasının son güncel şartnamesi ve buna bağlı teknik yayın ve bildirimlerini esas alarak doğalgaz projesini en doğru biçimde ortaya koyar. Bir projenin hatasız olarak telif edilebilmesi için ZetaCAD bir çok kategoride yaklaşık 400 noktadan bir projeyi kontrol eder.
 
 
-???+ warning
+??? pip Diğer Programlar genel amaçlıdır. ZetaCAD özel amaçlıdır
 
-    The Docker container is intended for local previewing purposes only and
-    is not suitable for deployment. This is because the web server used by
-    MkDocs for live previews is not designed for production use and may have
-    security vulnerabilities.
+    Standart CAD programları çoğunluka genel amaçlıdır. ZetaCAD sadece doğalgaz proje telifi yapabilmek için geliştirilmiş bir programdır. Tek amacı vardır ve tüm fonksiyonlarını bu amaca göre organize eder.
 
 ## Akıllı Kontrol
 
 ZetaCAD’in yapay zeka temelli alt yapısının en güçlü şekilde kendini gösterdiği nokta, projenin otomatik kontrolüdür. E-Proje standartlarının da en önemli unsuru olan otomatik kontrol, tamamlanan veya tamamlanmakta olan ZetaCAD projesinin, hiç bir insan inisiyatifine ihtiyaç duymadan ilgili teknik şartnamelere göre kontrolünün tam olarak sağlanmasıdır. Program projenin şartnameyle uyumsuz olan en ufak hatasını dahi fark ederek uyarır ve hatanın düzeltilmesi için gerekli yolları önerir. Bunlar hesaplama sonucu ortaya çıkan basit hız veya basınç kaybı hataları olabildiği gibi, ancak bir insanın akıl yürütme yoluyla ortaya çıkarabileceği karmaşık hatalar da olabilir. Otomatik dijital kontrol, projelerin hatasız olarak telif edilmelerini sağlar, öte yandan proje kontrolü yapan onay mühendislerinin projeleri otomatik olarak kontrol edebilmelerini sağlar.
 
-Diğer Programlar genel amaçlıdır. ZetaCAD özel amaçlıdır.Standart CAD programları çoğunluka genel amaçlıdır. ZetaCAD sadece doğalgaz proje telifi yapabilmek için geliştirilmiş bir programdır. Tek amacı vardır ve tüm fonksiyonlarını bu amaca göre organize eder.
 
-İlkel çizim nesneleri yerine; Gelişmiş Çizim NesneleriStandart bir CAD programında çizim genel amaçlı ilkel nesneler ile yapılır. Bunlar çizgi, daire, dörtgen, eğri gibi temel çizim nesneleridir. ZetaCAD’de ilkel çizim nesneleri yoktur. Bunlar yerine özelleşmiş ve gelişmiş tanımlı nesneler ve komutlar vardır.
+!!! info İlkel çizim nesneleri yerine; Gelişmiş Çizim Nesneleri
+    Standart bir CAD programında çizim genel amaçlı ilkel nesneler ile yapılır. Bunlar çizgi, daire, dörtgen, eğri gibi temel çizim nesneleridir. ZetaCAD’de ilkel çizim nesneleri yoktur. Bunlar yerine özelleşmiş ve gelişmiş tanımlı nesneler ve komutlar vardır.
 
 ![Akıllı Kontrol](assets/resimler/zetacad-nedir-akilli-kontrol.jpeg)
 
