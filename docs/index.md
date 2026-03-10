@@ -1,54 +1,24 @@
-# Genel Bakis
+## ZetaCAD Neleri Kontrol Eder?
 
-## ZetaCAD Nedir?
+ZetaCAD, içerisinde doğal gaz proje tasarımı için tüm ihtiyaçlarınızı barındıran yapay zekalı temelli bir elektronik proje yazılımıdır. Doğal gaz tesisat tasarımında, hesaplamasında ve kontrolünde, ilgili gaz dağıtım firmasının son güncel şartnamesi ve buna bağlı teknik yayın ve bildirimlerini esas alarak doğalgaz projesini en doğru biçimde ortaya koyar. Bir projenin hatasız olarak telif edilebilmesi için ZetaCAD bir çok kategoride yaklaşık 400 noktadan bir projeyi kontrol eder.
 
-ZetaCAD, bir **Tekhnelogos** markasi olup dogalgaz tesisat projelerinin mimari planla birlikte otomatik olarak tasarlanmasini, hesaplanmasini ve kontrolunu saglayan **yapay zeka temelli bir e-proje yazilimi**dir. Istanbul merkezli Tekhnelogos firmasi tarafindan 1997'lerin basindan beri gelistirilmektedir.
+![ZetaCAD Neleri Kontrol Eder?](assets/resimler/zetacad-nedir-neleri-kontrol-eder.jpeg)
 
-ZetaCAD sadece dogalgaz proje telifi yapabilmek icin gelistirilmis bir programdir. Tek amaci vardir ve tum fonksiyonlarini bu amaca gore organize eder.
 
-## Standart CAD'den Farki
 
-Standart bir CAD programinda cizim genel amacli primitif nesneler (cizgi, daire, dikdortgen) ile yapilir. Bu nesneler arasinda anlam farki yoktur -- bir duvarin cizgisi ile bir dogalgaz hattinin cizgisi ayni seydir.
+## Akıllı Kontrol
 
-ZetaCAD'de ise primitif cizim nesneleri yoktur. Bunlarin yerine **ozellestirilmis ve gelismis tanimli nesneler ve komutlar** vardir. ZetaCAD icin duvar duvardIr, hat hattir. Bunlar birbirinden kesin tanimlarla ayrilir. Bu sayede program, proje ile ilgili yapilmasi gereken tum hesaplama ve kontrolleri otomatik olarak yapabilir.
+ZetaCAD’in yapay zeka temelli alt yapısının en güçlü şekilde kendini gösterdiği nokta, projenin otomatik kontrolüdür. E-Proje standartlarının da en önemli unsuru olan otomatik kontrol, tamamlanan veya tamamlanmakta olan ZetaCAD projesinin, hiç bir insan inisiyatifine ihtiyaç duymadan ilgili teknik şartnamelere göre kontrolünün tam olarak sağlanmasıdır. Program projenin şartnameyle uyumsuz olan en ufak hatasını dahi fark ederek uyarır ve hatanın düzeltilmesi için gerekli yolları önerir. Bunlar hesaplama sonucu ortaya çıkan basit hız veya basınç kaybı hataları olabildiği gibi, ancak bir insanın akıl yürütme yoluyla ortaya çıkarabileceği karmaşık hatalar da olabilir. Otomatik dijital kontrol, projelerin hatasız olarak telif edilmelerini sağlar, öte yandan proje kontrolü yapan onay mühendislerinin projeleri otomatik olarak kontrol edebilmelerini sağlar.
 
-## Temel Is Akisi
+Diğer Programlar genel amaçlıdır. ZetaCAD özel amaçlıdır.Standart CAD programları çoğunluka genel amaçlıdır. ZetaCAD sadece doğalgaz proje telifi yapabilmek için geliştirilmiş bir programdır. Tek amacı vardır ve tüm fonksiyonlarını bu amaca göre organize eder.
 
-```mermaid
-graph TD
-    A[Yeni Proje Ac] --> B[Mimari Plan Ciz]
-    B --> C[Duvar, Kapi, Pencere Yerlestir]
-    C --> D[Tesisat Elemanlarini Yerlestir]
-    D --> E[Boru Hatlari Ciz]
-    E --> F[Otomatik Boru Capi Tasarimi]
-    F --> G[Otomatik Kontrol ~400 Nokta]
-    G --> H[3D Kati Model Onizleme]
-    H --> I[E-Imza ile Imzala]
-    I --> J[DIPOS Uzerinden Gonder]
-```
+İlkel çizim nesneleri yerine; Gelişmiş Çizim NesneleriStandart bir CAD programında çizim genel amaçlı ilkel nesneler ile yapılır. Bunlar çizgi, daire, dörtgen, eğri gibi temel çizim nesneleridir. ZetaCAD’de ilkel çizim nesneleri yoktur. Bunlar yerine özelleşmiş ve gelişmiş tanımlı nesneler ve komutlar vardır.
 
-## Yapay Zeka Destegi
+![Akıllı Kontrol](assets/resimler/zetacad-nedir-akilli-kontrol.jpeg)
 
-ZetaCAD'in diger cizim programlarindan en temel farki, sahip oldugu **yapay zekasi** ile projenin butun unsurlarini kontrol edebilmesidir. Muelllifin zihninde hangi anlam ve kasit varsa, ayni sey ZetaCAD'in yapay zekasinda da vardir.
 
-Program, projeyle ilgili yapilmasi gereken tum hesaplama ve kontrolleri kendisi otomatik olarak yapar. Tamamlanan veya tamamlanmakta olan projenin, hicbir insan inisiyatifine ihtiyac duymadan ilgili teknik sartnameye gore kontrolu tam olarak saglanir.
+## Kullanıcıya bağlı tasarım yerine; Akıllı Tasarım
 
-## Proje Tipleri
+Standart bir Cad programında, çizilen tasarımın program için bir anlamı yoktur. Tasarımla ilgili bütün bilgi kullanıcının zihnindedir. ZetaCAD’de ise ortaya çıkan proje telifinin her türlü bilgisine program hakimdir. ZetaCAD’de her şey sıkı tanımlarla ayrışmış ve amacına yöneliktir. Bu bağlamda program proje ile ilgili yapılması gereken tüm hesaplama ve kontrolleri kendisi otomatik olarak yapar. Nitekim ZetaCAD projenin bütününe hakimdir. ZetaCAD’de kolon projeleri, iç tesisat projeleri, merkezi sistem projeleri, teknik tadilat projeleri, küçük sanayi tipi projeleri gibi, tüm düşük basınç (21-50 mbar) ve orta basınç (50-300 mbar) doğal gaz tesisatı projelerini tasarlayabilirsiniz..
 
-| Proje Tipi | Aciklama |
-|-----------|----------|
-| Kolon Projeleri | Bina kolon tesisat projeleri |
-| Ic Tesisat Projeleri | Daire ici dogalgaz tesisat projeleri |
-| Kolon + Ic Tesisat | Her iki proje tipinin birlikte hazirlanmasi |
-| Merkezi Sistem Projeleri | Merkezi isitma sistemi projeleri |
-| Teknik Tadilat Projeleri | Mevcut tesisatin tadilat projeleri |
-| Kucuk Sanayi Tipi | Endustriyel dogalgaz projeleri |
-
-Tum dusuk basinc (21-50 mbar) ve orta basinc (50-300 mbar) dogalgaz tesisati projeleri tasarlanabilir.
-
-## Hiz Avantaji
-
-ZetaCAD 3.0 ile proje telifi:
-
-- Diger programlara gore **4 kat** daha hizli
-- Elle telife gore **10 kat** daha hizli
+![alt text](assets/resimler/zetacad-nedir-akilli-tasarim.jpeg)

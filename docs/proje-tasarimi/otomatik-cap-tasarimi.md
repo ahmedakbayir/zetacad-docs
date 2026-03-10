@@ -20,7 +20,7 @@ optimum tasarımı oluşturur.
   
 **_Hesap_ menüsünden _Otomatik Tasarla_ seçeneğini tıkladığınızda karşınıza aşağıdaki pencere açılacaktır.   
   
-**![tasar](../assets/resimler/tasar.png)  
+![tasar](../assets/resimler/tasar.png)  
   
 **Bu penceredeki seçenekleri kullanarak otomatik çap tayini algoritmasının sizin tercihlerinize göre davranmasını sağlayabilirsiniz. Çap tasarımında özelleştirebileceğiniz hususlar aşağıda açıklanmıştır. Bu penceredeki değerleri belirledikten sonra _TAMAM_ butonuna basarsanız tesisat otomatik olarak çaplandırılacaktır. Ve bu pencerde sisteme verdiğiniz tercihlerin son değerleri projede saklı tutulacaktır. Araç çubuğundaki ilgili _tasarla_ butonuna bastığınızda artık bu pencere açılmayacak ve son mevcut tercihlerle tasarlama yapılacaktır.**  
 **   
