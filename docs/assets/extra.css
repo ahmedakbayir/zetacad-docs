@@ -34,7 +34,13 @@ body, .md-typeset, input {
    =========================== */
 .md-header {
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
-  border-bottom: 2px solid var(--zeta-green) !important; /* YENİ EKLENDİ: İnce ZetaCAD Yeşili Ayırma Çizgisi */
+  border-bottom: 2px solid var(--zeta-green) !important;
+  background: linear-gradient(135deg, rgba(21, 194, 19, 0.06) 0%, rgba(21, 194, 19, 0.02) 40%, transparent 70%) !important;
+}
+
+/* Gece modunda header gradient biraz daha belirgin */
+[data-md-color-scheme="slate"] .md-header {
+  background: linear-gradient(135deg, rgba(21, 194, 19, 0.1) 0%, rgba(21, 194, 19, 0.03) 40%, transparent 70%) !important;
 }
 
 /* Gündüz modunda header yazıları siyah */
@@ -148,6 +154,14 @@ body, .md-typeset, input {
     padding-bottom: 0.75rem !important;
 }
 
+/* Footer üst ayırıcı çizgiyi kaldır/incelt */
+.md-footer {
+    border-top: none !important;
+}
+.md-footer-meta {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
 
 
 /* =========================================================
@@ -181,6 +195,9 @@ body, .md-typeset, input {
         /* Aydınlık/Karanlık moda otomatik uyum sağlayan ince dikey çizgi */
         border-right: 1px solid var(--md-default-fg-color--lightest);
         /* Çizgi ile menü yazıları arasına nefes alma payı */
-        padding-right: 1rem; 
+        padding-right: 1rem;
+        /* Çizgiyi içerik sonuna kadar uzat */
+        min-height: calc(100vh - 3rem);
+        height: auto;
     }
 }
