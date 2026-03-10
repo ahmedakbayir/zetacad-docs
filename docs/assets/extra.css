@@ -148,18 +148,26 @@ body, .md-typeset, input {
     margin-top: 0 !important;
 }
 
-/* Footer butonlarının üst ve alt boşluğunu kararında daralt (Hizalamayı bozmadan) */
+/* Footer butonlarının üst ve alt boşluğunu minimize et */
 .md-footer__link {
-    padding-top: 0.75rem !important;
-    padding-bottom: 0.75rem !important;
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
 }
 
 /* Footer üst ayırıcı çizgiyi kaldır/incelt */
 .md-footer {
     border-top: none !important;
 }
+
+/* Alt meta bölümünü (Made with Material for MkDocs) incelt */
 .md-footer-meta {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+}
+.md-footer-meta__inner {
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
 }
 
 
