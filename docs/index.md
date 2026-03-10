@@ -4,7 +4,12 @@ ZetaCAD, içerisinde doğal gaz proje tasarımı için tüm ihtiyaçlarınızı 
 
 ![ZetaCAD Neleri Kontrol Eder?](assets/resimler/zetacad-nedir-neleri-kontrol-eder.jpeg)
 
+???+ warning
 
+    The Docker container is intended for local previewing purposes only and
+    is not suitable for deployment. This is because the web server used by
+    MkDocs for live previews is not designed for production use and may have
+    security vulnerabilities.
 
 ## Akıllı Kontrol
 
@@ -16,9 +21,16 @@ Diğer Programlar genel amaçlıdır. ZetaCAD özel amaçlıdır.Standart CAD pr
 
 ![Akıllı Kontrol](assets/resimler/zetacad-nedir-akilli-kontrol.jpeg)
 
+???+ warning "Lütfen Dikkat"
+
+    The Docker container is intended for local previewing purposes only and
+    is not suitable for deployment. This is because the web server used by
+    MkDocs for live previews is not designed for production use and may have
+    security vulnerabilities.
 
 ## Kullanıcıya bağlı tasarım yerine; Akıllı Tasarım
 
 Standart bir Cad programında, çizilen tasarımın program için bir anlamı yoktur. Tasarımla ilgili bütün bilgi kullanıcının zihnindedir. ZetaCAD’de ise ortaya çıkan proje telifinin her türlü bilgisine program hakimdir. ZetaCAD’de her şey sıkı tanımlarla ayrışmış ve amacına yöneliktir. Bu bağlamda program proje ile ilgili yapılması gereken tüm hesaplama ve kontrolleri kendisi otomatik olarak yapar. Nitekim ZetaCAD projenin bütününe hakimdir. ZetaCAD’de kolon projeleri, iç tesisat projeleri, merkezi sistem projeleri, teknik tadilat projeleri, küçük sanayi tipi projeleri gibi, tüm düşük basınç (21-50 mbar) ve orta basınç (50-300 mbar) doğal gaz tesisatı projelerini tasarlayabilirsiniz..
 
 ![alt text](assets/resimler/zetacad-nedir-akilli-tasarim.jpeg)
+
