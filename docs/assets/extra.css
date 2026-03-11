@@ -209,3 +209,113 @@ body, .md-typeset, input {
         height: auto;
     }
 }
+
+/* =========================================================
+   PDF OLARAK KAYDET BUTONU
+   ========================================================= */
+.md-pdf-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.9rem;
+    margin-bottom: 1.2rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: var(--md-text-font-family);
+    color: var(--zeta-green);
+    background: transparent;
+    border: 1.5px solid var(--zeta-green);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.md-pdf-button:hover {
+    background-color: var(--zeta-green);
+    color: #fff;
+}
+
+.md-pdf-button svg {
+    flex-shrink: 0;
+}
+
+/* =========================================================
+   YAZICI / PDF ÇIKTISI STİLLERİ
+   ========================================================= */
+@media print {
+    /* Gereksiz elemanları gizle */
+    .md-header,
+    .md-sidebar,
+    .md-footer,
+    .md-tabs,
+    .md-search,
+    .md-pdf-button,
+    .md-source,
+    .md-top,
+    .headerlink,
+    .md-content__button,
+    [data-md-component="toc"] {
+        display: none !important;
+    }
+
+    /* İçeriği tam genişliğe yay */
+    .md-content {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .md-main__inner {
+        margin: 0 !important;
+        padding: 0 1rem !important;
+    }
+
+    .md-grid {
+        max-width: 100% !important;
+    }
+
+    /* Arka plan ve renkler */
+    body {
+        background: #fff !important;
+        color: #000 !important;
+    }
+
+    .md-typeset {
+        font-size: 11pt !important;
+        color: #000 !important;
+    }
+
+    .md-typeset h1, .md-typeset h2, .md-typeset h3, .md-typeset h4 {
+        color: #000 !important;
+    }
+
+    /* Linkleri yazıcı dostu yap */
+    .md-typeset a {
+        color: #000 !important;
+        text-decoration: underline;
+    }
+
+    /* Resimlerin taşmasını engelle */
+    .md-typeset img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+    }
+
+    /* Sayfa başlığı */
+    @page {
+        margin: 1.5cm;
+        size: A4;
+    }
+
+    /* Tabloların ve kod bloklarının bölünmesini engelle */
+    .md-typeset table, .md-typeset pre {
+        page-break-inside: avoid;
+    }
+
+    /* Admonition kutuları */
+    .md-typeset .admonition {
+        page-break-inside: avoid;
+        border-left: 3px solid #666 !important;
+        background: #f5f5f5 !important;
+    }
+}
