@@ -34,22 +34,27 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // PDF ikonu SVG - klasik dosya + aşağı ok şeklinde
+  var pdfIconSvg =
+    '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+    '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>' +
+    '<polyline points="14 2 14 8 20 8"/>' +
+    '<line x1="12" y1="18" x2="12" y2="12"/>' +
+    '<polyline points="9 15 12 18 15 15"/>' +
+    "</svg>";
+
   // --- 1) Sayfa PDF ikonu: Başlığın sağ üstünde küçük ikon ---
   h1.style.position = "relative";
 
   var pageBtn = document.createElement("button");
   pageBtn.className = "md-pdf-icon";
   pageBtn.title = "Bu sayfayı PDF olarak indir";
-  pageBtn.innerHTML =
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">' +
-    '<path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>' +
-    "</svg>";
+  pageBtn.innerHTML = pdfIconSvg;
 
   pageBtn.addEventListener("click", function () {
     pageBtn.disabled = true;
     pageBtn.style.opacity = "0.3";
 
-    // jsPDF + html2canvas yükle, sonra doğrudan PDF indir (yazdırma ekranı yok)
     loadScript(
       "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
     )
@@ -59,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
         );
       })
       .then(function () {
-        // Butonları geçici gizle (PDF'e girmesin)
+        // Butonları geçici gizle
         var allBtn = article.querySelector(".md-pdf-all-docs");
         var editArea = article.querySelector(".md-edit-bottom");
         pageBtn.style.visibility = "hidden";
@@ -70,11 +75,8 @@ document.addEventListener("DOMContentLoaded", function () {
           scale: 2,
           useCORS: true,
           allowTaint: true,
-          backgroundColor:
-            window.getComputedStyle(document.body).backgroundColor ||
-            "#ffffff",
+          backgroundColor: "#ffffff",
         }).then(function (canvas) {
-          // Görünürlüğü geri yükle
           pageBtn.style.visibility = "";
           if (allBtn) allBtn.style.visibility = "";
           if (editArea) editArea.style.visibility = "";
@@ -86,17 +88,27 @@ document.addEventListener("DOMContentLoaded", function () {
             format: "a4",
           });
 
+          // A4 boyutları ve kenar boşlukları
+          var margin = 15; // mm
           var pdfW = pdf.internal.pageSize.getWidth();
           var pdfH = pdf.internal.pageSize.getHeight();
-          var imgW = pdfW;
-          var imgH = (canvas.height * imgW) / canvas.width;
+          var contentW = pdfW - margin * 2;
+          var contentH = pdfH - margin * 2;
+          var imgH = (canvas.height * contentW) / canvas.width;
           var imgData = canvas.toDataURL("image/jpeg", 0.92);
 
           var y = 0;
           while (y < imgH) {
             if (y > 0) pdf.addPage();
-            pdf.addImage(imgData, "JPEG", 0, -y, imgW, imgH);
-            y += pdfH;
+            pdf.addImage(
+              imgData,
+              "JPEG",
+              margin,
+              margin - y,
+              contentW,
+              imgH
+            );
+            y += contentH;
           }
 
           pdf.save(getFilename());
@@ -120,40 +132,49 @@ document.addEventListener("DOMContentLoaded", function () {
     var editWrapper = document.createElement("div");
     editWrapper.className = "md-edit-bottom";
     editWrapper.appendChild(editBtn);
-    // Tüm doküman butonundan önce eklenecek, önce article'a bırakıyoruz
     article.appendChild(editWrapper);
   }
 
-  // --- 3) Tüm dokümanı indir butonu: İçeriğin en altında ---
+  // --- 3) Tüm dokümanı indir butonu ---
   var allDocsBtn = document.createElement("a");
   allDocsBtn.className = "md-pdf-all-docs";
   allDocsBtn.title = "Tüm dokümanı PDF olarak indir";
   allDocsBtn.href = "#";
   allDocsBtn.innerHTML =
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">' +
-    '<path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/>' +
+    '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+    '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>' +
+    '<polyline points="14 2 14 8 20 8"/>' +
+    '<line x1="12" y1="18" x2="12" y2="12"/>' +
+    '<polyline points="9 15 12 18 15 15"/>' +
     "</svg>" +
     " Tüm Dokümanı PDF Olarak İndir";
 
   allDocsBtn.addEventListener("click", function (e) {
     e.preventDefault();
 
+    // Benzersiz sayfa URL'lerini topla (pathname bazlı deduplikasyon)
     var navLinks = document.querySelectorAll(
       ".md-nav--primary .md-nav__link[href]"
     );
     var pages = [];
-    var seen = {};
+    var seenPaths = {};
 
     navLinks.forEach(function (link) {
       var href = link.href;
-      if (
-        href &&
-        !seen[href] &&
-        !href.endsWith("#") &&
-        !href.includes("javascript:")
-      ) {
-        seen[href] = true;
-        pages.push(href);
+      if (!href || href.includes("javascript:")) return;
+
+      // URL'den pathname çıkar, normalize et
+      try {
+        var url = new URL(href);
+        var path = url.pathname.replace(/\/$/, "") || "/";
+
+        // Hash ve query parametrelerini yoksay, sadece path'e bak
+        if (!seenPaths[path]) {
+          seenPaths[path] = true;
+          pages.push(url.origin + url.pathname);
+        }
+      } catch (ex) {
+        // Geçersiz URL - atla
       }
     });
 
@@ -201,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
           var doc = parser.parseFromString(html, "text/html");
           var articleContent = doc.querySelector("article.md-content__inner");
           if (articleContent) {
-            // Gereksiz tüm elemanları kaldır (PDF butonları, düzenle ikonu vb.)
+            // Gereksiz tüm elemanları kaldır
             articleContent
               .querySelectorAll(
                 ".md-pdf-icon, .md-pdf-all-docs, .md-content__button, .md-edit-bottom, .headerlink"
