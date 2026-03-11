@@ -57,11 +57,6 @@ plugins:
   - search:
       lang: tr
   - glightbox
-  - print-site:
-      add_to_navigation: true
-      print_page_title: "Tüm Sayfalar (PDF)"
-      add_print_site_banner: false
-      print_site_banner_template: ""
 
 markdown_extensions:
   - admonition
