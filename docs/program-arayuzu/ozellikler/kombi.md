@@ -9,5 +9,5 @@ Kapasite : _**Kombi kapasitesini kcal/saat cinsinden giriniz.
 **_Hava Çıkışı :_** Hermetik kombiler için hava çıkış yönünü belirleyiniz.   
   
   
-|  ![kombiProp](../../assets/resimler/kombiProp.png)   
+|  ![kombiProp](../../assets/resimler/diger/kombiProp.png)   
   

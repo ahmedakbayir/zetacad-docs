@@ -2,7 +2,7 @@
 
 **Çalışma Modu**
   
-![modbar](../assets/resimler/modbar.png)   
+![modbar](../assets/resimler/diger/modbar.png)   
   
 Çalışma modu çubuğundaki seçeneklerle, proje üzerinde ne yapacağınızı belirlersiniz. Çalışam modunu belirlemek için çubukta yer alan ilgili butona tıklayınız.   
   

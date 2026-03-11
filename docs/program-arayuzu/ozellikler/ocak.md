@@ -5,5 +5,5 @@
 Ocak özellikleri içersinde değiştirmeye açık bir değer yoktur.   
   
   
-|  ![ocakProp](../../assets/resimler/ocakProp.png)   
+|  ![ocakProp](../../assets/resimler/diger/ocakProp.png)   
   

@@ -118,7 +118,7 @@ Kart şeklinde özellik listesi.
 
 12. Resim + Açıklama
 
-![zetacad-arayuz](../assets/resimler/zetaweb.png)
+![zetacad-arayuz](../assets/resimler/diger/zetaweb.png)
 
 Program arayüzü yukarıdaki gibidir.
 
@@ -130,10 +130,10 @@ Resim + açıklama.
 
 <div class="grid">
 
-![ekran1](../assets/resimler/ahlatcı.png)
+![ekran1](../assets/resimler/diger/ahlatcı.png)
 
 
-![ekran2](../assets/resimler/udas.png)
+![ekran2](../assets/resimler/diger/udas.png)
 
 </div>
 

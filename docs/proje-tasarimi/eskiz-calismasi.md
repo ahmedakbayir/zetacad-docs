@@ -15,6 +15,6 @@ _Uzunluk:_ Hat uzunluğunu metre cinsinden giriniz. Varsayılan değer 1 metredi
 _Kot Farkı:_ Kot farkını metre cinsinden giriniz.   
 _Lokal Kayıplar:_ Eğer hesaba lokal kayıpları dahil etmek isterseniz, tesisatta bulunan parçaların sayılarını giriniz veya Zeta kutusuna doğrudan Zeta katsayılar toplamını yazabilirsiniz.   
   
-![eskiz](../assets/resimler/eskiz.png)   
+![eskiz](../assets/resimler/diger/eskiz.png)   
   
 Tüm bu verilerin varsayılan değerleri vardır. Siz ilk yükü belirler belirlemez hesap makinası çalışır ve size tüm çaplarda hız ve basınç kaybı değerlerini oluşturur. Siz tüm çapların değerlerini kıyaslayarak o hat için en ugun çapı belirleyebilirsiniz. İsterseniz yaklaşık bir toplam kayıp elde etmek için seçtiğiniz çapların kayıplarını sağ taraftaki listede toplayabilirsiniz. Bunun için seçtiğiniz çapın alt kısmındaki _toplama gönder_ butonuna basınız. Toplam listesini temizlemek için _Temizle_ butonuna basınız. Ayrıca toplam listesinde istediğiniz satır seçiliyken klavyeden DEL tuşuna basarak listeden silebilirsiniz. Toplam liste içinde değişiklik oldukça alt ksımda _Toplam Kayıp_ değeri güncellenir.

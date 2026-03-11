@@ -4,7 +4,7 @@
   
 Servis kutusu çıkış basıncının 300 mbar olduğu durumlarda, tesisatın herhangi bir noktasına yerleştireceğimiz regülatörlerle o noktadan itibaren aktif olacak gaz basıncını belirleyebiliriz. Böylelikle regülatörler 300 mbar servis basıncına sahip tesisatlarda hesap ve tasarımın otomatik ve doğru yapılabilmesi için önem arzetmektedirler. Tesisata eklenen regülatörün tanımsal gösterimleri otomatik olarak yaplır.   
   
-![reg](../../../assets/resimler/reg.png)   
+![reg](../../../assets/resimler/diger/reg.png)   
 |  Regülatör tesisata ilk eklendiğinde , eğer servis kutusu hizmet basıncı zaten 21 mbar ise, önce kendi varlığını anlamlı kılmak için servis kutusu basıncını 300 mbar olarak değiştirir.   
 **  
 Regülatörün giriş basıncı her zaman 300 mbar dır.   

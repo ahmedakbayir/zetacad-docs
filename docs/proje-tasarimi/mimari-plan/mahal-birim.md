@@ -6,7 +6,7 @@ Zetacad mimari planda çizilen oda ve duvarların kesişiminden tüm kapalı ala
   
 Mimari planda bağımsiz birimin oluşabilmesi için birim sınırlarını oluşturan duvarların belli olması gerekmektedir. Bunların analiz otomatik yapılır ancak bu analizin yapılabilmesi için sahanlık tanımı (eğer varsa) ve mahal kapıları kullanılır. Dolayısıyla birimlerin doğru analizinin yapılabilmesi için kapıların eksiksiz ve doğru yerleştirilmesi gerekmektedir.   
   
-![birim](../../assets/resimler/birim.png)   
+![birim](../../assets/resimler/diger/birim.png)   
   
 Yukarıdaki zemin kat planına bakıldığında, Zetacad'in bağımsız birimleri hiç bir hataya yer bırakmadan analiz ettiğini, kırmızı kesik çizgilerle gösterilen birim sınırlarından analayabiliriz. Bu birimlerin ayırd edilebilmesi için Zetacad, sahanlık tanımını, mahallerden açılan kapıları kullanmıştır. Yukarıdaki örnekte, sahanlıktan ulaşılan sağ ve solda yer alan iki ayrı daire tespit edilmiş ve bununla beraber, üst ve alt kısımda iki dükkan ayrı birer birim olarak belirlenmiştir. Sahanlık mahalli ise ortak mahal olduğu için kendi başına bağımsız bir mimari birimdir ancak ortak birim olduğu için diğer birimler gibi işlem görmez.   
   

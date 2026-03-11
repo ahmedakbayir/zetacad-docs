@@ -5,5 +5,5 @@
 **_Kalınlık :_** Kirişin genişliğini cm cinsinden belirleyebilirsiniz.   
 **_Yükseklik :_** Kirişin yüksekliğini cm cinsinden belirleyebilirsiniz.   
   
-|  ![krProp](../../assets/resimler/krProp.png)   
+|  ![krProp](../../assets/resimler/diger/krProp.png)   
   

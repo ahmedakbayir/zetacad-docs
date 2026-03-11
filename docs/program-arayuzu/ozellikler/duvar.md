@@ -8,6 +8,6 @@ Normal Duvar - Açık Duvar - Camekan - Balkon Duvarı
 **_Yayı Tersle :_** Bu butona basılarak yay duvarın açıklığı tersinlenir.   
 **_Yay Açısı :_** Yay duvarın açısını belirler.   
 **_Uzunluk :_** Burada duvarın uzunluğunu görebilirsiniz.   
-**_İşlem Butonları :_**![divpath](../../assets/resimler/divpath.jpg) Duvarı Böl ![door](../../assets/resimler/door.jpg) Kapı Ekle ![pencere](../../assets/resimler/pencere.jpg) Pencere Ekle ![kolon](../../assets/resimler/kolon.jpg)Kolon Ekle   
-|  ![dProp](../../assets/resimler/dProp.png)   
+**_İşlem Butonları :_**![divpath](../../assets/resimler/diger/divpath.jpg) Duvarı Böl ![door](../../assets/resimler/diger/door.jpg) Kapı Ekle ![pencere](../../assets/resimler/diger/pencere.jpg) Pencere Ekle ![kolon](../../assets/resimler/diger/kolon.jpg)Kolon Ekle   
+|  ![dProp](../../assets/resimler/diger/dProp.png)   
   

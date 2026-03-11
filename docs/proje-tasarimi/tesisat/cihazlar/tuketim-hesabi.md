@@ -15,5 +15,5 @@ _Cihazın tipine göre ilgili tüketim hesaplarını kullanıp alt kısmdaki top
 **Genel Tüketim Hesabı :** Eğer cihazınız yukarıdaki seçeneklerden farklı ise, doğrudan kapasitesini girerek gerekli debiyi hesaplayıp Toplama Ekle butonu ile toplam tabosuna ekleyebilirsiniz.   
   
 **Toplam Tüketim :** Bu kısımda toplam tablosuna attığınız tüm hesapların toplamını debi olarak görürsünüz. Tamam butonuna bastığınızda Genel Cihaz özelliklerindeki debi kutusuna bu değer yazılır.   
-|  ![tukHesap](../../../assets/resimler/tukHesap.png)   
+|  ![tukHesap](../../../assets/resimler/diger/tukHesap.png)   
   

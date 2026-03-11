@@ -7,5 +7,5 @@
 **_Boy :_** Kolonun boyunu cm cinsinden belirleyebilirsiniz.   
 **_Açı :_** Kolonun merkezi etrafındaki açısal konumunu belirleyebilrisiniz.   
   
-|  ![kolProp](../../assets/resimler/kolProp.png)   
+|  ![kolProp](../../assets/resimler/diger/kolProp.png)   
   

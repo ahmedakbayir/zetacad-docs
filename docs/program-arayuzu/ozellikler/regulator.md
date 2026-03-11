@@ -8,5 +8,5 @@
   
   
   
-|  ![regProp](../../assets/resimler/regProp.png)   
+|  ![regProp](../../assets/resimler/diger/regProp.png)   
   

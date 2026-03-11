@@ -9,8 +9,8 @@
 **_Tesisat Değer Tablosu:_** Bu tabloda aktif hatta ilişkin değerleri okuyabilirsiniz.   
 **_Kümülatif Kayıp:_** Bu değerde tesisatın seçili hatta kadar (seçili hat dahil) olan kaybını okuyabilir ve kayıp takibini daha düzenli yapabilirsiniz.   
 **_Gömülü Hat :_** Eğer hattınız toprak altında ise bu seçeneği işaretleyiniz.   
-**_Ekleme Menüsü![clip0012](../../assets/resimler/clip0012.jpg) : _**Bu butona tıklayarak aktif hatta tesisat parçası (vana,sayaç vb) ekleyebelirsiniz..   
+**_Ekleme Menüsü![clip0012](../../assets/resimler/diger/clip0012.jpg) : _**Bu butona tıklayarak aktif hatta tesisat parçası (vana,sayaç vb) ekleyebelirsiniz..   
   
   
-|  ![tesProp](../../assets/resimler/tesProp.png)   
+|  ![tesProp](../../assets/resimler/diger/tesProp.png)   
   

@@ -8,7 +8,7 @@ _Hesap_ menüsündeki _Kontrol_ seçeneğini tıkladığınızda, projeniz mevcu
   
 
 
-![kontrol](../../assets/resimler/kontrol.png)   
+![kontrol](../../assets/resimler/diger/kontrol.png)   
 
 
   

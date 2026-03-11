@@ -6,7 +6,7 @@ Zetacad tasarım ortamında herhangi bir nesneye veya konuma farenizin sağ tuş
   
 Zetacad içerik menüsü açılırken , seçili olan nesneyi dikkate alarak içeriğini düzenler.   
   
-![popmenu](../assets/resimler/popmenu.png)![popmenu1](../assets/resimler/popmenu1.png)![popmenu2](../assets/resimler/popmenu2.png)   
+![popmenu](../assets/resimler/diger/popmenu.png)![popmenu1](../assets/resimler/diger/popmenu1.png)![popmenu2](../assets/resimler/diger/popmenu2.png)   
   
 _Seçimi Sil_   
 |  Seçili olan nesneyi siler.   

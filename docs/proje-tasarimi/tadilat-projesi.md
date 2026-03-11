@@ -26,7 +26,7 @@ Dolayısıyla bir iç tesisat projesinde de, sıfır projede olduğu gibi tüm h
   
 
 
-![tadilat1](../assets/resimler/tadilat1.png)   
+![tadilat1](../assets/resimler/diger/tadilat1.png)   
   
 
 
