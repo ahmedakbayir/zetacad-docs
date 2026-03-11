@@ -274,6 +274,28 @@ body, .md-typeset, input {
 }
 
 /* =========================================================
+   GITHUB DÜZENLE BUTONU (İçerik altına taşındı)
+   ========================================================= */
+/* Orijinal konumdan kaldır - JS ile article sonuna taşınıyor */
+.md-content__button {
+    position: static !important;
+    float: none !important;
+}
+
+.md-edit-bottom {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.4;
+    transition: opacity 0.2s ease;
+}
+
+.md-edit-bottom:hover {
+    opacity: 0.8;
+}
+
+/* =========================================================
    YAZICI / PDF ÇIKTISI STİLLERİ
    ========================================================= */
 @media print {
@@ -285,6 +307,7 @@ body, .md-typeset, input {
     .md-search,
     .md-pdf-icon,
     .md-pdf-all-docs,
+    .md-edit-bottom,
     .md-source,
     .md-top,
     .headerlink,
