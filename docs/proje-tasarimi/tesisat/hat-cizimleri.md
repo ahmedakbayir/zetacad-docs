@@ -13,7 +13,7 @@ Yanıp sönen kırmızı noktanın (kalemin) haricinde, Zetacad belirli yerlerde
 Bunun dışında standart hat çizim yolu klavyeyi kullanmaktır. Klavyedeki ok (yön) tuşlarını kullanarak istediğiniz noktaya hattı yürütebilirsiniz. Yeni hatlar çizildikçe _kalem_ hep en uç noktada bulunur, ve bu çizim komutunun oraya uygulanacağı anlamına gelir. Elbette klavye ile çizim yaparken, _kalemin_ konumunu başka noktalara taşıyabilir, çizime ordan devam edebilirsiniz. Hat çizerken çizlen hat parçasının boyunu değiştikçe metre cinsinden görebilirsiniz.   
   
 ![hatciz2](../../assets/resimler/hatciz2.png)   
-|  ![hatciz3](../../assets/resimler/hatciz3.png)   
+![hatciz3](../../assets/resimler/hatciz3.png)   
   
   
   

@@ -7,5 +7,5 @@
 **_Hava Çıkışı :_** Hermetik şofbenler için hava çıkış yönünü belirleyiniz.   
   
   
-|  ![sofProp](../../assets/resimler/sofProp.png)   
+![sofProp](../../assets/resimler/sofProp.png)   
   

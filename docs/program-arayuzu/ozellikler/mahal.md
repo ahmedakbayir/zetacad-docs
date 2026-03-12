@@ -8,5 +8,5 @@
   
 **_İşlem Butonları :_**![divyatay](../../assets/resimler/divyatay.jpg) Mahali Yatay Böl ![divdikey](../../assets/resimler/divdikey.jpg) Mahali Dikey Böl ![door](../../assets/resimler/door.jpg) Mahale Kapı Aç   
 ![pencere](../../assets/resimler/pencere.jpg) Mahale Pencere Aç ![menfez](../../assets/resimler/menfez.jpg) Mahale Menfez Aç ![merdiven3b](../../assets/resimler/merdiven3b.jpg) Mahale Merdiven Ekle   
-|  ![mahProp](../../assets/resimler/mahProp.png)   
+![mahProp](../../assets/resimler/mahProp.png)   
   

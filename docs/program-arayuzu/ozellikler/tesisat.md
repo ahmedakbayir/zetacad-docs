@@ -12,5 +12,5 @@
 **_Ekleme Menüsü![clip0012](../../assets/resimler/clip0012.jpg) : _**Bu butona tıklayarak aktif hatta tesisat parçası (vana,sayaç vb) ekleyebelirsiniz..   
   
   
-|  ![tesProp](../../assets/resimler/tesProp.png)   
+![tesProp](../../assets/resimler/tesProp.png)   
   

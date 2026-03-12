@@ -17,14 +17,14 @@ Bir projenin 4 onay durumu vardır.
   
   
   
-|  ![onay1](../assets/resimler/onay1.png)   
+![onay1](../assets/resimler/onay1.png)   
   
 **2\. Proje onaylanmış:** Projeniz onaylı olduğu için artık süreç tamamlanmıştır, ve Zetacad o proje üzerinde değişiklik yapmaya izin vermez. Ayrıca digital imzalı versiyonlarda onaylanmış proje üzerinde gaz dağıtım şirketinin ve mühendislerinin digital imzaları vardır.   
   
 |  **3\. Proje reddedilmiş:** Projeniz Zetacad tarafından onaylandığı halde, gaz dağıtim şirketi tarafından özel bir nedenle reddedilebilir. Bu durumda onay formu size hem red gerekçesini sunar, hemde düzeltme yaptıktan sonra, tekrar onaya gönderme imkanı sunar.   
   
 ![onay2](../assets/resimler/onay2.png)   
-|  ![onay3](../assets/resimler/onay3.png)   
+![onay3](../assets/resimler/onay3.png)   
   
   
   

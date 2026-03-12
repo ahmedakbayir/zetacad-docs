@@ -9,5 +9,5 @@ _
 **Boy :** Sayfa boyunu cm cinsinden burada görebilirsiniz . Eğer sayfa boyutu özel ise bu değeri değiştirebilirsiniz.   
 **Yerleşim :** Sayfa yerleşiminin dikey yada yatay olduğunu burada belirtiniz.   
 **Cetvel Göster :** Bu seçenek çalışma alanında gerçek ölçüleri gösteren yatay ve dikey cetveller oluşturur.   
-|  ![sayfayar](../../assets/resimler/sayfayar.png)   
+![sayfayar](../../assets/resimler/sayfayar.png)   
   

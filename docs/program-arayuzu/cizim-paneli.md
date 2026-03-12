@@ -21,7 +21,7 @@
 |  **_Kaydır_**   
 |  Projenin kağıtta yerleşimini ayarlamak için kullanılır.   
   
-![kris](../assets/resimler/kris.png)   
+![kiris](../assets/resimler/kiris.png)   
 |  **_Kiriş_**   
 |  Mimari plana kiriş çizmek için kullanılır   
   
@@ -45,9 +45,3 @@
 |  **_Aynalama_**   
 |  Mimari planda aynalama yapmaka için kullanılır.   
   
-.   
-  
-**__**   
-**__**   
-**__**   
-**__**

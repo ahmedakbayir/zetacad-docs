@@ -9,5 +9,5 @@
 **_Dış Kenar :_** Merdiven dış kenarının dairesel olup olmadığını belirleyiniz.   
 **_Çıkış Hattı_** ![clip0009](../../assets/resimler/clip0009.jpg) : Merdivenin çıkış istikametini belirleyiniz.   
 **_Merkez Pozisyonu:_** Merdiven merkezinin bulunduğu konumu seçiniz.   
-|  ![clip0010](../../assets/resimler/clip0010.jpg)   
+![clip0010](../../assets/resimler/clip0010.jpg)   
   

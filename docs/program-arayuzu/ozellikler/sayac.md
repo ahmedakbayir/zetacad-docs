@@ -9,5 +9,5 @@ Bağlantı Çapı : _**Burada sayaç tipine göre değişen bağlantı çapını
 **_Debi :_** Sayaç üzerinden geçen aktif tüketim değerini görebilirsiniz.   
 **_Min-Max Debi :_** Şartnamede but ip sayaç için izin verilen en düşük ve en yüksek debi değerlerini görebilirsiniz.   
   
-|  ![sayProp](../../assets/resimler/sayProp.png)   
+![sayProp](../../assets/resimler/sayProp.png)   
   
