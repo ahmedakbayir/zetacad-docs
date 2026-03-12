@@ -23,7 +23,9 @@
 **_İşlem Butonları :_**
 
 ![divpath](../../assets/resimler/divpath.jpg) Duvarı Böl 
+
 ![door](../../assets/resimler/door.jpg) Kapı Ekle 
+
 ![pencere](../../assets/resimler/pencere.jpg) Pencere Ekle 
 
   
