@@ -6,11 +6,11 @@
 
 **_Duvar Tipi :_** Bu açılır kutudan duvarın tipi seçilir. Duvar tipi şu değerlerden biri olabilir.   
 
-!!! tip duvar tipleri
-    Normal Duvar <br>
-    Açık Duvar  <br>
-    Camekan <br>
-    Balkon Duvarı <br>
+!!! tip "duvar tipleri"
+    - Normal Duvar 
+    - Açık Duvar
+    - Camekan 
+    - Balkon Duvarı 
 
 **_Yay Duvar :_** Bu buton basılıyken duvar dairesel olarak çizilir.  
 
@@ -22,10 +22,8 @@
 
 **_İşlem Butonları :_**
 
-![divpath](../../assets/resimler/divpath.jpg) Duvarı Böl 
-
-![door](../../assets/resimler/door.jpg) Kapı Ekle 
-
-![pencere](../../assets/resimler/pencere.jpg) Pencere Ekle 
+- ![divpath](../../assets/resimler/divpath.jpg) Duvarı Böl 
+- ![door](../../assets/resimler/door.jpg) Kapı Ekle 
+- ![pencere](../../assets/resimler/pencere.jpg) Pencere Ekle 
 
   
