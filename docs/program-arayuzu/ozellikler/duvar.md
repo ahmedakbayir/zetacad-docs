@@ -7,10 +7,10 @@
 **_Duvar Tipi :_** Bu açılır kutudan duvarın tipi seçilir. Duvar tipi şu değerlerden biri olabilir.   
 
 !!! tip duvar tipleri
-    Normal Duvar 
-    Açık Duvar
-    Camekan
-    Balkon Duvarı   
+    Normal Duvar <br>
+    Açık Duvar  <br>
+    Camekan <br>
+    Balkon Duvarı <br>
 
 **_Yay Duvar :_** Bu buton basılıyken duvar dairesel olarak çizilir.  
 
