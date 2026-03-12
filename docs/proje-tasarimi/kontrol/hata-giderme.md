@@ -151,8 +151,8 @@ Hata Giderme: Bahsi geçen hattın çapını yükseltiniz.
 **_x nolu hat kolon içerisinden geçiyor:_ Mimari yapı elemanı kolonlar içinden hat geçişine izin verilmez.   
 Hata Giderme: Bahsi geçen hattı kolon etrafından dolaştırınız.   
   
-_x nolu hat kriş içerisinden geçiyor:_ Mimari yapı elemanı krişler içinden hat geçişine izin verilmez.   
-Hata Giderme: Bahsi geçen hattı kriş etrafından dolaştırınız.   
+_x nolu hat kiriş içerisinden geçiyor:_ Mimari yapı elemanı kirişler içinden hat geçişine izin verilmez.   
+Hata Giderme: Bahsi geçen hattı kiriş etrafından dolaştırınız.   
   
 _x nolu iç tesisat hattı birim sınırını ihlal ediyor:_ Bir iç tesisat hattı yan,üst veya alt birime (daire,dükkan) geçemez.   
 Hata Giderme: Bahsi geçen hattın birim içinde dolaşmasına dikkat ediniz.   

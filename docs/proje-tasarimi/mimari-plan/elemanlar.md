@@ -2,7 +2,7 @@
 
 **Mimari plan elemanları**
   
-Mimari planı daha kullanılışlı kılmak için mimari plan elemanlarını eklemelisiniz. Bunlar kapı, pencere,kolon,kriş,menfez ve merdiven sistemleridir. Merdiven sistemleri daha geniş olarak [bir sonraki bölümde](merdivensistemleri.htm) ele alınmıştır.   
+Mimari planı daha kullanılışlı kılmak için mimari plan elemanlarını eklemelisiniz. Bunlar kapı, pencere,kolon,kiriş,menfez ve merdiven sistemleridir. Merdiven sistemleri daha geniş olarak [bir sonraki bölümde](merdivensistemleri.htm) ele alınmıştır.   
   
 **Kapı-Pencere Ekleme/Açma  
   
@@ -31,9 +31,9 @@ Seçili duvarın üzerine farenin sağ tuşu ile tıkladığınızda açılan me
   
 Aynı şekilde sağ tuş menüsünde yer alan _tüm kolonları oluştur_ seçeneğini tıkladığınız zaman, binanın düm duvar birleşimlerinde birer kolon oluşturulacaktır.   
   
-**Kriş Ekleme  
+**kiriş Ekleme  
   
-**Mimari plana kriş eklemek için iki ayrı noktaya ihtiyaç vardır. Bu yüzden kriş için, çizim panelinde kriş aracı![kiris](../../assets/resimler/kiris.png) yer almaktadır. Bu aracı seçtikten sonra, krişi eklemek istediğiniz iki noktayı belirleyiniz. Noktalar duvar üzerine denk geldiğinde duvarın artık iki parça olacağını unutmayınız. Ekelenen krişin değerlerini, seçtiğinizde açılan [kiriş özellikleri](kirisozellikleri.htm) panelinden değiştirebilirsiniz.   
+**Mimari plana kiriş eklemek için iki ayrı noktaya ihtiyaç vardır. Bu yüzden kiriş için, çizim panelinde kiriş aracı![kiris](../../assets/resimler/kiris.jpg) yer almaktadır. Bu aracı seçtikten sonra, kirişi eklemek istediğiniz iki noktayı belirleyiniz. Noktalar duvar üzerine denk geldiğinde duvarın artık iki parça olacağını unutmayınız. Ekelenen kirişin değerlerini, seçtiğinizde açılan [kiriş özellikleri](kirisozellikleri.htm) panelinden değiştirebilirsiniz.   
   
 ![kiris](../../assets/resimler/kiris.png)   
   
