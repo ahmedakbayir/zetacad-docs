@@ -4,7 +4,7 @@
   
 Tesisatın konumlandırmasını tamamladıktan sonra, yani hatlarınızı çiizp tüketim unsurlarını yerleştirdikten sonra eğer isterseniz Zetacad sizin için en uygun hat çaplarını hesaplayarak tasarlayabilir. Burada çok özel **yapay zeka algoritmaları** kullanılarak, bir hattın çapı tüm devredeki kayıp miktarı, hattaki gaz hızı ve maliyet ekonomisi dikkate alınarak çaplandırma yapılır.   
   
-Otomatik çaplandırmayı yaptırmak içim _Hesap_ menüsünden _Otomatik Tasarla_ seçeneğini tıklayınız veya araç çubuğundan _Otomatik Tasarla_![clip0030](../assets/resimler/diger/clip0030.jpg) butonuna basınız. Menüyü kullanırsanız Zetacad, çapları tasarlamadan önce size aşağıda izah edilen çeşitli seçenekler sunan bir pencere açacaktır ve burdan sağlanan tercihlere göre çaplandırma yapacaktır. Eğer doğrudan araç çubuğundaki ilgili butona tıklarsanız bu durumda mevcut ayarlar kullanılarak tatlar otomatik olarak çaplandırılacaktır.   
+Otomatik çaplandırmayı yaptırmak içim _Hesap_ menüsünden _Otomatik Tasarla_ seçeneğini tıklayınız veya araç çubuğundan _Otomatik Tasarla_![clip0030](../assets/resimler/clip0030.jpg) butonuna basınız. Menüyü kullanırsanız Zetacad, çapları tasarlamadan önce size aşağıda izah edilen çeşitli seçenekler sunan bir pencere açacaktır ve burdan sağlanan tercihlere göre çaplandırma yapacaktır. Eğer doğrudan araç çubuğundaki ilgili butona tıklarsanız bu durumda mevcut ayarlar kullanılarak tatlar otomatik olarak çaplandırılacaktır.   
   
 Çaplar seçilirken özel yapay zeka algoritması bir çok seçeneği dener ve   
   
@@ -20,7 +20,7 @@ optimum tasarımı oluşturur.
   
 **_Hesap_ menüsünden _Otomatik Tasarla_ seçeneğini tıkladığınızda karşınıza aşağıdaki pencere açılacaktır.   
   
-![tasar](../assets/resimler/diger/tasar.png)  
+![tasar](../assets/resimler/tasar.png)  
   
 **Bu penceredeki seçenekleri kullanarak otomatik çap tayini algoritmasının sizin tercihlerinize göre davranmasını sağlayabilirsiniz. Çap tasarımında özelleştirebileceğiniz hususlar aşağıda açıklanmıştır. Bu penceredeki değerleri belirledikten sonra _TAMAM_ butonuna basarsanız tesisat otomatik olarak çaplandırılacaktır. Ve bu pencerde sisteme verdiğiniz tercihlerin son değerleri projede saklı tutulacaktır. Araç çubuğundaki ilgili _tasarla_ butonuna bastığınızda artık bu pencere açılmayacak ve son mevcut tercihlerle tasarlama yapılacaktır.**  
 **   

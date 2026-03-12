@@ -10,9 +10,9 @@ Mimari planı daha kullanılışlı kılmak için mimari plan elemanlarını ekl
   
 Seçili duvarın üzerine farenin sağ tuşu ile tıkladığınızda açılan menüden duvara kapı (veya pencere) ekle seçeneğini tıklayınız. Böylelikle duvarın bir köşesine yakın olarak varsayılan genişlikte bir kapı (veya pencere) eklenecektir. Bu kapıyı (veya pencereyi) seçerek [kapı (veya pencere) özellikleri](kapiozellikleri.htm) panelinden, değerlerini değiştirebilirsiniz. Aynı şekilde kapı (veya pencere) seçiliyken kırmızı taşıma noktalarından sürükleyerek kapıyı(veya pencereyi) duvarda istediğiniz konuma getirebilir veya kapıyı (veya pencereyi) bir başka duvara nakledebilirsiniz.   
   
-![adddoor](../../assets/resimler/diger/adddoor.png)   
-|  ![door](../../assets/resimler/diger/door.png)   
-|  ![moddoor](../../assets/resimler/diger/moddoor.png)   
+![adddoor](../../assets/resimler/adddoor.png)   
+|  ![door](../../assets/resimler/door.png)   
+|  ![moddoor](../../assets/resimler/moddoor.png)   
   
 ---|---|---  
   
@@ -33,12 +33,12 @@ Aynı şekilde sağ tuş menüsünde yer alan _tüm kolonları oluştur_ seçene
   
 **Kriş Ekleme  
   
-**Mimari plana kriş eklemek için iki ayrı noktaya ihtiyaç vardır. Bu yüzden kriş için, çizim panelinde kriş aracı![kris](../../assets/resimler/diger/kris.png) yer almaktadır. Bu aracı seçtikten sonra, krişi eklemek istediğiniz iki noktayı belirleyiniz. Noktalar duvar üzerine denk geldiğinde duvarın artık iki parça olacağını unutmayınız. Ekelenen krişin değerlerini, seçtiğinizde açılan [kriş özellikleri](krisozellikleri.htm) panelinden değiştirebilirsiniz.   
+**Mimari plana kriş eklemek için iki ayrı noktaya ihtiyaç vardır. Bu yüzden kriş için, çizim panelinde kriş aracı![kris](../../assets/resimler/kris.png) yer almaktadır. Bu aracı seçtikten sonra, krişi eklemek istediğiniz iki noktayı belirleyiniz. Noktalar duvar üzerine denk geldiğinde duvarın artık iki parça olacağını unutmayınız. Ekelenen krişin değerlerini, seçtiğinizde açılan [kriş özellikleri](krisozellikleri.htm) panelinden değiştirebilirsiniz.   
   
-![kris](../../assets/resimler/diger/kris.png)   
+![kris](../../assets/resimler/kris.png)   
   
 **Menfez Ekleme  
   
 **Bir mahale menfez eklemek için, mahal seçiliyken sağ tuş menüsünü açınız ve buradan _odaya menfez aç_ seçeneğini seçiniz. Bir çok durumda menfez ihtiyacı doğduğunda, ZetaCad gerekli mahale kendisi otomatik olarak menfez açabilmektedir.   
   
-![menfez](../../assets/resimler/diger/menfez.png)
+![menfez](../../assets/resimler/menfez.png)

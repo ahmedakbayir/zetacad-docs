@@ -6,5 +6,5 @@
 Kapasite : _**Soba kapasitesini kcal/saat cinsinden giriniz.   
   
   
-|  ![sobaProp](../../assets/resimler/diger/sobaProp.png)   
+|  ![sobaProp](../../assets/resimler/sobaProp.png)   
   

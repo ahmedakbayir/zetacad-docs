@@ -8,5 +8,5 @@ x
 - **firma bilgileri** dipostan otomatik getirilmektedir. 
 
 
-![firmaBil](../../assets/resimler/diger/firmaBil.png)   
+![firmaBil](../../assets/resimler/firmaBil.png)   
   

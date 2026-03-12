@@ -6,5 +6,5 @@
 **_Boy :_** Kapının yüksekliğini cm cinsinden belirleyebilirsiniz.   
 **_Kot :_** Eğer kapı zeminden yukarıda ise, cm cinsinden kot verebilirsiniz.   
   
-|  ![doorProp](../../assets/resimler/diger/doorProp.png)   
+|  ![doorProp](../../assets/resimler/doorProp.png)   
   

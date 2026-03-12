@@ -8,5 +8,5 @@
 **_Çıkış kotu :_** Kutudan tesisatın çıktığı kotu cm cinsinden belirleyiniz. Böylelikle kutu kotuda belirlenmiş olurç   
 **_Mesafe :_** CES200 kutular için kullanılır. Kutunun bağlı bulunduğu duvardan açıklığını cm cinsinden giriniz.   
   
-|  ![sboxProp](../../assets/resimler/diger/sboxProp.png)   
+|  ![sboxProp](../../assets/resimler/sboxProp.png)   
   

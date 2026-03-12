@@ -7,5 +7,5 @@ Birim Tanımı : _**İçindeki mahallerden birimin (mesken,dükkan veya ortak al
 **_Birim Alanı :_** Burada birimin alanını görebilirsiniz.   
 **_Birim Hacmi :_** Burada birimin hacmini görebilirsiniz.   
   
-|  ![birProp](../../assets/resimler/diger/birProp.png)   
+|  ![birProp](../../assets/resimler/birProp.png)   
   

@@ -6,7 +6,7 @@
 **_Mahal Alanı :_** Burada mahalin alanını görebilirsiniz.   
 **_Mahal Hacmi :_** Burada mahalin hacmini görebilirsiniz.   
   
-**_İşlem Butonları :_**![divyatay](../../assets/resimler/diger/divyatay.jpg) Mahali Yatay Böl ![divdikey](../../assets/resimler/diger/divdikey.jpg) Mahali Dikey Böl ![door](../../assets/resimler/diger/door.jpg) Mahale Kapı Aç   
-![pencere](../../assets/resimler/diger/pencere.jpg) Mahale Pencere Aç ![menfez](../../assets/resimler/diger/menfez.jpg) Mahale Menfez Aç ![merdiven3b](../../assets/resimler/diger/merdiven3b.jpg) Mahale Merdiven Ekle   
-|  ![mahProp](../../assets/resimler/diger/mahProp.png)   
+**_İşlem Butonları :_**![divyatay](../../assets/resimler/divyatay.jpg) Mahali Yatay Böl ![divdikey](../../assets/resimler/divdikey.jpg) Mahali Dikey Böl ![door](../../assets/resimler/door.jpg) Mahale Kapı Aç   
+![pencere](../../assets/resimler/pencere.jpg) Mahale Pencere Aç ![menfez](../../assets/resimler/menfez.jpg) Mahale Menfez Aç ![merdiven3b](../../assets/resimler/merdiven3b.jpg) Mahale Merdiven Ekle   
+|  ![mahProp](../../assets/resimler/mahProp.png)   
   

@@ -4,7 +4,7 @@
   
 Servis kutusu tesisat için en zorunlu elemandır ve tesşsat anacaks ervis kutusu ile başlatılabilinir. Servis kutusunu eklemek için bir komut çağırmanıza gerek yoktur, tesisat moduna geçtiğinizde eğer henüz bir servis kutunuz yoksa Zetacad otomatik olarak en uygun duvara servis kutusunu yerleştirir ve kullanıcılar isterlerse servis kutusunu kırmızı taşıma noktasından sürükleyeek istedikleri herhangi bir konuma taşıyabilirler. Servis kutusunun tüm bilgilerine ilgili [özellikler](serviskutusuozellikleri.htm) panelinden ulaşarak hem izleyip hem değiştirebilirsiniz.   
   
-![skMove](../../../assets/resimler/diger/skMove.png)   
+![skMove](../../../assets/resimler/skMove.png)   
   
 ---  
 _Servis kutusu taşınırken_   

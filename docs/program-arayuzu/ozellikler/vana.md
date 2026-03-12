@@ -7,7 +7,7 @@
 **_Vana Çapı :_** Vana çapına hat çapından başka bir çap vermek isterseniz bu açılır kutudan çapı mm cinsinden belirleyiniz.   
 **_Flanşlı Vana :_** Vana eğer flanşlı ise bu seçeneği işaretleyin.   
 **_Muhafazalı :_** Vana eğer muhafazalı ise bu seçeneği işaretleyin.   
-|  ![nanProp](../../assets/resimler/diger/nanProp.png)   
+|  ![nanProp](../../assets/resimler/nanProp.png)   
   
   
   
@@ -19,7 +19,7 @@ _Vana Tipine Göre, Vana Ek Özellikleri belirebilir._
 **_Toplam Debi :_** Burada Ana Kesme vanasının kontrol ettiği birimlerden kaynaklanan toplam yükü görebilirsiniz.   
 **_Ek Debi :_** Eğer AKV den sonra ağız bırakılmayan dükkanlar var ve onların yüklerinin de, toplam kapasiteye ve bina bağlantı hattına dahil olması için , ek debi seçeneğini kullanınız.   
   
-|  ![akvProp](../../assets/resimler/diger/akvProp.png)   
+|  ![akvProp](../../assets/resimler/akvProp.png)   
   
   
   
@@ -31,7 +31,7 @@ _Vana Tipine Göre, Vana Ek Özellikleri belirebilir._
 **_Tüketim :_** Buraya tüketimin miktarını yazabilirsiniz. varsayılan değeri 3.5 dur. Birim içindeki kullanım 5.0 ı geçerse bu değer de otomatik olarak değişir.   
 **_Ticari Kullanım :_** Eğer tüketim eş zamanlı değilse, yani ticari amaçlı sürekli tüketim varsa, bu seçenği işaretleyin. Böylelikle tüketim miktarı toplama aritmatik olarak dahil olacaktır.   
 **_Selonoid Vana :_** Eğer tüketim vanasından sonra selenoid vana kullanılmışsa bu seçeneği işaretleyiniz.   
-|  ![tukProp](../../assets/resimler/diger/tukProp.png)   
+|  ![tukProp](../../assets/resimler/tukProp.png)   
   
   
   
@@ -41,5 +41,5 @@ _Vana Tipine Göre, Vana Ek Özellikleri belirebilir._
 **_Birim Sayısı:_** Yan bina vanasının hizmet verdiği birim sayısını giriniz. Böylelikle tüketim otomatik hesaplanacaktır.   
 **_Ek Debi :_** Eğer yan binada birim sayısından oluşan debinin haricinde ek bir tüketim var ise bu değeri Ek Debi kutusuna giriniz.   
 **_Tesisat No:_** Yan binanın servis hattı kayıt numarsını giriniz.   
-|  ![yanprop](../../assets/resimler/diger/yanprop.png)   
+|  ![yanprop](../../assets/resimler/yanprop.png)   
   
