@@ -2,9 +2,9 @@
 
 **Katlar**
   
-_Projenizde yer alan katları buradan ekleyebilirsiniz. Eklediğiniz katın özellklerini aynı şekilde bu panelden takip edebilirsiniz. Katlar paneline, ekranın sağında yer alan özellikler panelinin alt kısmından veya ayarlar menüsünden ulaşabilirsiniz.  
-_   
-**Kat Ekle![clip0015](../../assets/resimler/diger/clip0015.jpg) : **Kat eklemek için bu butona bastığınızda açılan menüyü kullanın.   
+Projenizde yer alan katları buradan ekleyebilirsiniz. Eklediğiniz katın özellklerini aynı şekilde bu panelden takip edebilirsiniz. Katlar paneline, ekranın sağında yer alan özellikler panelinin alt kısmından veya ayarlar menüsünden ulaşabilirsiniz.  
+ 
+**Kat Ekle![clip0015](../../assets/resimler/diger/clip0015.jpg) :** Kat eklemek için bu butona bastığınızda açılan menüyü kullanın.   
 **Kat Sil![clip0016](../../assets/resimler/diger/clip0016.jpg) : **Kat silmek için bu butona basınız. Sildiğiniz katın içinde yer alan mimari projede silinecektir. Kattan geçen tesisat, tesisat bütünlüğünü korumak için silinmez.   
 **Kat Vaziyeti**![clip0018](../../assets/resimler/diger/clip0018.jpg) : Bu butona bastığınızda tüm katların zemin ve tavan kotlarını görebileceğiniz bir gösterim açılır.   
   
