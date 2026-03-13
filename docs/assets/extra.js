@@ -71,6 +71,24 @@ document.addEventListener("DOMContentLoaded", function () {
         if (allBtn) allBtn.style.visibility = "hidden";
         if (editArea) editArea.style.visibility = "hidden";
 
+        // Lazy-loaded resimleri yüklenmeye zorla
+        var lazyImages = article.querySelectorAll("img[loading='lazy']");
+        lazyImages.forEach(function (img) {
+          img.removeAttribute("loading");
+        });
+
+        // Tüm resimlerin yüklenmesini bekle
+        var imgPromises = Array.from(article.querySelectorAll("img")).map(
+          function (img) {
+            if (img.complete) return Promise.resolve();
+            return new Promise(function (resolve) {
+              img.onload = resolve;
+              img.onerror = resolve;
+            });
+          }
+        );
+
+        return Promise.all(imgPromises).then(function () {
         return html2canvas(article, {
           scale: 2,
           useCORS: true,
@@ -113,6 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           pdf.save(getFilename());
         });
+        }); // Promise.all imgPromises
       })
       .catch(function (err) {
         console.error("PDF oluşturulamadı:", err);
@@ -230,6 +249,20 @@ document.addEventListener("DOMContentLoaded", function () {
               .forEach(function (el) {
                 el.remove();
               });
+
+            // Göreceli resim yollarını mutlak yollara dönüştür
+            var baseUrl = url.replace(/\/[^\/]*$/, "/");
+            articleContent
+              .querySelectorAll("img[src]")
+              .forEach(function (img) {
+                var src = img.getAttribute("src");
+                if (src && !src.startsWith("http") && !src.startsWith("data:")) {
+                  try {
+                    img.setAttribute("src", new URL(src, baseUrl).href);
+                  } catch (e) {}
+                }
+              });
+
             return { index: index, html: articleContent.innerHTML };
           }
           return null;
@@ -267,9 +300,21 @@ document.addEventListener("DOMContentLoaded", function () {
       loading.style.display = "none";
       content.style.display = "block";
 
-      setTimeout(function () {
-        printWindow.print();
-      }, 500);
+      // Tüm resimlerin yüklenmesini bekle, sonra yazdır
+      var allImages = content.querySelectorAll("img");
+      var imgLoadPromises = Array.from(allImages).map(function (img) {
+        if (img.complete) return Promise.resolve();
+        return new Promise(function (resolve) {
+          img.onload = resolve;
+          img.onerror = resolve;
+        });
+      });
+
+      Promise.all(imgLoadPromises).then(function () {
+        setTimeout(function () {
+          printWindow.print();
+        }, 500);
+      });
     });
   });
 
