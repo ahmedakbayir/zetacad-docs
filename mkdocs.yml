@@ -82,16 +82,16 @@ markdown_extensions:
 nav:
   - ZetaCad Nedir: index.md
   - Program Arayüzü:
-    - Genel Bakış: program-arayuzu/genel-bakis.md
-    - Kurulum: program-arayuzu/kurulum.md
+    - Genel Bakış: program-arayuzu/arabirim-elemanlari/genel-bakis.md
+    - Kurulum: program-arayuzu/arabirim-elemanlari/kurulum.md
     - Arabirim Elemanları:
-      - Çizim Paneli: program-arayuzu/cizim-paneli.md
-      - Menüler: program-arayuzu/menuler.md
-      - Sağ Tuş Menüsü: program-arayuzu/sag-tus-menusu.md
-      - Araç Çubuğu: program-arayuzu/arac-cubugu.md
-      - Çalışma Modu: program-arayuzu/calisma-modu.md
-      - Kat Geçiş Çubuğu: program-arayuzu/kat-gecis-cubugu.md
-      - Detay Penceresi: program-arayuzu/detay-penceresi.md
+      - Çizim Paneli: program-arayuzu/arabirim-elemanlari/cizim-paneli.md
+      - Menüler: program-arayuzu/arabirim-elemanlari/menuler.md
+      - Sağ Tuş Menüsü: program-arayuzu/arabirim-elemanlari/sag-tus-menusu.md
+      - Araç Çubuğu: program-arayuzu/arabirim-elemanlari/arac-cubugu.md
+      - Çalışma Modu: program-arayuzu/arabirim-elemanlari/calisma-modu.md
+      - Kat Geçiş Çubuğu: program-arayuzu/arabirim-elemanlari/kat-gecis-cubugu.md
+      - Detay Penceresi: program-arayuzu/arabirim-elemanlari/detay-penceresi.md
     - Özellikler Paneli:
       - Duvar Özellikleri: program-arayuzu/ozellikler/duvar.md
       - Mahal Özellikleri: program-arayuzu/ozellikler/mahal.md
