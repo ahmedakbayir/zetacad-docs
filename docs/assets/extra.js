@@ -72,21 +72,25 @@ document.addEventListener("DOMContentLoaded", function () {
         if (editArea) editArea.style.visibility = "hidden";
 
         // Lazy-loaded resimleri yüklenmeye zorla
-        var lazyImages = article.querySelectorAll("img[loading='lazy']");
-        lazyImages.forEach(function (img) {
-          img.removeAttribute("loading");
+        var allImages = article.querySelectorAll("img");
+        allImages.forEach(function (img) {
+          if (img.getAttribute("loading") === "lazy") {
+            img.removeAttribute("loading");
+            // src'yi yeniden atayarak tarayıcıyı yüklemeye zorla
+            var origSrc = img.src;
+            img.src = "";
+            img.src = origSrc;
+          }
         });
 
         // Tüm resimlerin yüklenmesini bekle
-        var imgPromises = Array.from(article.querySelectorAll("img")).map(
-          function (img) {
-            if (img.complete) return Promise.resolve();
-            return new Promise(function (resolve) {
-              img.onload = resolve;
-              img.onerror = resolve;
-            });
-          }
-        );
+        var imgPromises = Array.from(allImages).map(function (img) {
+          if (img.complete && img.naturalWidth > 0) return Promise.resolve();
+          return new Promise(function (resolve) {
+            img.onload = resolve;
+            img.onerror = resolve;
+          });
+        });
 
         return Promise.all(imgPromises).then(function () {
         return html2canvas(article, {
@@ -112,21 +116,31 @@ document.addEventListener("DOMContentLoaded", function () {
           var pdfH = pdf.internal.pageSize.getHeight();
           var contentW = pdfW - margin * 2;
           var contentH = pdfH - margin * 2;
-          var imgH = (canvas.height * contentW) / canvas.width;
-          var imgData = canvas.toDataURL("image/jpeg", 0.92);
 
+          // Her sayfa için canvas'ı dilimleyerek ekle (alt marjin korunur)
+          var ratio = canvas.width / contentW;
+          var sliceH = Math.floor(contentH * ratio); // piksel cinsinden sayfa yüksekliği
+          var totalH = canvas.height;
           var y = 0;
-          while (y < imgH) {
-            if (y > 0) pdf.addPage();
-            pdf.addImage(
-              imgData,
-              "JPEG",
-              margin,
-              margin - y,
-              contentW,
-              imgH
-            );
-            y += contentH;
+          var pageNum = 0;
+
+          while (y < totalH) {
+            if (pageNum > 0) pdf.addPage();
+            var currentSliceH = Math.min(sliceH, totalH - y);
+
+            // Bu sayfa için canvas dilimi oluştur
+            var pageCanvas = document.createElement("canvas");
+            pageCanvas.width = canvas.width;
+            pageCanvas.height = currentSliceH;
+            var ctx = pageCanvas.getContext("2d");
+            ctx.drawImage(canvas, 0, y, canvas.width, currentSliceH, 0, 0, canvas.width, currentSliceH);
+
+            var pageImgData = pageCanvas.toDataURL("image/jpeg", 0.92);
+            var pageImgH = (currentSliceH / ratio);
+            pdf.addImage(pageImgData, "JPEG", margin, margin, contentW, pageImgH);
+
+            y += sliceH;
+            pageNum++;
           }
 
           pdf.save(getFilename());
@@ -250,15 +264,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 el.remove();
               });
 
-            // Göreceli resim yollarını mutlak yollara dönüştür
-            var baseUrl = url.replace(/\/[^\/]*$/, "/");
+            // Resimleri düzelt: lazy loading kaldır + göreceli yolları mutlak yap
             articleContent
-              .querySelectorAll("img[src]")
+              .querySelectorAll("img")
               .forEach(function (img) {
+                // Lazy loading kaldır (boş pencerede viewport yok, resimler yüklenmez)
+                img.removeAttribute("loading");
+
+                // Göreceli yolları mutlak yollara dönüştür
                 var src = img.getAttribute("src");
-                if (src && !src.startsWith("http") && !src.startsWith("data:")) {
+                if (src && !src.startsWith("http") && !src.startsWith("data:") && !src.startsWith("//")) {
                   try {
-                    img.setAttribute("src", new URL(src, baseUrl).href);
+                    img.setAttribute("src", new URL(src, url).href);
                   } catch (e) {}
                 }
               });
