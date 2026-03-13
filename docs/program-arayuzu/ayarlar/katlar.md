@@ -16,5 +16,7 @@ Projenizde yer alan katları buradan ekleyebilirsiniz. Eklediğiniz katın özel
 **Projede göster :** Bu seçenek tadilat projelerinde geçerlidir. Proje eklenen katlardan , gaz almadığı için baskıda yer almayacak olanları buradan işaretleyebilirsiniz.   
   
 **Baskıda birleştir :** Eğer belirli katlarda yer alan her şey aynı ise o katları baskı aşamasında tek bir çizimde birleştirebilirsiniz. Baskıda birleştir seçeneği seçili ise, kat alt katla beraber çizilir.   
+
+
 ![katayar](../../assets/resimler/katayar.png)   
   

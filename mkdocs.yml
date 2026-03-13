@@ -83,7 +83,8 @@ nav:
   - ZetaCad Nedir: index.md
   - Program Arayüzü:
     - Genel Görünüm: program-arayuzu/arabirim-elemanlari/genel-bakis.md
-    - Kurulum: program-arayuzu/arabirim-elemanlari/kurulum.md
+    - Login: program-arayuzu/arabirim-elemanlari/login.md
+    - Firma Bilgileri: program-arayuzu/arabirim-elemanlari/firma-bilgileri.md
     - Arabirim Elemanları:
       - Araç Çubuğu: program-arayuzu/arabirim-elemanlari/arac-cubugu.md
       - Çizim Paneli: program-arayuzu/arabirim-elemanlari/cizim-paneli.md
@@ -119,8 +120,6 @@ nav:
       - Genel Cihaz Özellikleri: program-arayuzu/ozellikler/genel-cihaz.md
       - Hermetik Baca Özellikleri: program-arayuzu/ozellikler/hermetik-baca.md
     - Ayarlar:
-      - Login: program-arayuzu/login/login.md
-      - Firma Bilgileri: program-arayuzu/login//firma-bilgileri.md
       - Katlar: program-arayuzu/ayarlar/katlar.md
       - Sayfa Ayarı: program-arayuzu/ayarlar/sayfa-ayari.md
       - Seçenekler: program-arayuzu/ayarlar/secenekler.md

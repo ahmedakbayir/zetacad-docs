@@ -6,19 +6,14 @@
   ---
 
 ![clip0019](../../assets/resimler/clip0019.jpg)   **Yeni Proje**: Yeni proje başlatır.   
-  
 
 ![clip0020](../../assets/resimler/clip0020.jpg) **Proje Aç**: Bilgisayarınızdan mevut bir projeyi yüklemek için **Proje Aç** diyaloğunu açar.   
   
-
 ![clip0021](../../assets/resimler/clip0021.jpg)   **Proje Kaydet**:   Mevcut projeyi son haliyle kaydeder, yeni proje ise **Kaydet** diyaloğunu açar.   
   
-
 ![clip0022](../../assets/resimler/clip0022.jpg)   **Yazdır**:   Aktif sayfayı yazcıya göndermek için **Yazdır** diyaloğunu açar.   
   
-
 ![clip0023](../../assets/resimler/clip0023.jpg)   **DXF oluştur**:   Aktif sayfadaki plandan DXF dosyası oluşturur.   
-  
 
 ![clip0024](../../assets/resimler/clip0024.jpg)   **Kopyala**:   Mimari planı veya tesisatı kopyalar.   
   
