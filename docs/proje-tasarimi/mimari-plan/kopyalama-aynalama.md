@@ -1,8 +1,8 @@
 # Kopyalama ve Aynalama
 
-**Kopyeleme ve Aynalama**
+**Kopyalama ve Aynalama**
   
-Mimari planları katlar arasında kopyelebilirsiniz. Bunun için kopyelenecek katta Ctrl+C ye basınız (veya _düzenle_ menüsünden _kopyele_ seçeneğin tıklayın), daha sonra planı yapıştıracağınız kata geçip Ctrl+V ye basınız (veya _düzenle_ menüsünden _yapıştır_ seçeneğine tıklayın). Mimari plan tüm unsur ve tanımlarıyla yeni kata kopyelenecektir.   
+Mimari planları katlar arasında kopyalayabilirsiniz. Bunun için kopyalanacak katta Ctrl+C ye basınız (veya _düzenle_ menüsünden _kopyala_ seçeneğin tıklayın), daha sonra planı yapıştıracağınız kata geçip Ctrl+V ye basınız (veya _düzenle_ menüsünden _yapıştır_ seçeneğine tıklayın). Mimari plan tüm unsur ve tanımlarıyla yeni kata kopyalanacaktır.   
   
 Mimari planda aynalama yapmak için ise çizim panelinde bulunan aynalama ![mirror](../../assets/resimler/mirror.jpg) butonuna basınız.   
 Ancak aynalama yapmadan önce, kaynak birim seçili olmalıdır. Tek birim içinde de aynalama yapılabilir ancak her halükarda aynalama kaynağını oluşturacak birimden bir mahalin seçiliolamsı gerekmektedir. Aynalama butonuna bastıktan sonra ayna doğrultusunu belirlemek gerekir. Bunun için aynalamının merkezinde iki noktaya tıklayınız. Şimdi seçili birimden ayna doğrultusunda mimari plan elemanları aynalanacaktır.   

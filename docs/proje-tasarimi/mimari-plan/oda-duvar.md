@@ -30,7 +30,7 @@ Modifikasyon
   
 Köşe noktalarını sürükleyip bırakarak o köşeye bağlı duvarları konumlandırabilirsiniz veya orta mavi noktayı sürükleyip bırakarak seçili duvarı kendi doğrultusununun durumuna göre yatay veya dikey olarak hareket ettirebilirsiniz. Kırmızı modifikasyon noktası ise duvarı kendi doğrultusunda bulunan diğer duvarlarla (resimdeki örnekte sağdaki ikinci yatay duvar) beraber satıh taşıması yapmak için kullanılır.   
   
-**Duvar Öteleme ve Kopyeleme  
+**Duvar Öteleme ve Kopyalama  
   
 **Bir duvarı kendi doğrultusuna dik olarak belirli bir mesafe öteye yerleştirmek veya o mesafede duvardan bir kopya oluşturmak için sırasıyla Ctrl+M ve Ctrl+D kısayolları kullanılır.   
   

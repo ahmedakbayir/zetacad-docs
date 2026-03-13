@@ -7,6 +7,7 @@ Zetacad tasarım ortamında herhangi bir nesneye veya konuma farenizin sağ tuş
 Zetacad içerik menüsü açılırken , seçili olan nesneyi dikkate alarak içeriğini düzenler.   
 
 Mahal sağ tık menüsü:
+
 ![popmenu](../../assets/resimler/popmenu.png)
 
 
@@ -44,6 +45,7 @@ Mimari planın tüm duvar birleşmlerine kolon yerleştirir.
 ---
 
 Duvar sağ tık menüsü:
+
 ![popmenu1](../../assets/resimler/popmenu1.png)
 
 
@@ -60,6 +62,7 @@ Seçili duvarın iki köşesine kolon yerleştirir.
 
 
 Tesisat sağ tık menüsü:
+
 ![popmenu2](../../assets/resimler/popmenu2.png)   
   
 

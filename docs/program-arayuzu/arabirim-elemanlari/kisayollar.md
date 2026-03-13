@@ -1,146 +1,96 @@
 # Klavye ve Fare Kısayolları
 
-**Klavye ve Fare Kısayolları**
   
   
-**Klavye Kısayolları  
-**   
-Ctrl+C   
-|  Mimari planı veya tesisatı kopyeler.   
+## Klavye Kısayolları
+
+**Ctrl+C:** Mimari planı veya tesisatı kopyalar.   
   
   
-Ctrl+V   
-|  Kopyelenmiş mimari planı veya tesisatı ilgili yere yapıştırır.   
+**Ctrl+V:** Kopyalanmış mimari planı veya tesisatı ilgili yere yapıştırır.   
   
-Ctrl+B   
-|  Kopyelenmiş tesisatı seçili noktaya aynalayarak (simetrik) yapıştırır.   
+**Ctrl+B:** Kopyalanmış tesisatı seçili noktaya aynalayarak (simetrik) yapıştırır.   
   
-Del   
-|  Seçili elemanı siler.   
+**Del:** Seçili elemanı siler.   
   
-Ctrl+Z   
-|  Son hareketi geri alır.   
+**Ctrl+Z:** Son hareketi geri alır.   
   
-Ctrl+Y   
-|  Geri alınan son hareketi tekrar yapar.   
+**Ctrl+Y:** Geri alınan son hareketi tekrar yapar.   
   
-Ctrl+Q   
-|  Detay penceresini açar. Tesisatta izometrik görünüm sağlar.   
+**Ctrl+Q:** Detay penceresini açar. Tesisatta izometrik görünüm sağlar.   
   
-Ctrl+E   
-|  Detay penceresini seçili elemanı gösterecek sekilde merkezler.   
+**Ctrl+E:** Detay penceresini seçili elemanı gösterecek sekilde merkezler.   
   
-Ctrl+Shift+Fare Sürükle   
-|  Herhangi bir yer veya zamanda, aktif ekranı kaydırır.   
+**Ctrl+Shift+Fare Sürükle:** Herhangi bir yer veya zamanda, aktif ekranı kaydırır.   
   
-Sağ Ok   
-|  Tesisat çizim modunda sağa doğru hat çizer. Taşıma modunda hat noktasını sağa doğru taşır.   
+**Sağ Ok:** Tesisat çizim modunda sağa doğru hat çizer. Taşıma modunda hat noktasını sağa doğru taşır.   
   
-Sol Ok   
-|  Tesisat çizim modunda sola doğru hat çizer. Taşıma modunda hat noktasını sola doğru taşır.   
+**Sol Ok:** Tesisat çizim modunda sola doğru hat çizer. Taşıma modunda hat noktasını sola doğru taşır.   
   
-Yukarı Ok   
-|  Tesisat çizim modunda düzlemde yukarı doğru hat çizer. Taşıma modunda hat noktasını düzlemde yukarı doğru taşır.   
+**Yukarı Ok:** Tesisat çizim modunda düzlemde yukarı doğru hat çizer. Taşıma modunda hat noktasını düzlemde yukarı doğru taşır.   
   
-Aşağı Ok   
-|  Tesisat çizim modunda düzlemde aşağı doğru hat çizer. Taşıma modunda hat noktasını düzlemde aşağı doğru taşır.   
+**Aşağı Ok:** Tesisat çizim modunda düzlemde aşağı doğru hat çizer. Taşıma modunda hat noktasını düzlemde aşağı doğru taşır.   
   
-Shift+Yukarı Ok   
-|  Tesisat çizim modunda uzayda yukarı doğru hat çizer. Taşıma modunda hat noktasını uzayda yukarı doğru taşır.   
+**Shift+Yukarı Ok:** Tesisat çizim modunda uzayda yukarı doğru hat çizer. Taşıma modunda hat noktasını uzayda yukarı doğru taşır.   
   
-Shift+Aşağı Ok   
-|  Tesisat çizim modunda uzayda aşağı doğru hat çizer. Taşıma modunda hat noktasını uzayda yukarı doğru taşır.   
+**Shift+Aşağı Ok:** Tesisat çizim modunda uzayda aşağı doğru hat çizer. Taşıma modunda hat noktasını uzayda yukarı doğru taşır.   
   
-Ctrl+Enter   
-|  Tesisat modunda aktif noktayı aktif doğrultu ve yönde en yakın dayama noktasına uzatır.   
+**Ctrl+Enter:** Tesisat modunda aktif noktayı aktif doğrultu ve yönde en yakın dayama noktasına uzatır.   
   
-Ctrl+O   
-|  Proje Aç   
+**Ctrl+O:** Proje Aç   
   
-Ctrl+S   
-|  Proje Kaydet   
+**Ctrl+S:** Proje Kaydet   
   
-Ctrl+N   
-|  Yeni Proje   
+**Ctrl+N:** Yeni Proje   
   
-Ctrl+P   
-|  Aktif Sayfayı Bas   
+**Ctrl+P:** Aktif Sayfayı Bas   
   
-Esc   
-|  Aktif çizimi iptal et. Seçim okuna dön.   
+**Esc:** Aktif çizimi iptal et. Seçim okuna dön.   
   
-F3   
-|  Snap özelliğini kapatır/açar.   
+**F3:** Snap özelliğini kapatır/açar.   
   
-Ctrl+D   
-|  Mimari planda seçili duvarı verilen miktar kadar öteye kopyeler.   
+**Ctrl+D:** Mimari planda seçili duvarı verilen miktar kadar öteye kopyalar.   
   
-Ctrl+M   
-|  Mimari planda seçili duvarı verilen miktar kadar öteye taşır.   
+**Ctrl+M:** Mimari planda seçili duvarı verilen miktar kadar öteye taşır.   
   
-Ctrl+W   
-|  Tek tıkla sil moduna geçer. Bu modda tıkladığınız herhangi bir şey silinecektir.   
+**Ctrl+W:** Tek tıkla sil moduna geçer. Bu modda tıkladığınız herhangi bir şey silinecektir.   
   
-Ctrl+R   
-|  Otomatik hatlandırma anlizinin kapalı olduğu durumlarda, bu yenilemeyi manuel yapar.   
+**Ctrl+R:** Otomatik hatlandırma anlizinin kapalı olduğu durumlarda, bu yenilemeyi manuel yapar.   
   
-F5   
-|  Tesisatta iniş çıkış dairelerinin çaplarını sırayla üç değişik biçimde gösterir. Küçük, orta, büyük.   
+**F5:** Tesisatta iniş çıkış dairelerinin çaplarını sırayla üç değişik biçimde gösterir. Küçük, orta, büyük.   
   
-F2   
-|  Oda çizerken büyük kenarın ölçüsünü kilitler.   
+**F2:** Oda çizerken büyük kenarın ölçüsünü kilitler.   
   
-F11   
-|  Seçili hattın çapını değiştirmek için size bir edit kutsu açar.   
+**F11:** Seçili hattın çapını değiştirmek için size bir edit kutsu açar.   
   
-Ctrl+K   
-|  Seçili vananın daire numarasını baz alarak ondan sonraki tüketim vanalarını otomatik numaralandırır.   
+**Ctrl+K:** Seçili vananın daire numarasını baz alarak ondan sonraki tüketim vanalarını otomatik numaralandırır.   
   
-Ctrl+U   
-|  Hat seçiliyken Hat uzunluğunu ele girebileceğiniz bir edit kutusu açar. Bu kısayol Vana seçiliyken Vananın birim numarasını girmenizi sağlar.   
+**Ctrl+U:** Hat seçiliyken Hat uzunluğunu ele girebileceğiniz bir edit kutusu açar. Bu kısayol Vana seçiliyken Vananın birim numarasını girmenizi sağlar.   
   
-Ctrl+L   
-|  Mimari modda _Duvar_ aracını, tesisat modunda _Hat Çiz_ aracını seçer.   
+**Ctrl+L:** Mimari modda _Duvar_ aracını, tesisat modunda _Hat Çiz_ aracını seçer.   
   
-F4   
-|  Çalışma modunu değiştirir.   
+**F4:** Çalışma modunu değiştirir.   
   
-Ctrl+T   
-|  Mimari modda seçili duvarı, tesisat modunda seçili hattı ortadan ikiye böler.   
+**Ctrl+T:** Mimari modda seçili duvarı, tesisat modunda seçili hattı ortadan ikiye böler.   
   
   
   
-**Fare Kısayolları  
+## Fare Kısayolları
+
+**Sağ Tuş:** Farenin sağ tuşuna bastığınızda bir Popup Menü açılır. Bu menünün içeriği çalışma modu ve seçili nesneye göre değişir.   
+    
+**Tekerlek:** Farenin orta tekerleğini döndürerek, projeye yaklaşıp uzaklaşabilirsiniz. (Zoom)   
   
-** Sağ Tuş   
-|  Farenin sağ tuşuna bastığınızda bir Popup Menü açılır. Bu menünün içeriği çalışma modu ve seçili nesneye göre değişir.   
+**Tekerlek Çift Tıklama:** Farenin orta tekerliğine çift tıklarsanız, proje görünümü pencereye sığacak şekilde boyutlanır.   
   
-  
-Tekerlek   
-|  Farenin orta tekerleğini döndürerek, projeye yaklaşıp uzaklaşabilirsiniz. (Zoom)   
-  
-Tekerlek Çift Tıklama   
-|  Farenin orta tekerliğine çift tıklarsanız, proje görünümü pencereye sığacak şekilde boyutlanır.   
-  
-Tekerlek Sürükleme   
-|  Farenin orta tekerleğine basılı halde, fareyi sürüklerseniz, proje görünümünü ekranda kaydırısınız. (Pan)   
-  
-  
-|    
+**Tekerlek Sürükleme:** Farenin orta tekerleğine basılı halde, fareyi sürüklerseniz, proje görünümünü ekranda kaydırısınız. (Pan)   
   
   
   
-**Sol Fare Tuşu Çift Tıklama Kısayolları  
   
-Hat etiketi üzerinde çift tıklama   
-|  Etiket yazısının konumunu değiştirir.   
+## Sol Fare Tuşu Çift Tıklama Kısayolları  
   
+**Hat etiketi üzerinde çift tıklama:** Etiket yazısının konumunu değiştirir.   
   
-Hat üzerine çift tıklama   
-|  Hattı tıklanan noktadan böler   
+**Hat üzerine çift tıklama:** Hattı tıklanan noktadan böler   
   
-  
-|    
-  
-  
-**

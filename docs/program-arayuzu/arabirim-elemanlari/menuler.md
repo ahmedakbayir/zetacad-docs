@@ -47,10 +47,10 @@ Pojenin onay durumunu görüntüler.
 ## Düzenle Menüsü  
 
 **Kopyala**:   
-Mimari planı veya tesisatı kopyeler.   
+Mimari planı veya tesisatı kopyalar.   
   
 **Yapıştır**:   
-Kopyelenmiş mimari planı veya tesisatı ilgili yere yapıştırır.   
+Kopyalanmış mimari planı veya tesisatı ilgili yere yapıştırır.   
   
 **Sil**:   
 Seçili elemanı siler.   
@@ -70,8 +70,8 @@ Servis kutusu dahil tüm tesisatı siler.
 **Tesisatı seçili noktadan aynala**:   
 Tesisatı seçili noktadan aynalamak için gerekli işlemi başlatır. Bu menüyü tkladıktan sonra aynalamanın hedef noktası seçilmelidir.   
   
-**Alt katın merdiven sistemini kopyele**:   
-Alt katta yer alan merdiven elemanlarını üst kata kopyeler, üst katta varsa eski merdiven elemanlarını siler.   
+**Alt katın merdiven sistemini kopyala**:   
+Alt katta yer alan merdiven elemanlarını üst kata kopyalar, üst katta varsa eski merdiven elemanlarını siler.   
   
   
   

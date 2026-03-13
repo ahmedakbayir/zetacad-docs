@@ -44,7 +44,7 @@ Dolayısıyla bir iç tesisat projesinde de, sıfır projede olduğu gibi tüm h
   
 **Eğer Sıfır Projede , ayrıca bir daire içi tesisat varsa;  
   
-**Bu durumda siz tadilat projenizi başlattığnız zaman Zetacad bu daire içi tesisatı sil**me** yecektir, çünkü aynı tesisatı diğer katlara kopyeleyerek kullanma ihtimaliniz olabilir. Bu durumda siz bu tesisatı kopyeledikten sonra silmelisiniz. Bunun için sayacın sağ tuş menüsünde gelen _Sayaca Bağlı İç Tesisatı_ sil seçeneğini tıklayınzı ve eski iç tesisatı projeden siliniz. Aksi takdirde bu tesisat yeniymiş gibi kolon şemasında yer alır.   
+**Bu durumda siz tadilat projenizi başlattığnız zaman Zetacad bu daire içi tesisatı sil**me** yecektir, çünkü aynı tesisatı diğer katlara kopyalanarak kullanma ihtimaliniz olabilir. Bu durumda siz bu tesisatı kopyaladıktan sonra silmelisiniz. Bunun için sayacın sağ tuş menüsünde gelen _Sayaca Bağlı İç Tesisatı_ sil seçeneğini tıklayınzı ve eski iç tesisatı projeden siliniz. Aksi takdirde bu tesisat yeniymiş gibi kolon şemasında yer alır.   
   
 **2\. Mevcut Sıfır Proje (Kolon Projesi) dijital olarak elinizde bulunmuyorsa;  
   
@@ -57,5 +57,5 @@ Dolayısıyla bir iç tesisat projesinde de, sıfır projede olduğu gibi tüm h
 5\. Bu katta tesisat moduna geçtiğinizde Zetacad;   
 a. Zemin Katta servis kutusunu oluşturup, en uygun yere koyacaktır.   
 b. Bu kutudan kolon hattını çıkıp, en uygun tahmini hat hareketini yapıp aktif katın sahanlığına kolon dikmesini çıkacaktır.   
-6\. Zetacad bütün bu işlemlerle, tesisat bütünlüğünü korumaya çalışmaktadır. Şimdi size aktif kata verilen dikmenin ucundan kat branşmanlarını çizip, tüketim vanasını yerleştiripi, sayacı ekeleyerek iç tesiatınızı çiziniz. Kolon kat branşmanlarını üst veya alt katlara kopyeleyebilirsiniz.   
+6\. Zetacad bütün bu işlemlerle, tesisat bütünlüğünü korumaya çalışmaktadır. Şimdi size aktif kata verilen dikmenin ucundan kat branşmanlarını çizip, tüketim vanasını yerleştiripi, sayacı ekeleyerek iç tesiatınızı çiziniz. Kolon kat branşmanlarını üst veya alt katlara kopyalayabilirsiniz.   
 7\. Zetacad'in tahmini oluşturduğu kolon dikmesini gerçek duruma uydurunuz. Bunun için standart hat modifikasynu yollarını kullanabilirsiniz. Doğrudan kolon şemasında, Hat Noktası Taşı aracı ile kolon tesisatınızı daha rahat modifiye edebilirsiniz.
