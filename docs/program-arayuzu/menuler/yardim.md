@@ -4,7 +4,7 @@
 
 ![alt text](../../assets/resimler/yardimMenusu.png)
 
-|<h4 style="color:#2E7D32;">Menu Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
 |**Yardım dosyası**|Bu yardım dosyasını açar.|
 |**Bilgi Merkezi**|Zetacad duyurularının yepıldığı duyuru panelini açar.|

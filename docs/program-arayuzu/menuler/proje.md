@@ -3,7 +3,7 @@
 
 ![alt text](../../assets/resimler/projeMenusu.png)
 
-|<h4 style="color:#2E7D32;">Menu Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
 |**Proje Bilgileri**|Proje bilgilerini girmek için ilgili [formu](../arayuz-elemanlari/proje-bilgileri.md) açar.|
 |**Firma bilgilerini güncelle**|Eski bir projede firma bilgileri eski ise,<br>yeni firma bilgilerini projeye iliştirir.|

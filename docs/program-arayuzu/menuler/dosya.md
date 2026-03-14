@@ -8,7 +8,7 @@
 <br> Dipos4 seçeneğinde ise projeler doğrudan Diposa yani bulut sisteme kaydedilmekte ya da oradan açılmaktadır.
 
   
-|<h4 style="color:#2E7D32;">Menu Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
 |**Yeni Proje**|Yeni proje başlatır.|
 |**Proje Aç**|Bilgisayarınızdan ya da Diposta kayıtlı bir projeyi<br>yüklemek için _Proje Aç_ diyaloğunu açar.|

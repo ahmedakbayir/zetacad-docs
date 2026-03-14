@@ -9,7 +9,7 @@ Zetacad içerik menüsü açılırken, seçili olan nesneyi dikkate alarak içer
 
 ![popmenu](../../assets/resimler/popmenu.png)
 
-|<h4 style="color:#2E7D32;">Menu Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
 |**Odaya Kapı Aç** |Diğer mahallerden seçili mahale kapılar açar. <br> Odalardan koridora kapıları açmak için kullanılır|
 |**Odanın Pencerelerini Aç** |Seçili mahalin atmosfere bakan duvarlarına pencere nesnesi yerleştirir|
@@ -31,13 +31,13 @@ Zetacad içerik menüsü açılırken, seçili olan nesneyi dikkate alarak içer
     Boru, cihaz gibi herhangi bir tesisat elemanı olmayan mahale serbest mahal adı verilebilir. 
 
   
----
+  <br>
 
 ### Duvar sağ tık menüsü:
 
 ![popmenu1](../../assets/resimler/popmenu1.png)
 
-|<h4 style="color:#2E7D32;">Menu Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
 |**Seçimi Sil** |Seçili olan nesneyi siler.   |
 |**Duvara Kapı Ekle**   |Seçili duvara kapı yerleştirir.|   
@@ -48,7 +48,7 @@ Zetacad içerik menüsü açılırken, seçili olan nesneyi dikkate alarak içer
 |**Duvarı Böl**   |Seçili duvarı ortadan ikiye ayırır   |
 |**Tüm Pencereleri Aç**|Mimari planın tüm atmosferik duvarlarına pencere yerleştirir.  |
  
----
+  <br>
 
 
 ### Tesisat sağ tık menüsü:
@@ -56,7 +56,7 @@ Zetacad içerik menüsü açılırken, seçili olan nesneyi dikkate alarak içer
 ![popmenu2](../../assets/resimler/popmenu2.png)   
   
 
-|<h4 style="color:#2E7D32;">Menu Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
 |**Seçimi Sil** |Seçili olan nesneyi siler.   |
 |**Tesisat Parçası Ekle**  | Seçili hattın ucuna vana,cihaz vb. tesisat parçalarını ekler. <br> Ayrıntılı bilgi [Ekle menüsü altında](../menuler/ekle.md)  gösterilmiştir. <br> ![popmenu2](../../assets/resimler/sagTikTesisatParcasiEkle.png)  
@@ -73,3 +73,29 @@ Zetacad içerik menüsü açılırken, seçili olan nesneyi dikkate alarak içer
 |**Bu hattan sonrasını sil**  |Seçilen hatta bağlı olan tüm tesisatları siler. |
 |**Bu hattan sayaçlara kadar sil**  |Seçilen hattan itibaren <br> sayaçlara kadar olan tüm kolonları siler|
 |**Canlı Hatta Çevir**  |Kolon tesisatını iç tesisattan koparmak için <br>sayaç önünde bu komut verildiğinde <br>sayacı canlı hat olarak başlatmış gibi <br>kolondan ayıracaktır.  |
+
+
+  <br>
+
+### Servis Kutusu sağ tık menüsü:
+
+
+![popmenu2](../../assets/resimler/serviskutusuSagTik.png)   
+  
+
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|:---|:---|
+|**İç tesisatları Sil** |Tüm iç tesisatları siler ve kolonu yalnız bırakır. <br> Sadece kolon tadilat projeleri için kullanılabilir.|
+|**Kolon tesisatını Sil** |Servis kutusu dahil tüm kolon tesisatları silinecek ve <br> iç tesisatların tamamı canlı hatta çevrilecektir.|
+
+  <br>
+
+### Sayaç sağ tık menüsü:
+
+
+![popmenu2](../../assets/resimler/sayacSagTik.png)   
+  
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|:---|:---|
+|**Sayaca Bağlı İç Tesisatı Sil** |sayaç ve kendisine bağlı tüm iç tesisat silinecektir|
+|**Sayaca Bağlı İç Tesisatı İzometride Gizle** |Bazı iç tesisatlar birbirinin aynı olduğu için <br> izometride bunların hepsini gösterip karışık<br>  bir görüntü sunmak yerine, bunlardan yalnızca <br>birini gösterip diğerlerini gizleyebiliriz. <br> Gizlenmiş olan bir sayacı yine sağ tıklayıp <br>"**Sayaca Bağlı İç Tesisatı İzometride Göster**" <br> dememiz gerekir.|

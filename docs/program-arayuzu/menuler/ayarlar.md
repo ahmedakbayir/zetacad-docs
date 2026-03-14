@@ -3,7 +3,7 @@
 
 ![alt text](../../assets/resimler/ayarlarMenusu.png)
 
-|<h4 style="color:#2E7D32;">Menu Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
 |**Firma bilgileri**|[Firma bilgileri](../ayarlar/firma-bilgileri.md) formunu açar.|
 |**Katlar**|[Katlar](../ayarlar/katlar.md) panelini açar.|

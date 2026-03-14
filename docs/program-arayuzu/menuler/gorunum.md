@@ -3,7 +3,7 @@
 
 ![alt text](../../assets/resimler/gorunumMenusu.png)
 
-|<h4 style="color:#2E7D32;">Menu Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
 |**Tema**|![alt text](../../assets/resimler/tema.png)|
 ||**Klasik**<br>Zetacad, Açık renk tonunda görüntülenir.|

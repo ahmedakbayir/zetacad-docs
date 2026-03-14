@@ -4,7 +4,7 @@
 
 ![alt text](../../assets/resimler/ekleMenusu.png)
 
-|<h4 style="color:#2E7D32;">Menu Ögesi|<h4 style="color:#2E7D32;">Tanım|
+|<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
 |**Canlı Hat Başlat**|İç tesisat projesinde, sayaç eklemek için<br>kolondan gelen temsili hattı ekler.|
 |**Projeye Kutu Ekle**|İç tesisat projesine sonradan<br>kolon eklemek için projeye kutu eklenebilir|
