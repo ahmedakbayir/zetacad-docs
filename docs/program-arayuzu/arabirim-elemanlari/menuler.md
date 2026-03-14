@@ -7,7 +7,7 @@
 
 
 
-???+ note "*Bilgisayarım* ile *Dipos4* ögeleri farklı mı"
+???+ note "Bilgisayarım ile Dipos4 ögeleri farklı mı?"
     Bilgisayarım seçeneğinde, üzerinde çalışılan bilgisayardaki projeler söz konusudur. 
     <br> Dipos4 seçeneğinde ise projeler doğrudan Diposa yani bulut sisteme kaydedilmekte ya da oradan açılmaktadır.
 
