@@ -134,7 +134,7 @@ nav:
     - Genel Cihaz Özellikleri: program-arayuzu/ozellikler/genel-cihaz.md
     - Hermetik Baca Özellikleri: program-arayuzu/ozellikler/hermetik-baca.md
   - Proje Tasarımı:
-  - Yeni Proje: proje-tasarimi/yeni-proje.md
+    - Yeni Proje: proje-tasarimi/yeni-proje.md
   - Mimari Plan:
     - Genel Bilgi: proje-tasarimi/mimari-plan/index.md
     - Oda ve Duvar Çizimi: proje-tasarimi/mimari-plan/oda-duvar.md
