@@ -83,6 +83,7 @@ nav:
   - ZetaCad Nedir: index.md
   - Genel Görünüm: program-arayuzu/arayuz-elemanlari/genel-bakis.md
   - Giriş: program-arayuzu/arayuz-elemanlari/giris.md
+  - Firma Bilgileri: program-arayuzu/ayarlar/firma-bilgileri.md
   - Arayüz İkonları:
     - Araç Çubuğu: program-arayuzu/arayuz-ikonlari/arac-cubugu.md
     - Çizim Paneli: program-arayuzu/arayuz-ikonlari/cizim-paneli.md
@@ -96,7 +97,6 @@ nav:
     - Katlar: program-arayuzu/ayarlar/katlar.md
     - Sayfa Ayarı: program-arayuzu/ayarlar/sayfa-ayari.md
     - Proje Bilgileri: program-arayuzu/arayuz-elemanlari/proje-bilgileri.md
-    - Firma Bilgileri: program-arayuzu/ayarlar/firma-bilgileri.md
     - Proje Seçenekleri: program-arayuzu/ayarlar/proje-secenekleri.md
     - Sistem Ayarları: program-arayuzu/ayarlar/sistem-ayarlari.md
     - Varsayılan Değerler: program-arayuzu/ayarlar/varsayilan-degerler.md

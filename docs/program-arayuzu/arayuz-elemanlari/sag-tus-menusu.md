@@ -98,4 +98,4 @@ Zetacad içerik menüsü açılırken, seçili olan nesneyi dikkate alarak içer
 |<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
 |**Sayaca Bağlı İç Tesisatı Sil** |sayaç ve kendisine bağlı tüm iç tesisat silinecektir|
-|**Sayaca Bağlı İç Tesisatı İzometride Gizle** |Bazı iç tesisatlar birbirinin aynı olduğu için <br> izometride bunların hepsini gösterip karışık<br>  bir görüntü sunmak yerine, bunlardan yalnızca <br>birini gösterip diğerlerini gizleyebiliriz. <br> Gizlenmiş olan bir sayacı yine sağ tıklayıp <br>"**Sayaca Bağlı İç Tesisatı İzometride Göster**" <br> dememiz gerekir.|
+|**Sayaca Bağlı İç Tesisatı İzometride Gizle** |Bazı iç tesisatlar birbirinin aynı olduğu için <br> izometride bunların hepsini gösterip karışık<br>  bir görüntü sunmak yerine, bunlardan yalnızca <br>birini gösterip diğerlerini gizleyebiliriz. <br> Gizlenmiş olan bir iç tesisatı göstermek istersek <br> yine sayaca sağ tıklayıp "**Sayaca Bağlı İç Tesisatı <br> İzometride Göster**" dememiz gerekir.|
