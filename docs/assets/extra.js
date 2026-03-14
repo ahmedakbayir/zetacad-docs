@@ -336,4 +336,19 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   article.appendChild(allDocsBtn);
+
+  // --- 4) Klavye sol/sağ ok tuşlarıyla önceki/sonraki sayfaya geçiş ---
+  document.addEventListener("keydown", function (e) {
+    // Input, textarea veya contenteditable alanında yazarken çalışmasın
+    var tag = e.target.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA" || e.target.isContentEditable) return;
+
+    if (e.key === "ArrowLeft") {
+      var prev = document.querySelector(".md-footer__link--prev");
+      if (prev) window.location.href = prev.href;
+    } else if (e.key === "ArrowRight") {
+      var next = document.querySelector(".md-footer__link--next");
+      if (next) window.location.href = next.href;
+    }
+  });
 });
