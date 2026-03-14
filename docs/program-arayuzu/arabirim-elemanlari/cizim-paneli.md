@@ -3,7 +3,7 @@
 
 ![drawToolbar](../../assets/resimler/drawToolbar.png)  
 
-| <h4 style="color:#2E7D32;">Icon  | <h4 style="color:#2E7D32;">Kısa Tanım   | <h4 style="color:#2E7D32;">Detaylı Bilgi   |
+| <h4 style="color:#2E7D32;">Ikon  | <h4 style="color:#2E7D32;">Kısa Tanım   | <h4 style="color:#2E7D32;">Detaylı Bilgi   |
 | :--- | :--- | :--- |
 |![slice0_7](../../assets/resimler/slice0_7.jpg)  | **Ok** |   Her hangi bir nesneyi seçmek veya <br> modifikasyon noktalarını kullanabilmek için kullanılır.   |
 |![oda](../../assets/resimler/oda.jpg)  | **Oda** |   Mimari Planda oda çizmek için kullanılır.|

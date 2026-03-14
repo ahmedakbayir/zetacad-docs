@@ -2,27 +2,34 @@
 
 ## Dosya Menüsü
 
-**Yeni Proje**: : Yeni proje başlatır.   
+![alt text](../../assets/resimler/dosyaMenusu.png)
+
+
+
+
+???+ note "*Bilgisayarım* ile *Dipos4* ögeleri farklı mı"
+    Bilgisayarım seçeneğinde, üzerinde çalışılan bilgisayardaki projeler söz konusudur. 
+    <br> Dipos4 seçeneğinde ise projeler doğrudan Diposa yani bulut sisteme kaydedilmekte ya da oradan açılmaktadır.
+
   
-  
-**Proje Aç**:   
-Bilgisayarınızdan mevut bir projeyi yüklemek için **Proje Aç**: diyaloğunu açar.   
-  
-**Kaydet**:   
-Mevcut projeyi son haliyle kaydeder, yeni proje ise **Kaydet**: diyaloğunu açar.   
-  
-**Farklı Kaydet**:   
-Mevcut projeyi yeni bir isimle veya yeni bir yere kaydetmek içn **Kaydet**: diyaloğunu açar.   
-  
-**Birleştir**:   
-Mevcut projeyi baskıda görülcek şekilde tüm unsurları ile bir araya getirir   
-  
-**Kapat**:   
-Programdan çıkmayı sağlar.   
-  
+| <h4 style="color:#2E7D32;">Menu Ögesi  | <h4 style="color:#2E7D32;">Tanım   | 
+|---|---|
+| **Yeni Proje**          |Yeni proje başlatır.   |
+| **Proje Aç**            |Bilgisayarınızdan ya da Diposta kayıtlı bir projeyi <br>yüklemek için _Proje Aç_ diyaloğunu açar. |
+| **Kaydet**              |Mevcut projeyi son haliyle kaydeder, <br>yeni proje ise _Kaydet_ diyaloğunu açar.   |
+| **İmzalı Kaydet**       |Mevcut projeyi imzalayarak kaydeder. |
+| **Farklı Kaydet**       |Mevcut projeyi, yeni bir proje olarak farklı kaydeder |
+| **DXF Aç**              |DXF dosyasını içe aktarmak için kullanılır  |
+| **Birleştir**           |Projeyi baskıda görünecek şekilde birleştirir |
+| **Tekrar Birleştir**    |Baskı önizlemesinde yapılan değişiklikleri iptal ederek yeniden birleştirir |
+| **Son Projeler**        |Son açılan projeleri listeler |
+| **Çıkış**               |Programdan çıkmayı sağlar |
+     
   
   
 ## Proje Menüsü  
+
+![alt text](../../assets/resimler/projeMenusu.png)
 
 **Proje Bilgileri**:   
 Proje bilgilerini girmek için ilgili formu açar.   
@@ -45,6 +52,8 @@ Pojenin onay durumunu görüntüler.
   
   
 ## Düzenle Menüsü  
+
+![alt text](../../assets/resimler/duzenleMenusu.png)
 
 **Kopyala**:   
 Mimari planı veya tesisatı kopyalar.   
@@ -77,6 +86,8 @@ Alt katta yer alan merdiven elemanlarını üst kata kopyalar, üst katta varsa 
   
 ## Araçlar Menüsü  
 
+![alt text](../../assets/resimler/araclarMenusu.png)
+
 **Eskiz çalışması**:   
 Eskiz çalışma formunu açar.   
   
@@ -87,6 +98,8 @@ Windows Standart hesap makinesini başlatır.
   
   
 ## Ekle Menüsü  
+
+![alt text](../../assets/resimler/ekleMenusu.png)
 
 **Pencere**:   
 Seçili duvara pencere ekler veya seçili mahale pencere açar.   
@@ -213,6 +226,7 @@ Seçili hat parçasından itibaren tesisatın arasına iniş veya çıkış hatt
   
 ## Hesap Menüsü 
 
+![alt text](../../assets/resimler/hesapMenusu.png)
 **Lokal kayıplar**:   
 Lokal kayıplar formunu açar.   
   
@@ -235,6 +249,8 @@ Kritik hatları analiz etmek için, kritik hat formunu açar.
   
   
 ## Görünüm Menüsü  
+
+![alt text](../../assets/resimler/gorunumMenusu.png)
 
 **Mimari plan**:   
 Çalışma modunu mimari plana geçirir.   
@@ -271,6 +287,8 @@ Proje kapağını görüntüler.
   
 ## Ayarlar Menüsü
 
+![alt text](../../assets/resimler/ayarlarMenusu.png)
+
 **Firma bilgileri**:   
 Firma bilgileri formunu açar.   
   
@@ -287,6 +305,8 @@ Seçenekler panelini açar.
   
   
 ## Yardım Menüsü  
+
+![alt text](../../assets/resimler/yardimMenusu.png)
 
 **Yardım dosyası**:   
 Bu yardım dosyasını açar.   

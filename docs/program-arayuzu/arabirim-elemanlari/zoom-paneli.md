@@ -2,7 +2,7 @@
 
 ![zoomToolbar](../../assets/resimler/zoomToolbar.png)  
   
-| <h4 style="color:#2E7D32;">Icon  | <h4 style="color:#2E7D32;">Kısa Tanım   | <h4 style="color:#2E7D32;">Detaylı Bilgi   |
+| <h4 style="color:#2E7D32;">Ikon  | <h4 style="color:#2E7D32;">Kısa Tanım   | <h4 style="color:#2E7D32;">Detaylı Bilgi   |
 | :--- | :--- | :--- |
 |![detayZoom](../../assets/resimler/detayZoom.jpg) |  **Detay Zoom**| Seçilen alanı detay penceresine sığdırır|
 |![secimZoom](../../assets/resimler/secimZoom.jpg) |  **Seçim Zoom**| Seçilen alanı çizim ekranına sığdırır|

@@ -1,4 +1,4 @@
-# Login Bilgileri
+# Giriş Bilgileri
 
 
 Zetacad programı ilk açıldığında kullanıcı bilgilerini soran bir giriş paneli karşılar. 

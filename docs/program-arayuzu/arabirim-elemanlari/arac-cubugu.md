@@ -3,11 +3,11 @@
   
 ![toolbar](../../assets/resimler/toolbar.png) 
 
-| <h4 style="color:#2E7D32;">Icon  | <h4 style="color:#2E7D32;">Kısa Tanım   | <h4 style="color:#2E7D32;">Detaylı Bilgi   |
+| <h4 style="color:#2E7D32;">Ikon  | <h4 style="color:#2E7D32;">Kısa Tanım   | <h4 style="color:#2E7D32;">Detaylı Bilgi   |
 | :--- | :--- | :--- |
 |![clip0019](../../assets/resimler/clip0019.jpg) |  **Yeni Proje**          |Yeni proje başlatır.   |
 |![clip0020](../../assets/resimler/clip0020.jpg)|   **Proje Aç**            |Bilgisayarınızdan ya da Diposta kayıtlı bir projeyi <br>yüklemek için _Proje Aç_ diyaloğunu açar. |
-|![clip0021](../../assets/resimler/clip0021.jpg)|   **Proje Kaydet**        |Mevcut projeyi son haliyle kaydeder, <br>yeni proje ise _Kaydet_ diyaloğunu açar.   |
+|![clip0021](../../assets/resimler/clip0021.jpg)|   **Kaydet**        |Mevcut projeyi son haliyle kaydeder, <br>yeni proje ise _Kaydet_ diyaloğunu açar.   |
 |![clip00211](../../assets/resimler/clip00211.jpg)| **İmzalı Kaydet**       |Mevcut projeyi imzalayarak kaydeder. |
 |![clip0022](../../assets/resimler/clip0022.jpg)|   **Yazdır**              |Aktif sayfayı yazcıya göndermek için <br>_Yazdır_ diyaloğunu açar. |
 |![clip0023](../../assets/resimler/clip0023.jpg)|   **DXF oluştur**         |Aktif sayfadaki plandan DXF dosyası oluşturur.   |

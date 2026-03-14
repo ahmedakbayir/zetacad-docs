@@ -3,7 +3,7 @@
 
 ![viewToolbar](../../assets/resimler/viewToolbar.png) 
 
-| <h4 style="color:#2E7D32;">Icon  | <h4 style="color:#2E7D32;">Kısa Tanım   | <h4 style="color:#2E7D32;">Detaylı Bilgi   |
+| <h4 style="color:#2E7D32;">Ikon  | <h4 style="color:#2E7D32;">Kısa Tanım   | <h4 style="color:#2E7D32;">Detaylı Bilgi   |
 | :--- | :--- | :--- |
 |![mimariOlcu](../../assets/resimler/mimariOlcu.jpg) |  **Mimari Ölçü**: | Mimari planda ölçüleri gösterip gizler
 |![etiket](../../assets/resimler/etiket.jpg) |  **Hat Etiketi**: | Hat etiketlerini gösterip gizler. <br>Yoğun projelerde çizime odaklanmak için geçici süreli gizlenebilir.|
