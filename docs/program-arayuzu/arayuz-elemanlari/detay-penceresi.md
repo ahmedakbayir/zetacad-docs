@@ -7,16 +7,16 @@ Detay penceresi çizim ekranının sağ üst köşesinde isteğe bağlı olarak 
 !!! tip "Detay Penceresini açmak için"
      <br>
      
-    * ![clip0035](../../assets/resimler/clip0035.jpg) butonu
-    * Ctrl+Q
-    * F2
-    * Görünüm/Detay Penceresi
+    * ![clip0035](../../assets/resimler/clip0035.jpg) **butonu**<br><br>
+    * **CTRL + Q**<br><br>
+    * **F2**<br><br>
+    * **Görünüm/Detay Penceresi**
     <br> seçeneklerinden biri kullanılabilir
 
   
 
 Bu pencere ilk açıldığında sağ üst köşede 300x300 boyutlarındadır, pencereyi tüm çizim alanına yaymak için araç çubuğundaki detay düyüt ![clip0035](../../assets/resimler/clip0035.jpg) butonunu kullanabilirsiniz. 
-
+<br>
 Detay penceresinin sol alt köşesinden tutarak boyutlandırabilir ve tam sayfa olana kadar büyütebilirsiniz. 
 
 Mimari plan çalışma modunda , bu pencerede kat planının belirli kısmı daha büyük olarak gösterilir, tesisat planı çalışma modunda ise tesisat planının izometrik görünümü yer alır. Detay penceresini üstten görünüş planında seçili olan bir noktaya merkezlemek için **Ctrl+E** klavye kısayolunu kullanın.
