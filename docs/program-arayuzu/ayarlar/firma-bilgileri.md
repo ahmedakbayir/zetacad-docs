@@ -1,6 +1,6 @@
 # Firma Bilgileri
 
-Kullanıcı zetacad programına login olurken yetkili olduğu proje firmalarından birini seçmelidir. Eğer sadece bir bölgede yetkili ise sadece yetkili olduğu bölgeyi seçecektir. 
+Kullanıcı zetacad programına [giriş](../arayuz-elemanlari/giris.md) yaparken yetkili olduğu proje firmalarından birini seçmelidir. Eğer sadece bir bölgede yetkili ise sadece yetkili olduğu bölgeyi seçecektir. 
 
 Bu bilgileri görmek için **Ayarlar / Firma Bilgileri** paneli açılabilir. 
 
