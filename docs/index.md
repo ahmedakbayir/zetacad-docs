@@ -1,6 +1,6 @@
 ZetaCAD, doğal gaz tesisat projelerinin çizimi, hesaplanması, kontrol edilmesi ve dijital olarak gönderilmesini sağlayan uzmanlaşmış bir CAD mühendislik yazılımıdır.
 
-![ZetaCAD Neleri Kontrol Eder?](assets/resimler/zetacadgiris.png){width="500" }
+![ZetaCAD Neleri Kontrol Eder?](assets/resimler/zetacadgiris.png){width="300" }
 
 ## ZetaCAD Neleri Kontrol Eder?
 
