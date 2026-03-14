@@ -32,4 +32,4 @@ Tesisat planı modunda, hat çizebilirsiniz, mevcut hatları ve tesisat elemanla
 Proje modu, çalışmadan ziyade görünüm amaçlıdır. Bu modda tesisat ve mimari planın baskı aşamasında birlikte nasıl görüneceğini izleyebilirsiniz.
 
 
-![Proje](../../assets/resimler/proje.png)    
+![Proje](../../assets/resimler/projeModu.png)    
