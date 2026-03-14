@@ -4,16 +4,14 @@
   
 Zetacad tasarım ortamında herhangi bir nesneye veya konuma farenizin sağ tuşu ile basığınızda bir çok Windows uyumlu programda olduğu gibi bir sağ tuş menüsü açılacaktır. Bu menüye PopUp menü veya İçerik Menüsü ismi de verilir.   
   
-Zetacad içerik menüsü açılırken , seçili olan nesneyi dikkate alarak içeriğini düzenler.   
+Zetacad içerik menüsü açılırken, seçili olan nesneyi dikkate alarak içeriğini düzenler.   
 
 ### Mahal sağ tık menüsü:
 
 ![popmenu](../../assets/resimler/popmenu.png)
 
 
-**Seçimi Sil**   
-Seçili olan nesneyi siler.   
-  
+
   
 **Odaya Kapı Aç**   
 Diğer mahallerden seçili mahale kapılar açar. Odalardan koridora kapıları açmak için kullanılır.   
@@ -48,7 +46,9 @@ Mimari planın tüm duvar birleşmlerine kolon yerleştirir.
 
 ![popmenu1](../../assets/resimler/popmenu1.png)
 
-
+**Seçimi Sil**   
+Seçili olan nesneyi siler.   
+  
 **Duvara Kapı Ekle**   
 Seçili duvara kapı yerleştirir.   
   
