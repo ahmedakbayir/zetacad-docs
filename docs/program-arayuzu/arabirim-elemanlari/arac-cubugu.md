@@ -12,7 +12,7 @@
 |![clip0022](../../assets/resimler/clip0022.jpg)|   **Yazdır**              |Aktif sayfayı yazcıya göndermek için <br>_Yazdır_ diyaloğunu açar. |
 |![clip0023](../../assets/resimler/clip0023.jpg)|   **DXF oluştur**         |Aktif sayfadaki plandan DXF dosyası oluşturur.   |
 |![birlestir](../../assets/resimler/birleştir.jpg)| **Birleştir**           |Projeyi baskıda görünecek şekilde birleştirir |
-|![malzeme](../../assets/resimler/malzeme.jpg)|     **Malzeme Listesi**     |Malzeme listesini getirir   |
+|![malzeme](../../assets/resimler/malzeme.jpg)|     **Malzeme Listesi**     |Projede kullanılan malzemelerin listesini verir   |
 |![clip0024](../../assets/resimler/clip0024.jpg)|   **Kopyala**             |Mimari planı veya tesisatı kopyalar. |
 |![clip0025](../../assets/resimler/clip0025.jpg)|   **Yapıştır**            |Kopyalanmış mimari planı veya <br>tesisatı ilgili yere yapıştırır. |
 |![clip0026](../../assets/resimler/clip0026.jpg)|   **Sil**                 |Seçili elemanı siler. |
