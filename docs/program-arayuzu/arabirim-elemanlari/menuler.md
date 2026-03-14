@@ -42,6 +42,7 @@
 ## Düzenle Menüsü  
 
 ![alt text](../../assets/resimler/duzenleMenusu.png)
+
 | <h4 style="color:#2E7D32;">Menu Ögesi  | <h4 style="color:#2E7D32;">Tanım   | 
 |:---|:---|
 | **Kopyala**                                   | Mimari planı veya tesisatı kopyalar.   |
@@ -64,16 +65,19 @@
 ## Araçlar Menüsü  
 
 ![alt text](../../assets/resimler/araclarMenusu.png)
+
 | <h4 style="color:#2E7D32;">Menu Ögesi  | <h4 style="color:#2E7D32;">Tanım   | 
 |:---|:---|
 | **Eskiz çalışması**                   | [Eskiz](eskiz-calismasi) çalışma formunu açar. |
 | **Hesap makinesi**                    | Windows Standart [hesap makinesini](calc:) başlatır.   |
-| **Prpojeyi ABYS de kontrol et**       | ABYS entegrasyonu olan bölgelerde <br> projenin ABYS ye uygun olup olmadığını denetler   |
+| **Projeyi ABYS de kontrol et**        | ABYS entegrasyonu olan bölgelerde <br> projenin ABYS ye uygun olup olmadığını denetler   |
 | **Cihaz Marka Listesini Güncelle**    | Gazmer cihaz listesinin son güncel halini getirir   |
 
 
 ## Ekle Menüsü  
+
 ![alt text](../../assets/resimler/ekleMenusu.png)
+
 | <h4 style="color:#2E7D32;">Menu Ögesi  | <h4 style="color:#2E7D32;">Tanım   | 
 |:---|:---|
 | **Pencere**                     |Seçili duvara pencere ekler veya seçili mahale pencere açar.   |
@@ -117,7 +121,9 @@
 | **İniş-çıkış ekle**             |Seçili hat parçasından itibaren tesisatın arasına iniş veya çıkış hattı ekler.   |
 
 ## Hesap Menüsü 
+
 ![alt text](../../assets/resimler/hesapMenusu.png)
+
 | <h4 style="color:#2E7D32;">Menu Ögesi  | <h4 style="color:#2E7D32;">Tanım   | 
 |:---|:---|
 | **Lokal kayıplar**        | Lokal kayıplar formunu açar.   |
@@ -131,6 +137,7 @@
 ## Görünüm Menüsü  
 
 ![alt text](../../assets/resimler/gorunumMenusu.png)
+
 | <h4 style="color:#2E7D32;">Menu Ögesi  | <h4 style="color:#2E7D32;">Tanım   | 
 |:---|:---|
 | **Mimari plan**       | Çalışma modunu mimari plana geçirir.   |
@@ -148,6 +155,7 @@
 ## Ayarlar Menüsü
 
 ![alt text](../../assets/resimler/ayarlarMenusu.png)
+
 | <h4 style="color:#2E7D32;">Menu Ögesi  | <h4 style="color:#2E7D32;">Tanım   | 
 |:---|:---|
 | **Firma bilgileri**   | Firma bilgileri formunu açar.   |
@@ -159,6 +167,7 @@
 ## Yardım Menüsü  
 
 ![alt text](../../assets/resimler/yardimMenusu.png)
+
 | <h4 style="color:#2E7D32;">Menu Ögesi  | <h4 style="color:#2E7D32;">Tanım   | 
 |:---|:---|
 | **Yardım dosyası**        | Bu yardım dosyasını açar.   |
