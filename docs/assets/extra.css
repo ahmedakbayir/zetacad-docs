@@ -296,6 +296,93 @@ body, .md-typeset, input {
 }
 
 /* =========================================================
+   SAYFA GEÇİŞ OKLARI (ÖNCEKİ / SONRAKİ)
+   ========================================================= */
+.md-page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.md-page-nav__link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.8rem 1.2rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    text-decoration: none !important;
+    color: var(--md-default-fg-color) !important;
+    transition: all 0.2s ease;
+    min-width: 0;
+    max-width: 48%;
+}
+
+.md-page-nav__link:hover {
+    border-color: var(--zeta-green);
+    background-color: rgba(21, 194, 19, 0.05);
+    color: var(--zeta-green) !important;
+}
+
+.md-page-nav__link--prev {
+    margin-right: auto;
+}
+
+.md-page-nav__link--next {
+    margin-left: auto;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.md-page-nav__arrow {
+    flex-shrink: 0;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: var(--md-default-fg-color--light);
+    transition: color 0.2s ease;
+}
+
+.md-page-nav__link:hover .md-page-nav__arrow {
+    color: var(--zeta-green);
+}
+
+.md-page-nav__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 0;
+}
+
+.md-page-nav__direction {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--md-default-fg-color--light);
+    font-weight: 600;
+}
+
+.md-page-nav__title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Mobilde tek sütun */
+@media screen and (max-width: 600px) {
+    .md-page-nav {
+        flex-direction: column;
+    }
+    .md-page-nav__link {
+        max-width: 100%;
+    }
+}
+
+/* =========================================================
    YAZICI / PDF ÇIKTISI STİLLERİ
    ========================================================= */
 @media print {
@@ -307,6 +394,7 @@ body, .md-typeset, input {
     .md-search,
     .md-pdf-icon,
     .md-pdf-all-docs,
+    .md-page-nav,
     .md-edit-bottom,
     .md-source,
     .md-top,
