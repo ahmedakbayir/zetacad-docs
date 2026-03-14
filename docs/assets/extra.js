@@ -337,48 +337,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
   article.appendChild(allDocsBtn);
 
-  // --- 4) Önceki / Sonraki sayfa geçiş okları ---
-  var prevLink = document.querySelector(".md-footer__link--prev");
-  var nextLink = document.querySelector(".md-footer__link--next");
+  // --- 4) Klavye sol/sağ ok tuşlarıyla önceki/sonraki sayfaya geçiş ---
+  document.addEventListener("keydown", function (e) {
+    // Input, textarea veya contenteditable alanında yazarken çalışmasın
+    var tag = e.target.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA" || e.target.isContentEditable) return;
 
-  if (prevLink || nextLink) {
-    var nav = document.createElement("nav");
-    nav.className = "md-page-nav";
-
-    if (prevLink) {
-      var prevTitle = prevLink.querySelector(".md-footer__title");
-      var a = document.createElement("a");
-      a.className = "md-page-nav__link md-page-nav__link--prev";
-      a.href = prevLink.href;
-      a.innerHTML =
-        '<span class="md-page-nav__arrow">&larr;</span>' +
-        '<span class="md-page-nav__info">' +
-          '<span class="md-page-nav__direction">Önceki</span>' +
-          '<span class="md-page-nav__title">' + (prevTitle ? prevTitle.textContent.trim() : "Önceki Sayfa") + '</span>' +
-        '</span>';
-      nav.appendChild(a);
+    if (e.key === "ArrowLeft") {
+      var prev = document.querySelector(".md-footer__link--prev");
+      if (prev) window.location.href = prev.href;
+    } else if (e.key === "ArrowRight") {
+      var next = document.querySelector(".md-footer__link--next");
+      if (next) window.location.href = next.href;
     }
-
-    if (nextLink) {
-      var nextTitle = nextLink.querySelector(".md-footer__title");
-      var a2 = document.createElement("a");
-      a2.className = "md-page-nav__link md-page-nav__link--next";
-      a2.href = nextLink.href;
-      a2.innerHTML =
-        '<span class="md-page-nav__arrow">&rarr;</span>' +
-        '<span class="md-page-nav__info">' +
-          '<span class="md-page-nav__direction">Sonraki</span>' +
-          '<span class="md-page-nav__title">' + (nextTitle ? nextTitle.textContent.trim() : "Sonraki Sayfa") + '</span>' +
-        '</span>';
-      nav.appendChild(a2);
-    }
-
-    // Düzenle butonunun üstüne ekle
-    var editWrapper = article.querySelector(".md-edit-bottom");
-    if (editWrapper) {
-      article.insertBefore(nav, editWrapper);
-    } else {
-      article.appendChild(nav);
-    }
-  }
+  });
 });
