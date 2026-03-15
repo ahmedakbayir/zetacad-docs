@@ -14,6 +14,6 @@ dipostan otomatik getirilmektedir.
 ![firmaBil](../../assets/resimler/firmaBil.png)   
   
 
-???+ note "Hızlı Firma Değiştirme"
+!!! note "Hızlı Firma Değiştirme"
     __Birden fazla firmada yetkili iseniz__ <br>Bu paneldeki **FİRMA** alanından firmalarınız arasında hızlı değişim yapabilirsiniz. 
     

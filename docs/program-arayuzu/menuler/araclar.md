@@ -5,7 +5,7 @@
 
 |<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|
 |:---|:---|
-|**Eskiz çalışması**|[Eskiz](eskiz-calismasi) çalışma formunu açar.|
+|**Eskiz çalışması**|[Eskiz](../../proje-tasarimi/eskiz-calismasi.md) çalışma formunu açar.|
 |**Hesap makinesi**|Windows Standart Hesap Makinesini başlatır.|
 |**Projeyi ABYS de kontrol et**|ABYS entegrasyonu olan bölgelerde<br> projenin ABYS ye uygun olup olmadığını denetler|
 |**Cihaz Marka Listesini Güncelle**|Gazmer cihaz listesinin son güncel halini getirir|
