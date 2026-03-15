@@ -60,6 +60,19 @@ document.addEventListener("DOMContentLoaded", function () {
     "code{font-family:SFMono-Regular,Consolas,monospace}" +
     ".admonition{border:0;border-left:.2rem solid #448aff;border-radius:.1rem;margin:1rem 0;padding:.6rem .8rem;page-break-inside:avoid;background:rgba(68,138,255,.1)}" +
     ".admonition-title{font-weight:700;margin-bottom:.4rem;font-size:.85rem}" +
+    ".admonition-title::before{display:inline-block;margin-right:.4rem;vertical-align:middle}" +
+    ".admonition.note>.admonition-title::before{content:'\\270E'}" +
+    ".admonition.abstract>.admonition-title::before,.admonition.summary>.admonition-title::before{content:'\\1F4CB'}" +
+    ".admonition.info>.admonition-title::before{content:'\\2139\\FE0F'}" +
+    ".admonition.tip>.admonition-title::before{content:'\\1F525'}" +
+    ".admonition.success>.admonition-title::before,.admonition.check>.admonition-title::before{content:'\\2714'}" +
+    ".admonition.question>.admonition-title::before,.admonition.faq>.admonition-title::before{content:'\\2753'}" +
+    ".admonition.warning>.admonition-title::before{content:'\\26A0\\FE0F'}" +
+    ".admonition.failure>.admonition-title::before{content:'\\2716'}" +
+    ".admonition.danger>.admonition-title::before{content:'\\26A1'}" +
+    ".admonition.bug>.admonition-title::before{content:'\\1F41B'}" +
+    ".admonition.example>.admonition-title::before{content:'\\1F4DD'}" +
+    ".admonition.quote>.admonition-title::before{content:'\\275D'}" +
     ".admonition.note{border-color:#448aff;background:rgba(68,138,255,.1)}" +
     ".admonition.note>.admonition-title{color:#448aff}" +
     ".admonition.abstract,.admonition.summary{border-color:#00b0ff;background:rgba(0,176,255,.1)}" +
