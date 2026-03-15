@@ -43,6 +43,37 @@ document.addEventListener("DOMContentLoaded", function () {
     '<polyline points="9 15 12 18 15 15"/>' +
     "</svg>";
 
+  // Ortak yazdırma stilleri (tek sayfa ve tüm doküman için)
+  var printStyles =
+    "body{font-family:system-ui,-apple-system,sans-serif;max-width:900px;margin:0 auto;padding:2rem;color:#1c1e21}" +
+    ".page-section{padding-top:1.5rem;border-top:1px solid #ddd;margin-top:1.5rem}" +
+    ".page-section:first-child{border-top:none;margin-top:0}" +
+    ".section-start{page-break-before:always;border-top:none;padding-top:0;margin-top:0}" +
+    ".loading{text-align:center;padding:3rem;font-size:1.2rem;color:#666}" +
+    ".loading-progress{margin-top:1rem;font-size:.9rem}" +
+    "h1,h2,h3,h4{color:#1c1e21}" +
+    "img{max-width:100%}" +
+    "table{border-collapse:collapse;width:100%}" +
+    "th,td{border:1px solid #ddd;padding:8px;text-align:left}" +
+    "pre{background:#f5f5f5;padding:1rem;overflow-x:auto;border-radius:4px}" +
+    "code{font-family:SFMono-Regular,Consolas,monospace}" +
+    ".admonition,.details{border-left:4px solid #448aff;border-radius:4px;padding:0.6rem 0.8rem;margin:1rem 0;background:#f5f6f7;page-break-inside:avoid}" +
+    ".admonition-title,.summary{font-weight:700;margin-bottom:0.4rem;display:flex;align-items:center;gap:0.4rem}" +
+    ".admonition.note,.details.note{border-left-color:#448aff}" +
+    ".admonition.tip,.details.tip{border-left-color:#00c853;background:#e6f7e6}" +
+    ".admonition.info,.details.info{border-left-color:#00b8d4}" +
+    ".admonition.warning,.details.warning{border-left-color:#ff9100;background:#fff8e1}" +
+    ".admonition.danger,.details.danger{border-left-color:#ff1744;background:#ffeef0}" +
+    ".admonition.example,.details.example{border-left-color:#7c4dff}" +
+    ".admonition.quote,.details.quote{border-left-color:#9e9e9e}" +
+    ".admonition.abstract,.details.abstract,.admonition.summary,.details.summary{border-left-color:#00b0ff}" +
+    ".admonition.success,.details.success,.admonition.check,.details.check{border-left-color:#00c853}" +
+    ".admonition.question,.details.question,.admonition.faq,.details.faq{border-left-color:#64dd17}" +
+    ".admonition.failure,.details.failure{border-left-color:#ff1744}" +
+    ".admonition.bug,.details.bug{border-left-color:#f50057}" +
+    ".admonition p:last-child{margin-bottom:0}" +
+    "@media print{.no-print{display:none}@page{margin:1.5cm;size:A4}}";
+
   // --- 1) Sayfa PDF ikonu: Başlığın sağ üstünde küçük ikon ---
   h1.style.position = "relative";
 
@@ -55,106 +86,62 @@ document.addEventListener("DOMContentLoaded", function () {
     pageBtn.disabled = true;
     pageBtn.style.opacity = "0.3";
 
-    loadScript(
-      "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
-    )
-      .then(function () {
-        return loadScript(
-          "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
-        );
-      })
-      .then(function () {
-        // Butonları geçici gizle
-        var allBtn = article.querySelector(".md-pdf-all-docs");
-        var editArea = article.querySelector(".md-edit-bottom");
-        pageBtn.style.visibility = "hidden";
-        if (allBtn) allBtn.style.visibility = "hidden";
-        if (editArea) editArea.style.visibility = "hidden";
+    // Article içeriğini klonla
+    var clone = article.cloneNode(true);
 
-        // Lazy-loaded resimleri yüklenmeye zorla
-        var allImages = article.querySelectorAll("img");
-        allImages.forEach(function (img) {
-          if (img.getAttribute("loading") === "lazy") {
-            img.removeAttribute("loading");
-            // src'yi yeniden atayarak tarayıcıyı yüklemeye zorla
-            var origSrc = img.src;
-            img.src = "";
-            img.src = origSrc;
-          }
-        });
+    // Gereksiz elemanları kaldır
+    clone
+      .querySelectorAll(
+        ".md-pdf-icon, .md-pdf-all-docs, .md-content__button, .md-edit-bottom, .headerlink"
+      )
+      .forEach(function (el) {
+        el.remove();
+      });
 
-        // Tüm resimlerin yüklenmesini bekle
-        var imgPromises = Array.from(allImages).map(function (img) {
-          if (img.complete && img.naturalWidth > 0) return Promise.resolve();
-          return new Promise(function (resolve) {
-            img.onload = resolve;
-            img.onerror = resolve;
-          });
-        });
+    // Resimleri düzelt: lazy loading kaldır + göreceli yolları mutlak yap
+    clone.querySelectorAll("img").forEach(function (img) {
+      img.removeAttribute("loading");
+      var src = img.getAttribute("src");
+      if (src && !src.startsWith("http") && !src.startsWith("data:") && !src.startsWith("//")) {
+        try {
+          img.setAttribute("src", new URL(src, window.location.href).href);
+        } catch (e) {}
+      }
+    });
 
-        return Promise.all(imgPromises).then(function () {
-        return html2canvas(article, {
-          scale: 2,
-          useCORS: true,
-          allowTaint: true,
-          backgroundColor: "#ffffff",
-        }).then(function (canvas) {
-          pageBtn.style.visibility = "";
-          if (allBtn) allBtn.style.visibility = "";
-          if (editArea) editArea.style.visibility = "";
+    var printWindow = window.open("", "_blank");
+    if (!printWindow) {
+      alert("Lütfen açılır pencere engelleyicisini devre dışı bırakın.");
+      pageBtn.disabled = false;
+      pageBtn.style.opacity = "";
+      return;
+    }
 
-          var jsPDF = window.jspdf.jsPDF;
-          var pdf = new jsPDF({
-            orientation: "portrait",
-            unit: "mm",
-            format: "a4",
-          });
+    printWindow.document.write(
+      "<!DOCTYPE html><html><head><title>" + (document.title || "ZetaCAD") + "</title>" +
+        "<style>" + printStyles + "</style></head><body>" +
+        clone.innerHTML +
+        "</body></html>"
+    );
+    printWindow.document.close();
 
-          // A4 boyutları ve kenar boşlukları
-          var margin = 15; // mm
-          var pdfW = pdf.internal.pageSize.getWidth();
-          var pdfH = pdf.internal.pageSize.getHeight();
-          var contentW = pdfW - margin * 2;
-          var contentH = pdfH - margin * 2;
+    // Tüm resimlerin yüklenmesini bekle, sonra yazdır
+    var allImages = printWindow.document.querySelectorAll("img");
+    var imgPromises = Array.from(allImages).map(function (img) {
+      if (img.complete) return Promise.resolve();
+      return new Promise(function (resolve) {
+        img.onload = resolve;
+        img.onerror = resolve;
+      });
+    });
 
-          // Her sayfa için canvas'ı dilimleyerek ekle (alt marjin korunur)
-          var ratio = canvas.width / contentW;
-          var sliceH = Math.floor(contentH * ratio); // piksel cinsinden sayfa yüksekliği
-          var totalH = canvas.height;
-          var y = 0;
-          var pageNum = 0;
-
-          while (y < totalH) {
-            if (pageNum > 0) pdf.addPage();
-            var currentSliceH = Math.min(sliceH, totalH - y);
-
-            // Bu sayfa için canvas dilimi oluştur
-            var pageCanvas = document.createElement("canvas");
-            pageCanvas.width = canvas.width;
-            pageCanvas.height = currentSliceH;
-            var ctx = pageCanvas.getContext("2d");
-            ctx.drawImage(canvas, 0, y, canvas.width, currentSliceH, 0, 0, canvas.width, currentSliceH);
-
-            var pageImgData = pageCanvas.toDataURL("image/jpeg", 0.92);
-            var pageImgH = (currentSliceH / ratio);
-            pdf.addImage(pageImgData, "JPEG", margin, margin, contentW, pageImgH);
-
-            y += sliceH;
-            pageNum++;
-          }
-
-          pdf.save(getFilename());
-        });
-        }); // Promise.all imgPromises
-      })
-      .catch(function (err) {
-        console.error("PDF oluşturulamadı:", err);
-        alert("PDF oluşturulurken bir hata oluştu.");
-      })
-      .finally(function () {
+    Promise.all(imgPromises).then(function () {
+      setTimeout(function () {
+        printWindow.print();
         pageBtn.disabled = false;
         pageBtn.style.opacity = "";
-      });
+      }, 500);
+    });
   });
 
   h1.appendChild(pageBtn);
@@ -238,36 +225,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     printWindow.document.write(
       "<!DOCTYPE html><html><head><title>ZetaCAD - Tüm Doküman</title>" +
-        "<style>" +
-        "body{font-family:system-ui,-apple-system,sans-serif;max-width:900px;margin:0 auto;padding:2rem;color:#1c1e21}" +
-        ".page-section{padding-top:1.5rem;border-top:1px solid #ddd;margin-top:1.5rem}" +
-        ".page-section:first-child{border-top:none;margin-top:0}" +
-        ".section-start{page-break-before:always;border-top:none;padding-top:0;margin-top:0}" +
-        ".loading{text-align:center;padding:3rem;font-size:1.2rem;color:#666}" +
-        ".loading-progress{margin-top:1rem;font-size:.9rem}" +
-        "h1,h2,h3,h4{color:#1c1e21}" +
-        "img{max-width:100%}" +
-        "table{border-collapse:collapse;width:100%}" +
-        "th,td{border:1px solid #ddd;padding:8px;text-align:left}" +
-        "pre{background:#f5f5f5;padding:1rem;overflow-x:auto;border-radius:4px}" +
-        "code{font-family:SFMono-Regular,Consolas,monospace}" +
-        ".admonition,.details{border-left:4px solid #448aff;border-radius:4px;padding:0.6rem 0.8rem;margin:1rem 0;background:#f5f6f7;page-break-inside:avoid}" +
-        ".admonition-title,.summary{font-weight:700;margin-bottom:0.4rem;display:flex;align-items:center;gap:0.4rem}" +
-        ".admonition.note,.details.note{border-left-color:#448aff}" +
-        ".admonition.tip,.details.tip{border-left-color:#00c853;background:#e6f7e6}" +
-        ".admonition.info,.details.info{border-left-color:#00b8d4}" +
-        ".admonition.warning,.details.warning{border-left-color:#ff9100;background:#fff8e1}" +
-        ".admonition.danger,.details.danger{border-left-color:#ff1744;background:#ffeef0}" +
-        ".admonition.example,.details.example{border-left-color:#7c4dff}" +
-        ".admonition.quote,.details.quote{border-left-color:#9e9e9e}" +
-        ".admonition.abstract,.details.abstract,.admonition.summary,.details.summary{border-left-color:#00b0ff}" +
-        ".admonition.success,.details.success,.admonition.check,.details.check{border-left-color:#00c853}" +
-        ".admonition.question,.details.question,.admonition.faq,.details.faq{border-left-color:#64dd17}" +
-        ".admonition.failure,.details.failure{border-left-color:#ff1744}" +
-        ".admonition.bug,.details.bug{border-left-color:#f50057}" +
-        ".admonition p:last-child{margin-bottom:0}" +
-        "@media print{.no-print{display:none}@page{margin:1.5cm;size:A4}}" +
-        "</style></head><body>" +
+        "<style>" + printStyles + "</style></head><body>" +
         '<div class="loading" id="loading">Doküman hazırlanıyor...' +
         '<div class="loading-progress" id="progress"></div></div>' +
         '<div id="content" style="display:none"></div>' +
