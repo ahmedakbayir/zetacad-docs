@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var c = admonColors[type];
     var icon = admonIcons[type];
     admonTypeStyles +=
-      ".admonition." + type + "{border-color:" + c.border + "}" +
+      ".admonition." + type + "{border-color:" + c.border + ";background:" + c.bg + "}" +
       ".admonition." + type + ">.admonition-title{background:" + c.bg + "}" +
       ".admonition." + type + ">.admonition-title:before{background-color:" + c.border + ";-webkit-mask-image:url(\"" + icon + "\");mask-image:url(\"" + icon + "\")}";
   });
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var c = admonColors[target];
     var icon = admonIcons[target];
     admonTypeStyles +=
-      ".admonition." + alias + "{border-color:" + c.border + "}" +
+      ".admonition." + alias + "{border-color:" + c.border + ";background:" + c.bg + "}" +
       ".admonition." + alias + ">.admonition-title{background:" + c.bg + "}" +
       ".admonition." + alias + ">.admonition-title:before{background-color:" + c.border + ";-webkit-mask-image:url(\"" + icon + "\");mask-image:url(\"" + icon + "\")}";
   });
