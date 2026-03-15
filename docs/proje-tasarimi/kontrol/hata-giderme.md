@@ -76,7 +76,7 @@ _Hata Giderme:_ Ayarlar Menüsünden Firma bilgilerine girerek eksik bilgileri t
 
 _Hata Giderme:_ Proje Menüsünden Proje bilgilerine girerek eksik bilgileri tamamlayınız.  
 
-**4.Yasak mahalden tesisat geçiyor** 
+#### **4\.Yasak mahalden tesisat geçiyor** 
 
 **X planında Y mahallinden tesisat geçiyor:** Aydınlık, açık aydınlık, asansör ve çatı arası gibi ortak mahllerden tesisat geçtiğinde bu hata verilir.   
 
@@ -94,7 +94,7 @@ _Hata Giderme:_ İlgili kat planında dış kapısı olmayan birime dış kapı 
 
 _Hata Giderme:_ Hızı düşürmek için hattın boru çapını yükseltiniz.   
   
-**7.Kayıp limiti aşılıyor** 
+#### **7\.Kayıp limiti aşılıyor** 
 
 **x devresinde toplam kayıp p mbar limitinin üzerinde :** ilgili hat devresinde toplam kayıp p (1.0 veya 0.8 mbar) değerinin üzerinde. Kayıp miktarı şartnamede belirtilen sınırın üzerinde olduğunda bu hata verilir.   
 
@@ -115,7 +115,7 @@ _Hata Giderme :_ Devrenin sonunda yük oluşturacak bir unsur ekleyiniz. (Tüket
   
 --
 
-### **9.Tüketim vanası hatası** 
+#### **9\.Tüketim vanası hatası** 
 
 **1 nolu hatta tüketim vanasının birim numarası belirsiz :** 1 nolu hattın ucunda yer alan tüketim vanası bir birimle ilişkili değil.   
 
@@ -168,8 +168,6 @@ _Hata Giderme:_ Daha düşük debili bir sayaç seçiniz.
   
 
 #### **13\. Basınç uygun değil** 
-
-** 
 
 **1 nolu hattaki sayaca giren hat basıncı 21 veya 300 mbar değerinde olmalıdır :** Doğalgaz sayaçları ancak 21 mbar veya 300 mbarlık gaz akışını ölçebilir. 1 nolu hattın ucundaki sayaca, bu basınçların arasındaki bir değerde gaz gelirse bu hata verilir.   
 
