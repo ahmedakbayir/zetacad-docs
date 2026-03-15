@@ -97,6 +97,28 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  // Collapsible admonition'ları (details) normal div'e dönüştür (PDF için)
+  function convertDetailsToDiv(container) {
+    container.querySelectorAll("details").forEach(function (details) {
+      var div = document.createElement("div");
+      div.className = "admonition " + (details.className || "note");
+      var summary = details.querySelector("summary");
+      if (summary) {
+        var title = document.createElement("p");
+        title.className = "admonition-title";
+        title.innerHTML = summary.innerHTML;
+        div.appendChild(title);
+      }
+      // summary dışındaki tüm child'ları aktar
+      Array.from(details.childNodes).forEach(function (child) {
+        if (child.nodeName !== "SUMMARY") {
+          div.appendChild(child.cloneNode(true));
+        }
+      });
+      details.parentNode.replaceChild(div, details);
+    });
+  }
+
   // --- 1) Sayfa PDF ikonu: Başlığın sağ üstünde küçük ikon ---
   h1.style.position = "relative";
 
@@ -120,6 +142,9 @@ document.addEventListener("DOMContentLoaded", function () {
       .forEach(function (el) {
         el.remove();
       });
+
+    // Collapsible admonition'ları normal div'e dönüştür
+    convertDetailsToDiv(clone);
 
     // Linkleri düz metne dönüştür
     stripLinks(clone);
@@ -282,6 +307,9 @@ document.addEventListener("DOMContentLoaded", function () {
               .forEach(function (el) {
                 el.remove();
               });
+
+            // Collapsible admonition'ları normal div'e dönüştür
+            convertDetailsToDiv(articleContent);
 
             // Linkleri düz metne dönüştür
             stripLinks(articleContent);
