@@ -72,7 +72,17 @@ document.addEventListener("DOMContentLoaded", function () {
     ".admonition.failure,.details.failure{border-left-color:#ff1744}" +
     ".admonition.bug,.details.bug{border-left-color:#f50057}" +
     ".admonition p:last-child{margin-bottom:0}" +
+    "a{color:inherit;text-decoration:none}" +
     "@media print{.no-print{display:none}@page{margin:1.5cm;size:A4}}";
+
+  // Linkleri düz metne dönüştür (PDF'te tıklanabilir link olmasın)
+  function stripLinks(container) {
+    container.querySelectorAll("a").forEach(function (a) {
+      var span = document.createElement("span");
+      span.innerHTML = a.innerHTML;
+      a.parentNode.replaceChild(span, a);
+    });
+  }
 
   // --- 1) Sayfa PDF ikonu: Başlığın sağ üstünde küçük ikon ---
   h1.style.position = "relative";
@@ -97,6 +107,9 @@ document.addEventListener("DOMContentLoaded", function () {
       .forEach(function (el) {
         el.remove();
       });
+
+    // Linkleri düz metne dönüştür
+    stripLinks(clone);
 
     // Resimleri düzelt: lazy loading kaldır + göreceli yolları mutlak yap
     clone.querySelectorAll("img").forEach(function (img) {
@@ -256,6 +269,9 @@ document.addEventListener("DOMContentLoaded", function () {
               .forEach(function (el) {
                 el.remove();
               });
+
+            // Linkleri düz metne dönüştür
+            stripLinks(articleContent);
 
             // Resimleri düzelt: lazy loading kaldır + göreceli yolları mutlak yap
             articleContent
