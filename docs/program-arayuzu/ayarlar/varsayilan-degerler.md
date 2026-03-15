@@ -23,7 +23,8 @@ Projede sürekli yaptığınız seçimleri bir defa bu ekrandan girdiğinizde so
 
 bu şekilde resimde görünen tüm seçenekleri verebilirsiniz. 
 <br>
-???+ note "Varsayılan Değerler Projede İsterseniz Değiştirilebilir"
+
+!!! info "Varsayılan Değerler Projede İsterseniz Değiştirilebilir"
     Varsayılan değerler panelinden yaptığınız seçimler, projede başka bir seçim yapamayacağınız anlamına gelmez. Buradaki seçimleri isterseniz projede değiştirebilirsiniz. Örneğin Varsayılan tesisat Tipi Esnek olsun dediğinizde, projeye bir sayaç eklediğinizde esnek tesisat işaretli gelir. isterseniz projede esnek tesisat işaretini kaldırıp dişli ya da kaynaklı seçebilirsiniz. Varsayılan değerler paneli sürekli seçim yaptığınız konularda seçimlerinizi azaltarak işlerinizi hızlandırma amaçlıdır. 
 
 

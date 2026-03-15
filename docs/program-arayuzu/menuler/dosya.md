@@ -3,7 +3,7 @@
 
 ![alt text](../../assets/resimler/dosyaMenusu.png)
 
-???+ note "Bilgisayarım ile Dipos4 seçeneklerinin farklı ne?"
+!!! info "Bilgisayarım ile Dipos4 seçeneklerinin farklı ne?"
     Bilgisayarım seçeneğinde, üzerinde çalışılan bilgisayardaki projeler söz konusudur. Dipos4 seçeneğinde ise projeler doğrudan Diposa yani bulut sisteme kaydedilmekte ya da oradan açılmaktadır.
 
   
