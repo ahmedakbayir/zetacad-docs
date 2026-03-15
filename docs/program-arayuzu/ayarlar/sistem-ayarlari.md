@@ -1,8 +1,7 @@
-# Sayfa Ayarı
+# Sistem Ayarları
 
-**Sayfa Ayarı**
   
-![sayfayar](../../assets/resimler/sistemEkran.png)   
+![Sistem](../../assets/resimler/sistemEkran.png)   
   
 Bu alanda pek çok kalıcı ayar yapabilirsiniz. 
 

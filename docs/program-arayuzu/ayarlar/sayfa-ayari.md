@@ -1,13 +1,12 @@
 # Sayfa Ayarı
 
-**Sayfa Ayarı**
   
 ![sayfayar](../../assets/resimler/sayfayar.png)   
   
 
 Kat planlarının çalışma alanının boyutunu buradan belirleyebilirisiniz. Buradan girilen sayfa ayarı sadece çalışma alanınızın boyutlarını belirler.  
 
-  
+
 **Kağıt boyutu :** Buradan standart bir boyut seçebilirsiniz. Eğer standart dışı bir sayfa ölçüsü kullanacaksanız , bu kısımdan _özel_ seçeneğini seçiniz. Çıktı alınmayacaksa bu boyutun bir önemi yoktur. Zetacad sonsuz genişliğe yayılır. 
 
 **En :** Sayfa enini cm cinsinden burada görebilirsiniz . Eğer sayfa boyutu özel ise bu değeri değiştirebilirsiniz.  

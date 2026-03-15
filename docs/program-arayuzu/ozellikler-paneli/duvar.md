@@ -1,10 +1,9 @@
 # Duvar Özellikleri
 
-**Duvar Özellikleri**
-  
+ 
 ![dProp](../../assets/resimler/dProp.png)   
 
-**_Duvar Tipi :_** Bu açılır kutudan duvarın tipi seçilir. Duvar tipi şu değerlerden biri olabilir.   
+**Duvar Tipi :** Bu açılır kutudan duvarın tipi seçilir. Duvar tipi şu değerlerden biri olabilir.   
 
 !!! tip "duvar tipleri"
     - Normal Duvar 
@@ -12,15 +11,15 @@
     - Camekan 
     - Balkon Duvarı 
 
-**_Yay Duvar :_** Bu buton basılıyken duvar dairesel olarak çizilir.  
+**Yay Duvar :** Bu buton basılıyken duvar dairesel olarak çizilir.  
 
-**_Yayı Tersle :_** Bu butona basılarak yay duvarın açıklığı tersinlenir.   
+**Yayı Tersle :** Bu butona basılarak yay duvarın açıklığı tersinlenir.   
 
-**_Yay Açısı :_** Yay duvarın açısını belirler.   
+**Yay Açısı :** Yay duvarın açısını belirler.   
 
-**_Uzunluk :_** Burada duvarın uzunluğunu görebilirsiniz.   
+**Uzunluk :** Burada duvarın uzunluğunu görebilirsiniz.   
 
-**_İşlem Butonları :_**
+**İşlem Butonları :**
 
 - ![divpath](../../assets/resimler/divpath.jpg) Duvarı Böl 
 - ![door](../../assets/resimler/door.jpg) Kapı Ekle 

@@ -112,27 +112,30 @@ nav:
     - Ayarlar Menüsü: program-arayuzu/menuler/ayarlar.md
     - Yardım Menüsü: program-arayuzu/menuler/yardim.md
   - Özellikler Paneli:
-    - Duvar Özellikleri: program-arayuzu/ozellikler/duvar.md
-    - Mahal Özellikleri: program-arayuzu/ozellikler/mahal.md
-    - Birim Özellikleri: program-arayuzu/ozellikler/birim.md
-    - Kolon Özellikleri: program-arayuzu/ozellikler/kolon.md
-    - Kiriş Özellikleri: program-arayuzu/ozellikler/kiris.md
-    - Kapı Özellikleri: program-arayuzu/ozellikler/kapi.md
-    - Pencere Özellikleri: program-arayuzu/ozellikler/pencere.md
-    - Merdiven Özellikleri: program-arayuzu/ozellikler/merdiven.md
-    - Dönel Merdiven Özellikleri: program-arayuzu/ozellikler/donel-merdiven.md
-    - Merdiven Sahanlığı Özellikleri: program-arayuzu/ozellikler/merdiven-sahanligi.md
-    - Tesisat Özellikleri: program-arayuzu/ozellikler/tesisat.md
-    - Vana Özellikleri: program-arayuzu/ozellikler/vana.md
-    - Servis Kutusu Özellikleri: program-arayuzu/ozellikler/servis-kutusu.md
-    - Regülatör Özellikleri: program-arayuzu/ozellikler/regulator.md
-    - Sayaç Özellikleri: program-arayuzu/ozellikler/sayac.md
-    - Kombi Özellikleri: program-arayuzu/ozellikler/kombi.md
-    - Soba Özellikleri: program-arayuzu/ozellikler/soba.md
-    - Ocak Özellikleri: program-arayuzu/ozellikler/ocak.md
-    - Şofben Özellikleri: program-arayuzu/ozellikler/sofben.md
-    - Genel Cihaz Özellikleri: program-arayuzu/ozellikler/genel-cihaz.md
-    - Hermetik Baca Özellikleri: program-arayuzu/ozellikler/hermetik-baca.md
+    - Duvar Özellikleri: program-arayuzu/ozellikler-paneli/duvar.md
+    - Mahal Özellikleri: program-arayuzu/ozellikler-paneli/mahal.md
+    - Birim Özellikleri: program-arayuzu/ozellikler-paneli/birim.md
+    - Kolon Özellikleri: program-arayuzu/ozellikler-paneli/kolon.md
+    - Kiriş Özellikleri: program-arayuzu/ozellikler-paneli/kiris.md
+    - Kapı Özellikleri: program-arayuzu/ozellikler-paneli/kapi.md
+    - Pencere Özellikleri: program-arayuzu/ozellikler-paneli/pencere.md
+    - Merdiven Özellikleri: program-arayuzu/ozellikler-paneli/merdiven.md
+    - Dönel Merdiven Özellikleri: program-arayuzu/ozellikler-paneli/donel-merdiven.md
+    - Merdiven Sahanlığı Özellikleri: program-arayuzu/ozellikler-paneli/merdiven-sahanligi.md
+    - Tesisat Özellikleri: program-arayuzu/ozellikler-paneli/tesisat.md
+    - Vana Özellikleri: program-arayuzu/ozellikler-paneli/vana.md
+    - Servis Kutusu Özellikleri: program-arayuzu/ozellikler-paneli/servis-kutusu.md
+    - Regülatör Özellikleri: program-arayuzu/ozellikler-paneli/regulator.md
+    - Sayaç Özellikleri: program-arayuzu/ozellikler-paneli/sayac.md
+    - Kombi Özellikleri: program-arayuzu/ozellikler-paneli/kombi.md
+    - Soba Özellikleri: program-arayuzu/ozellikler-paneli/soba.md
+    - Ocak Özellikleri: program-arayuzu/ozellikler-paneli/ocak.md
+    - Şofben Özellikleri: program-arayuzu/ozellikler-paneli/sofben.md
+    - Endüstriyel Cihaz Özellikleri: program-arayuzu/ozellikler-paneli/endustriyel-cihaz.md
+    - Bacalı Endüstriyel Cihaz Özellikleri: program-arayuzu/ozellikler-paneli/bacali-endustriyel-cihaz.md
+    - Kazan Özellikleri: program-arayuzu/ozellikler-paneli/kazan.md
+    - Büyük Kombi Özellikleri: program-arayuzu/ozellikler-paneli/buyuk-kombi.md
+    - Hermetik Baca Özellikleri: program-arayuzu/ozellikler-paneli/hermetik-baca.md
   - Proje Tasarımı:
     - Yeni Proje: proje-tasarimi/yeni-proje.md
   - Mimari Plan:

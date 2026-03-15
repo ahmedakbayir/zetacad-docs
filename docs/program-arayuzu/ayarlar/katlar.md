@@ -1,7 +1,5 @@
 # Katlar
 
-**Katlar**
-  
   
 ![katayar](../../assets/resimler/katayar.png)   
   

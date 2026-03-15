@@ -1,6 +1,5 @@
-# Seçenekler
+# Proje Seçenekleri
 
-**Seçenekler**
   
 ![alt text](../../assets/resimler/projeSecenekleri.png)
 

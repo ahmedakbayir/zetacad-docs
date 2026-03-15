@@ -1,8 +1,7 @@
-# Sayfa Ayarı
+# Varsayılan Değerler
 
-**Sayfa Ayarı**
   
-![sayfayar](../../assets/resimler/varsayilan.png)   
+![Varsayılan](../../assets/resimler/varsayilan.png)   
   
 
 Projede sürekli yaptığınız seçimleri bir defa bu ekrandan girdiğinizde sonraki projeler için hep aynı bilgileri tekrar tekrar girmekle uğraşmayacaksınız. 
