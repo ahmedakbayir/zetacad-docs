@@ -44,60 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "</svg>";
 
   // Ortak yazdırma stilleri (tek sayfa ve tüm doküman için)
-  // İkon SVG'leri MkDocs Material temasından alındı
-  var admonIcons = {
-    note: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2m3.1 5.07c.14 0 .28.05.4.16l1.27 1.27c.23.22.23.57 0 .78l-1 1-2.05-2.05 1-1c.1-.11.24-.16.38-.16m-1.97 1.74 2.06 2.06-6.06 6.06H7.07v-2.06z'/%3E%3C/svg%3E",
-    abstract: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M17 9H7V7h10m0 6H7v-2h10m-3 6H7v-2h7M12 3a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m7 0h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2'/%3E%3C/svg%3E",
-    info: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 9h-2V7h2m0 10h-2v-6h2m-1-9A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2'/%3E%3C/svg%3E",
-    tip: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M17.66 11.2c-.23-.3-.51-.56-.77-.82-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32-2.59 2.08-3.61 5.75-2.39 8.9.04.1.08.2.08.33 0 .22-.15.42-.35.5-.23.1-.47.04-.66-.12a.6.6 0 0 1-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5.14.6.41 1.2.71 1.73 1.08 1.73 2.95 2.97 4.96 3.22 2.14.27 4.43-.12 6.07-1.6 1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26m-3.16 6.3c-.28.24-.74.5-1.1.6-1.12.4-2.24-.16-2.9-.82 1.19-.28 1.9-1.16 2.11-2.05.17-.8-.15-1.46-.28-2.23-.12-.74-.1-1.37.17-2.06.19.38.39.76.63 1.06.77 1 1.98 1.44 2.24 2.8.04.14.06.28.06.43.03.82-.33 1.72-.93 2.27'/%3E%3C/svg%3E",
-    success: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z'/%3E%3C/svg%3E",
-    question: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m15.07 11.25-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 0 0-2-2 2 2 0 0 0-2 2H8a4 4 0 0 1 4-4 4 4 0 0 1 4 4 3.2 3.2 0 0 1-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-5.53-4.5-10-10-10'/%3E%3C/svg%3E",
-    warning: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2z'/%3E%3C/svg%3E",
-    failure: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/%3E%3C/svg%3E",
-    danger: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m11.5 20 4.86-9.73H13V4l-5 9.73h3.5zM12 2c2.75 0 5.1 1 7.05 2.95S22 9.25 22 12s-1 5.1-2.95 7.05S14.75 22 12 22s-5.1-1-7.05-2.95S2 14.75 2 12s1-5.1 2.95-7.05S9.25 2 12 2'/%3E%3C/svg%3E",
-    bug: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M11 13h2v1h-2zm10-8v6c0 5.5-3.8 10.7-9 12-5.2-1.3-9-6.5-9-12V5l9-4zm-4 5h-2.2c-.2-.6-.6-1.1-1.1-1.5l1.2-1.2-.7-.7L12.8 8H12c-.2 0-.5 0-.7.1L9.9 6.6l-.8.8 1.2 1.2c-.5.3-.9.8-1.1 1.4H7v1h2v1H7v1h2v1H7v1h2.2c.4 1.2 1.5 2 2.8 2s2.4-.8 2.8-2H17v-1h-2v-1h2v-1h-2v-1h2zm-6 2h2v-1h-2z'/%3E%3C/svg%3E",
-    example: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 2v2h1v14a4 4 0 0 0 4 4 4 4 0 0 0 4-4V4h1V2zm4 14c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1m2-4c-.6 0-1-.4-1-1s.4-1 1-1 1 .4 1 1-.4 1-1 1m1-5h-4V4h4z'/%3E%3C/svg%3E",
-    quote: "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M14 17h3l2-4V7h-6v6h3M6 17h3l2-4V7H5v6h3z'/%3E%3C/svg%3E"
-  };
-
-  // MkDocs Material renk tonları (border + başlık arka planı %10 opaklık)
-  var admonColors = {
-    note:     { border: "#448aff", bg: "#448aff1a" },
-    abstract: { border: "#00b0ff", bg: "#00b0ff1a" },
-    info:     { border: "#00b8d4", bg: "#00b8d41a" },
-    tip:      { border: "#00bfa5", bg: "#00bfa51a" },
-    success:  { border: "#00c853", bg: "#00c8531a" },
-    question: { border: "#64dd17", bg: "#64dd171a" },
-    warning:  { border: "#ff9100", bg: "#ff91001a" },
-    failure:  { border: "#ff5252", bg: "#ff52521a" },
-    danger:   { border: "#ff1744", bg: "#ff17441a" },
-    bug:      { border: "#f50057", bg: "#f500571a" },
-    example:  { border: "#7c4dff", bg: "#7c4dff1a" },
-    quote:    { border: "#9e9e9e", bg: "#9e9e9e1a" }
-  };
-
-  // Admonition tip-renk-ikon CSS'ini oluştur
-  var admonTypeStyles = "";
-  var aliases = { summary: "abstract", check: "success", faq: "question" };
-  Object.keys(admonColors).forEach(function (type) {
-    var c = admonColors[type];
-    var icon = admonIcons[type];
-    admonTypeStyles +=
-      ".admonition." + type + "{border-color:" + c.border + ";background:" + c.bg + "}" +
-      ".admonition." + type + ">.admonition-title{background:" + c.bg + "}" +
-      ".admonition." + type + ">.admonition-title:before{background-color:" + c.border + ";-webkit-mask-image:url(\"" + icon + "\");mask-image:url(\"" + icon + "\")}";
-  });
-  // Alias'lar
-  Object.keys(aliases).forEach(function (alias) {
-    var target = aliases[alias];
-    var c = admonColors[target];
-    var icon = admonIcons[target];
-    admonTypeStyles +=
-      ".admonition." + alias + "{border-color:" + c.border + ";background:" + c.bg + "}" +
-      ".admonition." + alias + ">.admonition-title{background:" + c.bg + "}" +
-      ".admonition." + alias + ">.admonition-title:before{background-color:" + c.border + ";-webkit-mask-image:url(\"" + icon + "\");mask-image:url(\"" + icon + "\")}";
-  });
-
+  // MkDocs Material renk tonları (border + %10 opaklık arka plan)
   var printStyles =
     "body{font-family:system-ui,-apple-system,sans-serif;max-width:900px;margin:0 auto;padding:2rem;color:#1c1e21}" +
     ".page-section{padding-top:1.5rem;border-top:1px solid #ddd;margin-top:1.5rem}" +
@@ -111,45 +58,32 @@ document.addEventListener("DOMContentLoaded", function () {
     "th,td{border:1px solid #ddd;padding:8px;text-align:left}" +
     "pre{background:#f5f5f5;padding:1rem;overflow-x:auto;border-radius:4px}" +
     "code{font-family:SFMono-Regular,Consolas,monospace}" +
-    ".admonition,details{border-left:4px solid #448aff;border-radius:4px;padding:0.8rem 1rem;margin:1rem 0;background:#e8f0fe;page-break-inside:avoid}" +
-    ".admonition-title{font-weight:700;margin-bottom:0.4rem;font-size:0.95rem}" +
-    ".admonition-title::before{margin-right:0.4rem}" +
-    ".admonition.note{border-left-color:#448aff;background:#e8f0fe}" +
+    ".admonition{border:0;border-left:.2rem solid #448aff;border-radius:.1rem;margin:1rem 0;padding:.6rem .8rem;page-break-inside:avoid;background:#448aff1a}" +
+    ".admonition-title{font-weight:700;margin-bottom:.4rem;font-size:.85rem}" +
+    ".admonition.note{border-color:#448aff;background:#448aff1a}" +
     ".admonition.note>.admonition-title{color:#448aff}" +
-    ".admonition.note>.admonition-title::before{content:'\\270E'}" +
-    ".admonition.tip{border-left-color:#00c853;background:#e6f7e6}" +
-    ".admonition.tip>.admonition-title{color:#00c853}" +
-    ".admonition.tip>.admonition-title::before{content:'\\1F525'}" +
-    ".admonition.info{border-left-color:#00b8d4;background:#e0f7fa}" +
-    ".admonition.info>.admonition-title{color:#00b8d4}" +
-    ".admonition.info>.admonition-title::before{content:'\\2139'}" +
-    ".admonition.warning{border-left-color:#ff9100;background:#fff8e1}" +
-    ".admonition.warning>.admonition-title{color:#ff9100}" +
-    ".admonition.warning>.admonition-title::before{content:'\\26A0'}" +
-    ".admonition.danger{border-left-color:#ff1744;background:#ffeef0}" +
-    ".admonition.danger>.admonition-title{color:#ff1744}" +
-    ".admonition.danger>.admonition-title::before{content:'\\26A1'}" +
-    ".admonition.example{border-left-color:#7c4dff;background:#ede7f6}" +
-    ".admonition.example>.admonition-title{color:#7c4dff}" +
-    ".admonition.example>.admonition-title::before{content:'\\1F4CB'}" +
-    ".admonition.quote{border-left-color:#9e9e9e;background:#f5f5f5}" +
-    ".admonition.quote>.admonition-title{color:#9e9e9e}" +
-    ".admonition.quote>.admonition-title::before{content:'\\275D'}" +
-    ".admonition.abstract,.admonition.summary{border-left-color:#00b0ff;background:#e1f5fe}" +
+    ".admonition.abstract,.admonition.summary{border-color:#00b0ff;background:#00b0ff1a}" +
     ".admonition.abstract>.admonition-title,.admonition.summary>.admonition-title{color:#00b0ff}" +
-    ".admonition.abstract>.admonition-title::before,.admonition.summary>.admonition-title::before{content:'\\1F4C4'}" +
-    ".admonition.success,.admonition.check{border-left-color:#00c853;background:#e8f5e9}" +
+    ".admonition.info{border-color:#00b8d4;background:#00b8d41a}" +
+    ".admonition.info>.admonition-title{color:#00b8d4}" +
+    ".admonition.tip{border-color:#00bfa5;background:#00bfa51a}" +
+    ".admonition.tip>.admonition-title{color:#00bfa5}" +
+    ".admonition.success,.admonition.check{border-color:#00c853;background:#00c8531a}" +
     ".admonition.success>.admonition-title,.admonition.check>.admonition-title{color:#00c853}" +
-    ".admonition.success>.admonition-title::before,.admonition.check>.admonition-title::before{content:'\\2714'}" +
-    ".admonition.question,.admonition.faq{border-left-color:#64dd17;background:#f1f8e9}" +
+    ".admonition.question,.admonition.faq{border-color:#64dd17;background:#64dd171a}" +
     ".admonition.question>.admonition-title,.admonition.faq>.admonition-title{color:#64dd17}" +
-    ".admonition.question>.admonition-title::before,.admonition.faq>.admonition-title::before{content:'\\2753'}" +
-    ".admonition.failure{border-left-color:#ff1744;background:#ffeef0}" +
-    ".admonition.failure>.admonition-title{color:#ff1744}" +
-    ".admonition.failure>.admonition-title::before{content:'\\2716'}" +
-    ".admonition.bug{border-left-color:#f50057;background:#fce4ec}" +
+    ".admonition.warning{border-color:#ff9100;background:#ff91001a}" +
+    ".admonition.warning>.admonition-title{color:#ff9100}" +
+    ".admonition.failure{border-color:#ff5252;background:#ff52521a}" +
+    ".admonition.failure>.admonition-title{color:#ff5252}" +
+    ".admonition.danger{border-color:#ff1744;background:#ff17441a}" +
+    ".admonition.danger>.admonition-title{color:#ff1744}" +
+    ".admonition.bug{border-color:#f50057;background:#f500571a}" +
     ".admonition.bug>.admonition-title{color:#f50057}" +
-    ".admonition.bug>.admonition-title::before{content:'\\1F41B'}" +
+    ".admonition.example{border-color:#7c4dff;background:#7c4dff1a}" +
+    ".admonition.example>.admonition-title{color:#7c4dff}" +
+    ".admonition.quote{border-color:#9e9e9e;background:#9e9e9e1a}" +
+    ".admonition.quote>.admonition-title{color:#9e9e9e}" +
     ".admonition p:last-child{margin-bottom:0}" +
     "a{color:inherit;text-decoration:none}" +
     "@media print{.no-print{display:none}@page{margin:1.5cm;size:A4}}";
