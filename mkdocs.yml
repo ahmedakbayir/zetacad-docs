@@ -81,9 +81,10 @@ markdown_extensions:
 
 nav:
   - ZetaCad Nedir: index.md
-  - Genel Görünüm: program-arayuzu/arayuz-elemanlari/genel-bakis.md
-  - Giriş: program-arayuzu/arayuz-elemanlari/giris.md
+  - ZetaCad Versiyonları: program-arayuzu/arayuz-elemanlari/zetacad-versiyonlari.md
+  - İlk Çalıştırma: program-arayuzu/arayuz-elemanlari/giris.md
   - Firma Bilgileri: program-arayuzu/ayarlar/firma-bilgileri.md
+  - Genel Görünüm: program-arayuzu/arayuz-elemanlari/genel-bakis.md
   - Arayüz İkonları:
     - Araç Çubuğu: program-arayuzu/arayuz-ikonlari/arac-cubugu.md
     - Çizim Paneli: program-arayuzu/arayuz-ikonlari/cizim-paneli.md

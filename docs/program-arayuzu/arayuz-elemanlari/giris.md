@@ -20,7 +20,7 @@ Login olduktan sonra **Ayarlar / Firma Bilgileri** panelinden, Login olunan;
 
 detayları görünecektir. 
 
-[👉Firma bilgileri](../ayarlar/firma-bilgileri.md)  
+[Firma bilgileri](../ayarlar/firma-bilgileri.md)  
 
 ???+ note "Giriş Yapmadan Kullanım"
     Zetacad programını kullanmak için giriş yapma zorunluluğu yoktur. <br>Giriş sayfasını atlayarak doğrudan çizim ekranına ulaşabilirsiniz. <br><br>Giriş yapmayan kullanıcının dipos ile bir alış verişi olmayacaktır. Yani diposa proje kaydedemeyecek ve dipostan proje açamayacaktır.

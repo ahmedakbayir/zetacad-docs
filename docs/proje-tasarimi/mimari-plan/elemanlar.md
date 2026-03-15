@@ -10,11 +10,11 @@ Bir duvara kapı(veya pencere) eklemek için, duvar (veya pencere) özellikleri 
   
 Seçili duvarın üzerine farenin sağ tuşu ile tıkladığınızda açılan menüden duvara kapı (veya pencere) ekle seçeneğini tıklayınız. Böylelikle duvarın bir köşesine yakın olarak varsayılan genişlikte bir kapı (veya pencere) eklenecektir. Bu kapıyı (veya pencereyi) seçerek özellikler panelinden, değerlerini değiştirebilirsiniz. Aynı şekilde kapı (veya pencere) seçiliyken kırmızı taşıma noktalarından sürükleyerek kapıyı(veya pencereyi) duvarda istediğiniz konuma getirebilir veya kapıyı (veya pencereyi) bir başka duvara nakledebilirsiniz.   
   
-![adddoor](../../assets/resimler/adddoor.png)   
+![adddoor](../../assets/resimler/adddoor.png){width="200"}   
 
-![door](../../assets/resimler/door.png)   
+![door](../../assets/resimler/door.png){width="160"}   
 
-![moddoor](../../assets/resimler/moddoor.png)   
+![moddoor](../../assets/resimler/moddoor.png){width="200"}   
   
   
   
