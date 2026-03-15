@@ -58,33 +58,45 @@ document.addEventListener("DOMContentLoaded", function () {
     "pre{background:#f5f5f5;padding:1rem;overflow-x:auto;border-radius:4px}" +
     "code{font-family:SFMono-Regular,Consolas,monospace}" +
     ".admonition,details{border-left:4px solid #448aff;border-radius:4px;padding:0.8rem 1rem;margin:1rem 0;background:#e8f0fe;page-break-inside:avoid}" +
-    ".admonition-title,details>summary{font-weight:700;margin-bottom:0.4rem;display:block;font-size:0.95rem}" +
-    "details>summary{cursor:pointer}" +
-    ".admonition.note,details.note{border-left-color:#448aff;background:#e8f0fe}" +
-    ".admonition.note>.admonition-title,details.note>summary{color:#1a73e8}" +
-    ".admonition.tip,details.tip{border-left-color:#00c853;background:#e6f7e6}" +
-    ".admonition.tip>.admonition-title,details.tip>summary{color:#00a844}" +
-    ".admonition.info,details.info{border-left-color:#00b8d4;background:#e0f7fa}" +
-    ".admonition.info>.admonition-title,details.info>summary{color:#0097a7}" +
-    ".admonition.warning,details.warning{border-left-color:#ff9100;background:#fff8e1}" +
-    ".admonition.warning>.admonition-title,details.warning>summary{color:#e65100}" +
-    ".admonition.danger,details.danger{border-left-color:#ff1744;background:#ffeef0}" +
-    ".admonition.danger>.admonition-title,details.danger>summary{color:#d50000}" +
-    ".admonition.example,details.example{border-left-color:#7c4dff;background:#ede7f6}" +
-    ".admonition.example>.admonition-title,details.example>summary{color:#651fff}" +
-    ".admonition.quote,details.quote{border-left-color:#9e9e9e;background:#f5f5f5}" +
-    ".admonition.quote>.admonition-title,details.quote>summary{color:#616161}" +
-    ".admonition.abstract,details.abstract,.admonition.summary,details.summary{border-left-color:#00b0ff;background:#e1f5fe}" +
-    ".admonition.abstract>.admonition-title,details.abstract>summary,.admonition.summary>.admonition-title,details.summary>summary{color:#0091ea}" +
-    ".admonition.success,details.success,.admonition.check,details.check{border-left-color:#00c853;background:#e8f5e9}" +
-    ".admonition.success>.admonition-title,details.success>summary,.admonition.check>.admonition-title,details.check>summary{color:#00a844}" +
-    ".admonition.question,details.question,.admonition.faq,details.faq{border-left-color:#64dd17;background:#f1f8e9}" +
-    ".admonition.question>.admonition-title,details.question>summary,.admonition.faq>.admonition-title,details.faq>summary{color:#558b2f}" +
-    ".admonition.failure,details.failure{border-left-color:#ff1744;background:#ffeef0}" +
-    ".admonition.failure>.admonition-title,details.failure>summary{color:#d50000}" +
-    ".admonition.bug,details.bug{border-left-color:#f50057;background:#fce4ec}" +
-    ".admonition.bug>.admonition-title,details.bug>summary{color:#c51162}" +
-    ".admonition p:last-child,details p:last-child{margin-bottom:0}" +
+    ".admonition-title{font-weight:700;margin-bottom:0.4rem;font-size:0.95rem}" +
+    ".admonition-title::before{margin-right:0.4rem}" +
+    ".admonition.note{border-left-color:#448aff;background:#e8f0fe}" +
+    ".admonition.note>.admonition-title{color:#448aff}" +
+    ".admonition.note>.admonition-title::before{content:'\\270E'}" +
+    ".admonition.tip{border-left-color:#00c853;background:#e6f7e6}" +
+    ".admonition.tip>.admonition-title{color:#00c853}" +
+    ".admonition.tip>.admonition-title::before{content:'\\1F525'}" +
+    ".admonition.info{border-left-color:#00b8d4;background:#e0f7fa}" +
+    ".admonition.info>.admonition-title{color:#00b8d4}" +
+    ".admonition.info>.admonition-title::before{content:'\\2139'}" +
+    ".admonition.warning{border-left-color:#ff9100;background:#fff8e1}" +
+    ".admonition.warning>.admonition-title{color:#ff9100}" +
+    ".admonition.warning>.admonition-title::before{content:'\\26A0'}" +
+    ".admonition.danger{border-left-color:#ff1744;background:#ffeef0}" +
+    ".admonition.danger>.admonition-title{color:#ff1744}" +
+    ".admonition.danger>.admonition-title::before{content:'\\26A1'}" +
+    ".admonition.example{border-left-color:#7c4dff;background:#ede7f6}" +
+    ".admonition.example>.admonition-title{color:#7c4dff}" +
+    ".admonition.example>.admonition-title::before{content:'\\1F4CB'}" +
+    ".admonition.quote{border-left-color:#9e9e9e;background:#f5f5f5}" +
+    ".admonition.quote>.admonition-title{color:#9e9e9e}" +
+    ".admonition.quote>.admonition-title::before{content:'\\275D'}" +
+    ".admonition.abstract,.admonition.summary{border-left-color:#00b0ff;background:#e1f5fe}" +
+    ".admonition.abstract>.admonition-title,.admonition.summary>.admonition-title{color:#00b0ff}" +
+    ".admonition.abstract>.admonition-title::before,.admonition.summary>.admonition-title::before{content:'\\1F4C4'}" +
+    ".admonition.success,.admonition.check{border-left-color:#00c853;background:#e8f5e9}" +
+    ".admonition.success>.admonition-title,.admonition.check>.admonition-title{color:#00c853}" +
+    ".admonition.success>.admonition-title::before,.admonition.check>.admonition-title::before{content:'\\2714'}" +
+    ".admonition.question,.admonition.faq{border-left-color:#64dd17;background:#f1f8e9}" +
+    ".admonition.question>.admonition-title,.admonition.faq>.admonition-title{color:#64dd17}" +
+    ".admonition.question>.admonition-title::before,.admonition.faq>.admonition-title::before{content:'\\2753'}" +
+    ".admonition.failure{border-left-color:#ff1744;background:#ffeef0}" +
+    ".admonition.failure>.admonition-title{color:#ff1744}" +
+    ".admonition.failure>.admonition-title::before{content:'\\2716'}" +
+    ".admonition.bug{border-left-color:#f50057;background:#fce4ec}" +
+    ".admonition.bug>.admonition-title{color:#f50057}" +
+    ".admonition.bug>.admonition-title::before{content:'\\1F41B'}" +
+    ".admonition p:last-child{margin-bottom:0}" +
     "a{color:inherit;text-decoration:none}" +
     "@media print{.no-print{display:none}@page{margin:1.5cm;size:A4}}";
 
