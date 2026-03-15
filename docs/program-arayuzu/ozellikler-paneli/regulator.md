@@ -1,6 +1,5 @@
 # Regülatör Özellikleri
 
-![regProp](../../assets/resimler/regProp.png)   
   
 **Marka :** Regülatörün markasını seçiniz.   
 
@@ -16,3 +15,5 @@
 
 **Muhafazalı :** Regülatör muhafaza içinde ise bu seçeneği işaretleyiniz. 
   
+
+![regProp](../../assets/resimler/regProp.png)   

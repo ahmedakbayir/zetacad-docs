@@ -1,6 +1,5 @@
 # Tesisat Özellikleri
 
-![tesProp](../../assets/resimler/tesProp.png)   
   
 **Hat Numaraları:** Bu seçenekle hat numaralarını proje üzerinde gizleyip/gösterebilirsiniz.   
 
@@ -21,3 +20,5 @@
 **Polietilen Hat :** Eğer Çelik boru yerine polietilen boru ile tesisat yapılıyorsa bu seçenek işaretlenmelidir.
   
 **Çelik kılıf :** Hattınız çelik kılıf içinde ise bu seçenek işaretlenmelidir. 
+
+![tesProp](../../assets/resimler/tesProp.png)   

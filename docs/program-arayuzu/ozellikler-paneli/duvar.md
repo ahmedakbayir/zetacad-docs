@@ -1,7 +1,6 @@
 # Duvar Özellikleri
 
  
-![dProp](../../assets/resimler/dProp.png)   
 
 **Duvar Tipi :** Bu açılır kutudan duvarın tipi seçilir. Duvar tipi şu değerlerden biri olabilir.   
 
@@ -26,3 +25,5 @@
 - ![pencere](../../assets/resimler/pencere.jpg) Pencere Ekle 
 
   
+
+![dProp](../../assets/resimler/dProp.png)   

@@ -136,8 +136,6 @@ nav:
     - Kazan Özellikleri: program-arayuzu/ozellikler-paneli/kazan.md
     - Büyük Kombi Özellikleri: program-arayuzu/ozellikler-paneli/buyuk-kombi.md
     - Hermetik Baca Özellikleri: program-arayuzu/ozellikler-paneli/hermetik-baca.md
-  - Proje Tasarımı:
-    - Yeni Proje: proje-tasarimi/yeni-proje.md
   - Mimari Plan:
     - Genel Bilgi: proje-tasarimi/mimari-plan/index.md
     - Oda ve Duvar Çizimi: proje-tasarimi/mimari-plan/oda-duvar.md
@@ -146,7 +144,7 @@ nav:
     - Mahal ve Birim Tanımları: proje-tasarimi/mimari-plan/mahal-birim.md
     - Kopyalama ve Aynalama: proje-tasarimi/mimari-plan/kopyalama-aynalama.md
   - Tesisat:
-    - Genel Bilgi: proje-tasarimi/tesisat/index.md
+    - Yeni Proje: proje-tasarimi/yeni-proje.md
     - Hat Çizimleri: proje-tasarimi/tesisat/hat-cizimleri.md
     - Hat Modifikasyonu: proje-tasarimi/tesisat/hat-modifikasyonu.md
     - Tesisat Elemanları:
@@ -156,25 +154,21 @@ nav:
       - Regülatör: proje-tasarimi/tesisat/elemanlar/regulator.md
       - Sayaç: proje-tasarimi/tesisat/elemanlar/sayac.md
       - Diğer Tesisat Elemanları: proje-tasarimi/tesisat/elemanlar/diger.md
-    - Cihazlar:
+    - Evsel Cihazlar:
       - Genel Bilgi: proje-tasarimi/tesisat/cihazlar/index.md
       - Kombi: proje-tasarimi/tesisat/cihazlar/kombi.md
       - Ocak: proje-tasarimi/tesisat/cihazlar/ocak.md
       - Soba: proje-tasarimi/tesisat/cihazlar/soba.md
       - Şofben: proje-tasarimi/tesisat/cihazlar/sofben.md
-      - Genel Cihaz: proje-tasarimi/tesisat/cihazlar/genel-cihaz.md
-      - Tüketim Hesabı: proje-tasarimi/tesisat/cihazlar/tuketim-hesabi.md
   - Hesaplamalar:
     - Genel Bilgi: proje-tasarimi/hesaplamalar/index.md
     - Lokal Kayıplar: proje-tasarimi/hesaplamalar/lokal-kayiplar.md
     - Boru Çapı Hesapları: proje-tasarimi/hesaplamalar/boru-capi.md
     - Kritik Hat Analizi: proje-tasarimi/hesaplamalar/kritik-hat.md
-  - Otomatik Çap Tasarımı: proje-tasarimi/otomatik-cap-tasarimi.md
-  - Tadilat Projesi: proje-tasarimi/tadilat-projesi.md
+    - Otomatik Çap Tasarımı: proje-tasarimi/otomatik-cap-tasarimi.md
+    - Eskiz Çalışması: proje-tasarimi/eskiz-calismasi.md
   - Kontrol:
     - Genel Bilgi: proje-tasarimi/kontrol/index.md
     - Hata Giderme: proje-tasarimi/kontrol/hata-giderme.md
-  - Dijital Onay: proje-tasarimi/dijital-onay.md
   - Baskı: proje-tasarimi/baski.md
   - Katı Model: proje-tasarimi/kati-model.md
-  - Eskiz Çalışması: proje-tasarimi/eskiz-calismasi.md

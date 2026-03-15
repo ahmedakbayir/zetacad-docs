@@ -1,6 +1,5 @@
 # Kolon Özellikleri
 
-![kolProp](../../assets/resimler/kolProp.png)   
   
 **Pozisyon:** Bu panelden kolonun duvardaki yerleşimini belirleyebilirsiniz.   
 
@@ -11,3 +10,5 @@
 **Açı :** Kolonun merkezi etrafındaki açısal konumunu belirleyebilrisiniz.   
   
   
+
+![kolProp](../../assets/resimler/kolProp.png)   

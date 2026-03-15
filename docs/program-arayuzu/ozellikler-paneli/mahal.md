@@ -1,6 +1,5 @@
 # Mahal Özellikleri
 
-![mahProp](../../assets/resimler/mahProp.png)   
   
   
 **Mahal Tanımı :** Bu açılır kutudan mahalin ne olduğu belirlenir.   
@@ -22,3 +21,7 @@
 - ![menfez](../../assets/resimler/menfez.jpg) Mahale Menfez Aç 
 
 - ![merdiven3b](../../assets/resimler/merdiven3b.jpg) Mahale Merdiven Ekle  
+
+
+
+![mahProp](../../assets/resimler/mahProp.png)   

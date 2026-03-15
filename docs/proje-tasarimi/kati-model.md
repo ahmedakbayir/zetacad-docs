@@ -7,5 +7,15 @@ Katı Modelleme özelliği Zetacad'in en güçlü özelliklerinden birisidir. Ka
 Katı model için 2 seçenek vardır. İster sadece aktif katı, isterseniz tüm binayı görebilirsiniz. Bunun için _Görünüm_ menüsündeki _Katı Model_ seçeneğini veya araç çubuğundaki _katı model_ ![clip0034](../assets/resimler/clip0034.jpg) butonunu kullanabilirsiniz.   
   
 ![katimodel](../assets/resimler/katimodel.png)   
-|  Katı model penceresinde, binayı ortogonal veya perspektif modunda inceleyebilirsiniz. Soldaki Scroll çubuğunu hareket ettirdiğinizde (veya PgUp,PgDwn) binaya yaklaşıp uzaklaşabilirsiniz, farenin sağ tuşuyla görüntüyü süreklediğinizde ise bakış açısnızı döndürebilirsiniz.   
+
+Katı model penceresinde, binayı ortogonal veya perspektif modunda inceleyebilirsiniz. binaya yaklaşıp uzaklaşabilirsiniz, farenin sağ tuşuyla görüntüyü süreklediğinizde ise bakış açınızı döndürebilirsiniz.   
   
+Katı model ekranında mimari çizimi silikleştirip tesisat çizimine odaklanmak isteyebiliriz. bu durumda klavyeden 8 e basarak mimari planı silikleştiriyoruz. Tüm binadaki tesisatı bir bütün olarak görebilme imkanımız olacaktır. 
+
+![katimodel](../assets/resimler/katıModelSeffaf.png)   
+
+
+Tek kat içinde de aynı şekilde görüntüleme yapılabilir.
+
+
+![katimodel](../assets/resimler/katıModelSeffafTekKat.png)   

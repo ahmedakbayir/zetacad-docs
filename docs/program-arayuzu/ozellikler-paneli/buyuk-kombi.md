@@ -1,6 +1,5 @@
 # Büyük Kombi Özellikleri
   
-![cihProp](../../assets/resimler/buyukKombi.png)   
 
 
 **Marka :** Bu açılır kutudan cihaz markasını seçiniz. 
@@ -15,3 +14,5 @@
 
 **Fanlı brülör özellikleri :** fanlı brülörün tipi belirlenmelidir. Tek kademe, çift kademe, oransal gibi. aynı alanda brülörün min max kapasite aralığı ve basınç bilgisi de verilebilir. 
 
+
+![cihProp](../../assets/resimler/buyukKombi.png)   

@@ -1,6 +1,5 @@
 # Dönel Merdiven Özellikleri
 
-![clip0010](../../assets/resimler/clip0010.jpg)   
   
 **Alt Kot :** Merdivenin başlangıç kotunu cm cinsinden giriniz.   
 
@@ -16,3 +15,5 @@
 
 **Merkez Pozisyonu:** Merdiven merkezinin bulunduğu konumu seçiniz.   
   
+
+![clip0010](../../assets/resimler/clip0010.jpg)   

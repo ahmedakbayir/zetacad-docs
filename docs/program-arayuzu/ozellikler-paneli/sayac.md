@@ -1,6 +1,5 @@
 # Sayaç Özellikleri
 
-![sayProp](../../assets/resimler/sayProp.png)   
   
 **Tip :** Bu açılır kutudan sayaş tipini seçiniz. G4,G6,G10,G16,G25,G40,G65 ...
 
@@ -20,3 +19,5 @@
 
   
   
+
+![sayProp](../../assets/resimler/sayProp.png)   

@@ -1,6 +1,5 @@
 # Birim Özellikleri
   
-  ![birProp](../../assets/resimler/birProp.png)   
   
 Otomatik olarak analiz edilerek sınırları blirlenen seçili birimin özellikleri bu panelde yer alır.
 
@@ -12,3 +11,5 @@ Otomatik olarak analiz edilerek sınırları blirlenen seçili birimin özellikl
 **Birim Hacmi :** Burada birimin hacmini görebilirsiniz.
 
 **Kapı No :** Burada birimin kapı no gösterilir. Birimde tesisat varsa kapı no sayaçtan otomatik alınır. Tesisat yoksa kapı no kullanıcı tarafından manuel girilir. 
+
+![birProp](../../assets/resimler/birProp.png)   

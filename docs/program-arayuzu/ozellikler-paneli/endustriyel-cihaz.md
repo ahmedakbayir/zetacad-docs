@@ -1,6 +1,5 @@
 # Endüstriyel Cihaz Özellikleri
   
-![cihProp](../../assets/resimler/cihProp.png)   
 
 
 **Cihaz Tipi :** Endüstriyel cihazın tipi belirlenir. Konveksiyonlu fırın, Çay ocağı, Buhar kazanı, Kızgın yağ kazanı, Ram makinası, Baskı makinası vs. gibi
@@ -26,3 +25,5 @@
 Örnek şekiller:
 
 ![cihProp](../../assets/resimler/endustriyelCihazOrnekleri.png)   
+
+![cihProp](../../assets/resimler/cihProp.png)   

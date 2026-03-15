@@ -1,6 +1,5 @@
 # Merdiven Özellikleri
 
-![merdProp](../../assets/resimler/merdProp.png)   
   
 **Alt Kot :** Merdivenin başlangıç kotunu cm cinsinden giriniz.   
 
@@ -13,3 +12,5 @@
 **Çıkış Hattı** ![clip0009](../../assets/resimler/clip0009.jpg) : Merdivenin çıkış istikametini belirleyiniz.   
 
   
+
+![merdProp](../../assets/resimler/merdProp.png)   

@@ -1,6 +1,5 @@
 # Soba Özellikleri
 
-![sobaProp](../../assets/resimler/sobaProp.png)   
   
 
 **Marka :** Bu açılır kutudan soba markasını seçiniz. 
@@ -15,3 +14,5 @@
 
 
   
+
+![sobaProp](../../assets/resimler/sobaProp.png)   

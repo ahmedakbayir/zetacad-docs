@@ -1,6 +1,5 @@
 # Kazan Özellikleri
   
-![cihProp](../../assets/resimler/kazanOzellikler.png)   
 
 
 **Marka :** Bu açılır kutudan cihaz markasını seçiniz. 
@@ -24,3 +23,5 @@
 **Pw :** Isı üreticisi için gerekli itme basıncı (baca hesabında kullanılmaktadır)
 
 **CO2 :** Hacimce Karbondioksit oranı (baca hesabında kullanılmaktadır)
+
+![cihProp](../../assets/resimler/kazanOzellikler.png)   

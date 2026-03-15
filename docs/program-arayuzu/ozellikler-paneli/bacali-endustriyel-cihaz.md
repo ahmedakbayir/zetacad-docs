@@ -1,6 +1,5 @@
 # Bacalı Endüstriyel Cihaz Özellikleri
   
-![cihProp](../../assets/resimler/bacaliEndustriyelCihaz.png)   
 
 **Cihaz Tipi :** Endüstriyel cihazın tipi belirlenir. Konveksiyonlu fırın, Çay ocağı, Buhar kazanı, Kızgın yağ kazanı, Ram makinası, Baskı makinası vs. gibi
 
@@ -26,3 +25,5 @@
 
 **CO2 :** Hacimce Karbondioksit oranı (baca hesabında kullanılmaktadır)
 
+
+![cihProp](../../assets/resimler/bacaliEndustriyelCihaz.png)   

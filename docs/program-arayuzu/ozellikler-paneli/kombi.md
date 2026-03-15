@@ -1,6 +1,5 @@
 # Kombi Özellikleri
 
-![kombiProp](../../assets/resimler/kombiProp.png)   
   
 **Marka :** Bu açılır kutudan kombi markasını seçiniz. 
 
@@ -14,3 +13,5 @@
 
   
   
+
+![kombiProp](../../assets/resimler/kombiProp.png)   

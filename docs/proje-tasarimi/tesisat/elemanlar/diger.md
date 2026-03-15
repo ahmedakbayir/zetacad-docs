@@ -13,5 +13,6 @@ Tasarım ve hesaplamaları etkilemediği halde, şartname uyumu için gerekli ol
 ![izofla](../../../assets/resimler/izofla.png)   
   
   
+  
 **Kompansatör**   
 ![kompans](../../../assets/resimler/kompans.png)

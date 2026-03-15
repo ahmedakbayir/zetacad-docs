@@ -1,6 +1,5 @@
 # Servis Kutusu Özellikleri
 
-![sboxProp](../../assets/resimler/sboxProp.png)   
 
 **Kutu çıkışı :** Kutu çıkış yönünü seçiniz.  
   
@@ -18,3 +17,5 @@
 
 **RMS istasyonu :** RMS istasyonu şeklinde hizmet veren noktalar için işaretlenmelidir.
   
+
+![sboxProp](../../assets/resimler/sboxProp.png)   

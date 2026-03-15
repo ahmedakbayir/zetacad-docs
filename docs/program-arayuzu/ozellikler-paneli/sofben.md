@@ -1,6 +1,5 @@
 # Şofben Özellikleri
 
-![sofProp](../../assets/resimler/sofProp.png)   
   
 **Marka :** Bu açılır kutudan şofben markasını seçiniz. 
 
@@ -15,3 +14,5 @@
   
   
   
+
+![sofProp](../../assets/resimler/sofProp.png)   

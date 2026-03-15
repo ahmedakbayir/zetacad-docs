@@ -1,8 +1,6 @@
 # Sayfa Ayarı
 
   
-![sayfayar](../../assets/resimler/sayfayar.png)   
-  
 
 Kat planlarının çalışma alanının boyutunu buradan belirleyebilirisiniz. Buradan girilen sayfa ayarı sadece çalışma alanınızın boyutlarını belirler.  
 
@@ -22,3 +20,6 @@ Kat planlarının çalışma alanının boyutunu buradan belirleyebilirisiniz. B
 **Sayfa sınırı göster:** Bu seçenek çalışma alanında seçilen sayfanın sınırlarını gösterir. Bunun görünmesi algısal olarak projenin büyüklüğü hakkında fikir verebilir. 
 
 
+
+![sayfayar](../../assets/resimler/sayfayar.png)   
+  

@@ -6,8 +6,11 @@ Kritik hat analizi sadece en kritik devrenin değerlerini değil, aynı zamanda 
   
 Kritik hat analizi formunu açamak için, _Hesap_ menüsünden _Kritik Hat Analizi_ seçeneğini seçiniz. Aşağıdaki from açılacaktır.   
   
-![krtanaliz](../../assets/resimler/krtanaliz.png)   
+![krtanaliz](../../assets/resimler/krtanaliz.png) 
+
+
 ![hatdetay](../../assets/resimler/hatdetay.png)   
-|    
-Tüm tesisat yollları başlığı altında, Kolon, İç Tesisat ve Kolon+İç Tesisat olmak üzere gazın takip ettiği tüm devreler kendi grubuna ait renkle yer alır. Kırmızı renkli satır ise Zetacad'in kayıp değerinin maksimum olamsı nedeniyle seçtiği, kritik devreyi göstermektedir. Ayrıca alt kısımda bulunan kutucuklarda seçilen kritik hat ayrıca yazılır. Herhangib bir tesisat yolu seçiliyken, o yolu oluşturan hatlar numaraları ve kayıp değerleriyle sağ tarafta sıralanır. Böylelikle kaybı oluşturan ana hatlar belli olur. Dahası isterseniz ağaç yapısı şeklinde listelenen bu hatları + işaretine basarak açabilir ve yandaki resimde olduğu gibi hatla ilgili daha detaylı bilgiye ulaşabilirsiniz.   
+
+
+Tüm tesisat yollları başlığı altında, Kolon, İç Tesisat ve Kolon+İç Tesisat olmak üzere gazın takip ettiği tüm devreler kendi grubuna ait renkle yer alır. Kırmızı renkli satır ise Zetacad'in kayıp değerinin maksimum olamsı nedeniyle seçtiği, kritik devreyi göstermektedir. Ayrıca alt kısımda bulunan kutucuklarda seçilen kritik hat ayrıca yazılır. Herhangi bir tesisat yolu seçiliyken, o yolu oluşturan hatlar numaraları ve kayıp değerleriyle sağ tarafta sıralanır. Böylelikle kaybı oluşturan ana hatlar belli olur. Dahası isterseniz ağaç yapısı şeklinde listelenen bu hatları + işaretine basarak açabilir ve yandaki resimde olduğu gibi hatla ilgili daha detaylı bilgiye ulaşabilirsiniz.   
   

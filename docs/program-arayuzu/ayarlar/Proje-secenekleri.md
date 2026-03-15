@@ -1,7 +1,6 @@
 # Proje Seçenekleri
 
   
-![alt text](../../assets/resimler/projeSecenekleri.png)
 
 Genel olarak tesisat ve mimari planla ilgili bazı tercihlerinizi buradan yapabilirsiniz.  
 
@@ -21,3 +20,6 @@ Resimde "Tesisat Gösterim" tabı gösterilmiştir. Diğer tablarda yer alan se�
   
 **Baskı ve DXF de katı tarama :** Bu seçenek seçiliyken oluşturulan DXF nesneleri içinde, altını örtmesi gerekenler için, katı taramalar (solid hatch) oluşturulur. Bu taramalar çok düşük yoğunluklu bir gri rengindedir ve baskı sonrası beyaz gibi gözükür. Bazı plotter ofisleri katı taramalar ile ilgili hatalı baskılar alabildiği için bu seçenek size katı taramaları iptal etmenizi sağlar.   
   
+
+
+![alt text](../../assets/resimler/projeSecenekleri.png)
