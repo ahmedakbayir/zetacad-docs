@@ -3,9 +3,8 @@
 
 ![alt text](../../assets/resimler/dosyaMenusu.png)
 
-???+ note "Bilgisayarım ile Dipos4 ögeleri farklı mı?"
-    Bilgisayarım seçeneğinde, üzerinde çalışılan bilgisayardaki projeler söz konusudur. 
-<br> Dipos4 seçeneğinde ise projeler doğrudan Diposa yani bulut sisteme kaydedilmekte ya da oradan açılmaktadır.
+???+ note "Bilgisayarım ile Dipos4 seçeneklerinin farklı ne?"
+    Bilgisayarım seçeneğinde, üzerinde çalışılan bilgisayardaki projeler söz konusudur. Dipos4 seçeneğinde ise projeler doğrudan Diposa yani bulut sisteme kaydedilmekte ya da oradan açılmaktadır.
 
   
 |<h4 style="color:#2E7D32;">Menü Ögesi|<h4 style="color:#2E7D32;">Tanım|

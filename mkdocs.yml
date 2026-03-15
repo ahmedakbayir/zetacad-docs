@@ -144,9 +144,7 @@ nav:
     - Mahal ve Birim Tanımları: proje-tasarimi/mimari-plan/mahal-birim.md
     - Kopyalama ve Aynalama: proje-tasarimi/mimari-plan/kopyalama-aynalama.md
   - Tesisat:
-    - Yeni Proje: proje-tasarimi/yeni-proje.md
-    - Hat Çizimleri: proje-tasarimi/tesisat/hat-cizimleri.md
-    - Hat Modifikasyonu: proje-tasarimi/tesisat/hat-modifikasyonu.md
+    - Genel Bilgi: proje-tasarimi/index.md
     - Tesisat Elemanları:
       - Genel Bilgi: proje-tasarimi/tesisat/elemanlar/index.md
       - Servis Kutusu: proje-tasarimi/tesisat/elemanlar/servis-kutusu.md
@@ -160,6 +158,8 @@ nav:
       - Ocak: proje-tasarimi/tesisat/cihazlar/ocak.md
       - Soba: proje-tasarimi/tesisat/cihazlar/soba.md
       - Şofben: proje-tasarimi/tesisat/cihazlar/sofben.md
+    - Hat Çizimleri: proje-tasarimi/tesisat/hat-cizimleri.md
+    - Hat Modifikasyonu: proje-tasarimi/tesisat/hat-modifikasyonu.md
   - Hesaplamalar:
     - Genel Bilgi: proje-tasarimi/hesaplamalar/index.md
     - Lokal Kayıplar: proje-tasarimi/hesaplamalar/lokal-kayiplar.md
