@@ -13,7 +13,7 @@
 |**Pencere**|Seçili duvara pencere ekler veya seçili mahale pencere açar.|
 |**Menfez**|Seçili mahale atmosferi görecek şekilde menfez açar.|
 |**Kolon**|![alt text](../../assets/resimler/kolonEkle.png)|
-||**Duvara Kolon Ekle**<br> Seçili duvarın iki köşesine ya da tek köşesine kolon ekler.<br>Duvarın iki köşesi ya da tek köşesi farkı<br> [Varsayılan Değerler](varsayilan-degerler) panelinden seçilebilir|
+||**Duvara Kolon Ekle**<br> Seçili duvarın iki köşesine ya da tek köşesine kolon ekler.<br>Duvarın iki köşesi ya da tek köşesi farkı<br> [Varsayılan Değerler](../ayarlar/varsayilan-degerler.md) panelinden seçilebilir|
 ||**Tüm Kolonları Oluştur**<br> Kattaki tüm duvarların köşelerine kolon ekler|
 |**Mimari Nesne**|![alt text](../../assets/resimler/mimariNesne.png)|
 ||**Alarm cihazı**<br> Seçili mahale alarm cihazı ekler.|

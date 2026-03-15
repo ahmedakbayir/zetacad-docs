@@ -4,91 +4,32 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!article) return;
 
   var h1 = article.querySelector("h1");
-  if (!h1) return;
 
-  // Sayfa başlığından temiz dosya adı oluştur
-  function getFilename() {
-    var title = h1.childNodes[0]
-      ? h1.childNodes[0].textContent.trim()
-      : h1.textContent.trim();
-    return (
-      title
-        .replace(/\s+/g, "-")
-        .replace(/[^\w\-çğışöüÇĞİŞÖÜ]/gi, "")
-        .slice(0, 80) || "sayfa"
-    ) + ".pdf";
-  }
+  // Orijinal MkDocs CSS'lerini (ikonlar, renkler, fontlar) PDF'e kayıpsız taşımak için topla
+  var pageStylesheets = "";
+  document.querySelectorAll('link[rel="stylesheet"], style').forEach(function(el) {
+      pageStylesheets += el.outerHTML;
+  });
 
-  // Script yükleyici (CDN'den gerektiğinde yükle)
-  function loadScript(src) {
-    return new Promise(function (resolve, reject) {
-      if (document.querySelector('script[src="' + src + '"]')) {
-        resolve();
-        return;
-      }
-      var s = document.createElement("script");
-      s.src = src;
-      s.onload = resolve;
-      s.onerror = reject;
-      document.head.appendChild(s);
-    });
-  }
+  // Yazdırma penceresi için sayfa kırılmaları ve genel ayarlar
+  var customPrintStyles = 
+    "<style>" +
+    "body { background: white !important; color: #1c1e21; padding: 2rem; max-width: 1000px; margin: 0 auto; }" +
+    ".page-section { padding-top: 1.5rem; border-top: 1px solid #ddd; margin-top: 1.5rem; }" +
+    ".page-section:first-child { border-top: none; margin-top: 0; }" +
+    ".section-start { page-break-before: always; border-top: none; padding-top: 0; margin-top: 0; }" +
+    ".loading { text-align: center; padding: 3rem; font-size: 1.2rem; color: #666; font-family: sans-serif; }" +
+    ".loading-progress { margin-top: 1rem; font-size: 0.9rem; }" +
+    /* Sayfa sonu kutu bölünmelerini engelleme ve ikon renklerini PDF'e zorlama */
+    ".md-typeset .admonition, .md-typeset details { page-break-inside: avoid !important; -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; color-adjust: exact !important; }" +
+    ".md-typeset .admonition-title::before, .md-typeset summary::before { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }" +
+    "img { max-width: 100%; page-break-inside: avoid; }" +
+    "table, pre { page-break-inside: avoid; }" +
+    /* PDF'de görünmemesi gereken butonları gizle */
+    ".md-pdf-icon, .md-pdf-all-docs, .md-edit-bottom, .md-content__button, .headerlink { display: none !important; }" +
+    "</style>";
 
-  // PDF ikonu SVG - klasik dosya + aşağı ok şeklinde
-  var pdfIconSvg =
-    '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-    '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>' +
-    '<polyline points="14 2 14 8 20 8"/>' +
-    '<line x1="12" y1="18" x2="12" y2="12"/>' +
-    '<polyline points="9 15 12 18 15 15"/>' +
-    "</svg>";
-
-  // Ortak yazdırma stilleri (tek sayfa ve tüm doküman için)
-  var printStyles =
-    "body{font-family:system-ui,-apple-system,sans-serif;max-width:900px;margin:0 auto;padding:2rem;color:#1c1e21}" +
-    ".page-section{padding-top:1.5rem;border-top:1px solid #ddd;margin-top:1.5rem}" +
-    ".page-section:first-child{border-top:none;margin-top:0}" +
-    ".section-start{page-break-before:always;border-top:none;padding-top:0;margin-top:0}" +
-    ".loading{text-align:center;padding:3rem;font-size:1.2rem;color:#666}" +
-    ".loading-progress{margin-top:1rem;font-size:.9rem}" +
-    "h1,h2,h3,h4{color:#1c1e21}" +
-    "img{max-width:100%}" +
-    "table{border-collapse:collapse;width:100%}" +
-    "th,td{border:1px solid #ddd;padding:8px;text-align:left}" +
-    "pre{background:#f5f5f5;padding:1rem;overflow-x:auto;border-radius:4px}" +
-    "code{font-family:SFMono-Regular,Consolas,monospace}" +
-    ".admonition,details{border-left:4px solid #448aff;border-radius:4px;padding:0.8rem 1rem;margin:1rem 0;background:#e8f0fe;page-break-inside:avoid}" +
-    ".admonition-title,details>summary{font-weight:700;margin-bottom:0.4rem;display:block;font-size:0.95rem}" +
-    "details>summary{cursor:pointer}" +
-    ".admonition.note,details.note{border-left-color:#448aff;background:#e8f0fe}" +
-    ".admonition.note>.admonition-title,details.note>summary{color:#1a73e8}" +
-    ".admonition.tip,details.tip{border-left-color:#00c853;background:#e6f7e6}" +
-    ".admonition.tip>.admonition-title,details.tip>summary{color:#00a844}" +
-    ".admonition.info,details.info{border-left-color:#00b8d4;background:#e0f7fa}" +
-    ".admonition.info>.admonition-title,details.info>summary{color:#0097a7}" +
-    ".admonition.warning,details.warning{border-left-color:#ff9100;background:#fff8e1}" +
-    ".admonition.warning>.admonition-title,details.warning>summary{color:#e65100}" +
-    ".admonition.danger,details.danger{border-left-color:#ff1744;background:#ffeef0}" +
-    ".admonition.danger>.admonition-title,details.danger>summary{color:#d50000}" +
-    ".admonition.example,details.example{border-left-color:#7c4dff;background:#ede7f6}" +
-    ".admonition.example>.admonition-title,details.example>summary{color:#651fff}" +
-    ".admonition.quote,details.quote{border-left-color:#9e9e9e;background:#f5f5f5}" +
-    ".admonition.quote>.admonition-title,details.quote>summary{color:#616161}" +
-    ".admonition.abstract,details.abstract,.admonition.summary,details.summary{border-left-color:#00b0ff;background:#e1f5fe}" +
-    ".admonition.abstract>.admonition-title,details.abstract>summary,.admonition.summary>.admonition-title,details.summary>summary{color:#0091ea}" +
-    ".admonition.success,details.success,.admonition.check,details.check{border-left-color:#00c853;background:#e8f5e9}" +
-    ".admonition.success>.admonition-title,details.success>summary,.admonition.check>.admonition-title,details.check>summary{color:#00a844}" +
-    ".admonition.question,details.question,.admonition.faq,details.faq{border-left-color:#64dd17;background:#f1f8e9}" +
-    ".admonition.question>.admonition-title,details.question>summary,.admonition.faq>.admonition-title,details.faq>summary{color:#558b2f}" +
-    ".admonition.failure,details.failure{border-left-color:#ff1744;background:#ffeef0}" +
-    ".admonition.failure>.admonition-title,details.failure>summary{color:#d50000}" +
-    ".admonition.bug,details.bug{border-left-color:#f50057;background:#fce4ec}" +
-    ".admonition.bug>.admonition-title,details.bug>summary{color:#c51162}" +
-    ".admonition p:last-child,details p:last-child{margin-bottom:0}" +
-    "a{color:inherit;text-decoration:none}" +
-    "@media print{.no-print{display:none}@page{margin:1.5cm;size:A4}}";
-
-  // Linkleri düz metne dönüştür (PDF'te tıklanabilir link olmasın)
+  // Linkleri düz metne dönüştür
   function stripLinks(container) {
     container.querySelectorAll("a").forEach(function (a) {
       var span = document.createElement("span");
@@ -97,107 +38,73 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Collapsible admonition'ları (details) normal div'e dönüştür (PDF için)
-  function convertDetailsToDiv(container) {
-    container.querySelectorAll("details").forEach(function (details) {
-      var div = document.createElement("div");
-      div.className = "admonition " + (details.className || "note");
-      var summary = details.querySelector("summary");
-      if (summary) {
-        var title = document.createElement("p");
-        title.className = "admonition-title";
-        title.innerHTML = summary.innerHTML;
-        div.appendChild(title);
-      }
-      // summary dışındaki tüm child'ları aktar
-      Array.from(details.childNodes).forEach(function (child) {
-        if (child.nodeName !== "SUMMARY") {
-          div.appendChild(child.cloneNode(true));
+  var pdfIconSvg =
+    '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+    '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>' +
+    '<polyline points="14 2 14 8 20 8"/>' +
+    '<line x1="12" y1="18" x2="12" y2="12"/>' +
+    '<polyline points="9 15 12 18 15 15"/>' +
+    "</svg>";
+
+  // --- 1) Sayfa PDF ikonu ---
+  if (h1) {
+    h1.style.position = "relative";
+    var pageBtn = document.createElement("button");
+    pageBtn.className = "md-pdf-icon";
+    pageBtn.title = "Bu sayfayı PDF olarak indir";
+    pageBtn.innerHTML = pdfIconSvg;
+
+    pageBtn.addEventListener("click", function () {
+      pageBtn.disabled = true;
+      pageBtn.style.opacity = "0.3";
+
+      var clone = article.cloneNode(true);
+      stripLinks(clone);
+
+      clone.querySelectorAll("img").forEach(function (img) {
+        img.removeAttribute("loading");
+        var src = img.getAttribute("src");
+        if (src && !src.startsWith("http") && !src.startsWith("data:") && !src.startsWith("//")) {
+          try { img.setAttribute("src", new URL(src, window.location.href).href); } catch (e) {}
         }
       });
-      details.parentNode.replaceChild(div, details);
-    });
-  }
 
-  // --- 1) Sayfa PDF ikonu: Başlığın sağ üstünde küçük ikon ---
-  h1.style.position = "relative";
-
-  var pageBtn = document.createElement("button");
-  pageBtn.className = "md-pdf-icon";
-  pageBtn.title = "Bu sayfayı PDF olarak indir";
-  pageBtn.innerHTML = pdfIconSvg;
-
-  pageBtn.addEventListener("click", function () {
-    pageBtn.disabled = true;
-    pageBtn.style.opacity = "0.3";
-
-    // Article içeriğini klonla
-    var clone = article.cloneNode(true);
-
-    // Gereksiz elemanları kaldır
-    clone
-      .querySelectorAll(
-        ".md-pdf-icon, .md-pdf-all-docs, .md-content__button, .md-edit-bottom, .headerlink"
-      )
-      .forEach(function (el) {
-        el.remove();
-      });
-
-    // Collapsible admonition'ları normal div'e dönüştür
-    convertDetailsToDiv(clone);
-
-    // Linkleri düz metne dönüştür
-    stripLinks(clone);
-
-    // Resimleri düzelt: lazy loading kaldır + göreceli yolları mutlak yap
-    clone.querySelectorAll("img").forEach(function (img) {
-      img.removeAttribute("loading");
-      var src = img.getAttribute("src");
-      if (src && !src.startsWith("http") && !src.startsWith("data:") && !src.startsWith("//")) {
-        try {
-          img.setAttribute("src", new URL(src, window.location.href).href);
-        } catch (e) {}
-      }
-    });
-
-    var printWindow = window.open("", "_blank");
-    if (!printWindow) {
-      alert("Lütfen açılır pencere engelleyicisini devre dışı bırakın.");
-      pageBtn.disabled = false;
-      pageBtn.style.opacity = "";
-      return;
-    }
-
-    printWindow.document.write(
-      "<!DOCTYPE html><html><head><title>" + (document.title || "ZetaCAD") + "</title>" +
-        "<style>" + printStyles + "</style></head><body>" +
-        clone.innerHTML +
-        "</body></html>"
-    );
-    printWindow.document.close();
-
-    // Tüm resimlerin yüklenmesini bekle, sonra yazdır
-    var allImages = printWindow.document.querySelectorAll("img");
-    var imgPromises = Array.from(allImages).map(function (img) {
-      if (img.complete) return Promise.resolve();
-      return new Promise(function (resolve) {
-        img.onload = resolve;
-        img.onerror = resolve;
-      });
-    });
-
-    Promise.all(imgPromises).then(function () {
-      setTimeout(function () {
-        printWindow.print();
+      var printWindow = window.open("", "_blank");
+      if (!printWindow) {
+        alert("Lütfen açılır pencere engelleyicisini devre dışı bırakın.");
         pageBtn.disabled = false;
         pageBtn.style.opacity = "";
-      }, 500);
+        return;
+      }
+
+      var baseTag = '<base href="' + window.location.href + '">';
+      printWindow.document.write(
+        "<!DOCTYPE html><html><head><title>" + (document.title || "ZetaCAD") + "</title>" +
+        baseTag + pageStylesheets + customPrintStyles + 
+        "</head><body class=\"md-typeset\">" +
+        clone.outerHTML +
+        "</body></html>"
+      );
+      printWindow.document.close();
+
+      var allImages = printWindow.document.querySelectorAll("img");
+      var imgPromises = Array.from(allImages).map(function (img) {
+        if (img.complete) return Promise.resolve();
+        return new Promise(function (resolve) { img.onload = resolve; img.onerror = resolve; });
+      });
+
+      Promise.all(imgPromises).then(function () {
+        setTimeout(function () {
+          printWindow.print();
+          pageBtn.disabled = false;
+          pageBtn.style.opacity = "";
+        }, 800);
+      });
     });
-  });
+    h1.appendChild(pageBtn);
+  }
 
-  h1.appendChild(pageBtn);
-
-  // --- 2) GitHub düzenle butonunu içeriğin en altına taşı ---
+  // --- 2) GitHub düzenle butonunu içeriğin altına taşı ---
   var editBtn = document.querySelector(".md-content__button");
   if (editBtn) {
     var editWrapper = document.createElement("div");
@@ -211,36 +118,22 @@ document.addEventListener("DOMContentLoaded", function () {
   allDocsBtn.className = "md-pdf-all-docs";
   allDocsBtn.title = "Tüm dokümanı PDF olarak indir";
   allDocsBtn.href = "#";
-  allDocsBtn.innerHTML =
-    '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-    '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>' +
-    '<polyline points="14 2 14 8 20 8"/>' +
-    '<line x1="12" y1="18" x2="12" y2="12"/>' +
-    '<polyline points="9 15 12 18 15 15"/>' +
-    "</svg>" +
-    " Tüm Dokümanı PDF Olarak İndir";
+  allDocsBtn.innerHTML = pdfIconSvg + " Tüm Dokümanı PDF Olarak İndir";
 
   allDocsBtn.addEventListener("click", function (e) {
     e.preventDefault();
 
-    // Benzersiz sayfa URL'lerini topla (pathname bazlı deduplikasyon)
-    var navLinks = document.querySelectorAll(
-      ".md-nav--primary .md-nav__link[href]"
-    );
+    var navLinks = document.querySelectorAll(".md-nav--primary .md-nav__link[href]");
     var pages = [];
     var seenPaths = {};
-
-    // Üst düzey bölümlerin ilk sayfalarını tespit et (sayfa kırılması için)
     var sectionStartPaths = {};
-    var topLevelItems = document.querySelectorAll(
-      ".md-nav--primary > .md-nav__list > .md-nav__item"
-    );
+
+    var topLevelItems = document.querySelectorAll(".md-nav--primary > .md-nav__list > .md-nav__item");
     topLevelItems.forEach(function (item) {
       var firstLink = item.querySelector(".md-nav__link[href]");
       if (firstLink && firstLink.href && !firstLink.href.includes("javascript:")) {
         try {
-          var u = new URL(firstLink.href);
-          var p = u.pathname.replace(/\/$/, "") || "/";
+          var p = new URL(firstLink.href).pathname.replace(/\/$/, "") || "/";
           sectionStartPaths[p] = true;
         } catch (ex) {}
       }
@@ -249,23 +142,14 @@ document.addEventListener("DOMContentLoaded", function () {
     navLinks.forEach(function (link) {
       var href = link.href;
       if (!href || href.includes("javascript:")) return;
-
-      // URL'den pathname çıkar, normalize et
       try {
         var url = new URL(href);
         var path = url.pathname.replace(/\/$/, "") || "/";
-
-        // Hash ve query parametrelerini yoksay, sadece path'e bak
         if (!seenPaths[path]) {
           seenPaths[path] = true;
-          pages.push({
-            url: url.origin + url.pathname,
-            isSectionStart: !!sectionStartPaths[path]
-          });
+          pages.push({ url: url.origin + url.pathname, isSectionStart: !!sectionStartPaths[path] });
         }
-      } catch (ex) {
-        // Geçersiz URL - atla
-      }
+      } catch (ex) {}
     });
 
     var printWindow = window.open("", "_blank");
@@ -274,13 +158,15 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
+    var baseTag = '<base href="' + window.location.href + '">';
     printWindow.document.write(
       "<!DOCTYPE html><html><head><title>ZetaCAD - Tüm Doküman</title>" +
-        "<style>" + printStyles + "</style></head><body>" +
-        '<div class="loading" id="loading">Doküman hazırlanıyor...' +
-        '<div class="loading-progress" id="progress"></div></div>' +
-        '<div id="content" style="display:none"></div>' +
-        "</body></html>"
+      baseTag + pageStylesheets + customPrintStyles + 
+      "</head><body class=\"md-typeset\">" +
+      '<div class="loading" id="loading">Doküman PDF için hazırlanıyor... <br><small>Bu işlem biraz sürebilir, lütfen bekleyin.</small>' +
+      '<div class="loading-progress" id="progress">0 / ' + pages.length + ' sayfa yüklendi</div></div>' +
+      '<div id="content" style="display:none"></div>' +
+      "</body></html>"
     );
     printWindow.document.close();
 
@@ -290,112 +176,64 @@ document.addEventListener("DOMContentLoaded", function () {
     var loaded = 0;
 
     function fetchPage(url, index, isSectionStart) {
-      return fetch(url)
-        .then(function (r) {
-          return r.text();
-        })
+      return fetch(url).then(function (r) { return r.text(); })
         .then(function (html) {
           var parser = new DOMParser();
           var doc = parser.parseFromString(html, "text/html");
           var articleContent = doc.querySelector("article.md-content__inner");
           if (articleContent) {
-            // Gereksiz tüm elemanları kaldır
-            articleContent
-              .querySelectorAll(
-                ".md-pdf-icon, .md-pdf-all-docs, .md-content__button, .md-edit-bottom, .headerlink"
-              )
-              .forEach(function (el) {
-                el.remove();
-              });
-
-            // Collapsible admonition'ları normal div'e dönüştür
-            convertDetailsToDiv(articleContent);
-
-            // Linkleri düz metne dönüştür
             stripLinks(articleContent);
-
-            // Resimleri düzelt: lazy loading kaldır + göreceli yolları mutlak yap
-            articleContent
-              .querySelectorAll("img")
-              .forEach(function (img) {
-                // Lazy loading kaldır (boş pencerede viewport yok, resimler yüklenmez)
-                img.removeAttribute("loading");
-
-                // Göreceli yolları mutlak yollara dönüştür
-                var src = img.getAttribute("src");
-                if (src && !src.startsWith("http") && !src.startsWith("data:") && !src.startsWith("//")) {
-                  try {
-                    img.setAttribute("src", new URL(src, url).href);
-                  } catch (e) {}
-                }
-              });
-
+            articleContent.querySelectorAll("img").forEach(function (img) {
+              img.removeAttribute("loading");
+              var src = img.getAttribute("src");
+              if (src && !src.startsWith("http") && !src.startsWith("data:") && !src.startsWith("//")) {
+                try { img.setAttribute("src", new URL(src, url).href); } catch (e) {}
+              }
+            });
             return { index: index, html: articleContent.innerHTML, isSectionStart: isSectionStart };
           }
           return null;
-        })
-        .catch(function () {
-          return null;
-        })
+        }).catch(function () { return null; })
         .finally(function () {
           loaded++;
-          if (progress)
-            progress.textContent =
-              loaded + " / " + pages.length + " sayfa yüklendi";
+          if (progress) progress.textContent = loaded + " / " + pages.length + " sayfa yüklendi";
         });
     }
 
-    Promise.all(
-      pages.map(function (page, i) {
-        return fetchPage(page.url, i, page.isSectionStart);
-      })
-    ).then(function (results) {
-      results
-        .filter(function (r) {
-          return r !== null;
-        })
-        .sort(function (a, b) {
-          return a.index - b.index;
-        })
-        .forEach(function (r, i) {
-          var section = printWindow.document.createElement("div");
-          var classes = [];
-          if (i > 0) classes.push("page-section");
-          if (r.isSectionStart && i > 0) classes.push("section-start");
-          section.className = classes.join(" ");
-          section.innerHTML = r.html;
-          content.appendChild(section);
+    Promise.all(pages.map(function (page, i) { return fetchPage(page.url, i, page.isSectionStart); }))
+      .then(function (results) {
+        results.filter(function (r) { return r !== null; })
+          .sort(function (a, b) { return a.index - b.index; })
+          .forEach(function (r, i) {
+            var section = printWindow.document.createElement("div");
+            var classes = ["page-section"];
+            if (r.isSectionStart && i > 0) classes.push("section-start");
+            section.className = classes.join(" ");
+            section.innerHTML = r.html;
+            content.appendChild(section);
+          });
+
+        loading.style.display = "none";
+        content.style.display = "block";
+
+        var allImages = content.querySelectorAll("img");
+        var imgLoadPromises = Array.from(allImages).map(function (img) {
+          if (img.complete) return Promise.resolve();
+          return new Promise(function (resolve) { img.onload = resolve; img.onerror = resolve; });
         });
 
-      loading.style.display = "none";
-      content.style.display = "block";
-
-      // Tüm resimlerin yüklenmesini bekle, sonra yazdır
-      var allImages = content.querySelectorAll("img");
-      var imgLoadPromises = Array.from(allImages).map(function (img) {
-        if (img.complete) return Promise.resolve();
-        return new Promise(function (resolve) {
-          img.onload = resolve;
-          img.onerror = resolve;
+        Promise.all(imgLoadPromises).then(function () {
+          setTimeout(function () { printWindow.print(); }, 1000);
         });
       });
-
-      Promise.all(imgLoadPromises).then(function () {
-        setTimeout(function () {
-          printWindow.print();
-        }, 500);
-      });
-    });
   });
 
   article.appendChild(allDocsBtn);
 
-  // --- 4) Klavye sol/sağ ok tuşlarıyla önceki/sonraki sayfaya geçiş ---
+  // --- 4) Klavye sol/sağ ok tuşlarıyla geçiş ---
   document.addEventListener("keydown", function (e) {
-    // Input, textarea veya contenteditable alanında yazarken çalışmasın
     var tag = e.target.tagName;
     if (tag === "INPUT" || tag === "TEXTAREA" || e.target.isContentEditable) return;
-
     if (e.key === "ArrowLeft") {
       var prev = document.querySelector(".md-footer__link--prev");
       if (prev) window.location.href = prev.href;
