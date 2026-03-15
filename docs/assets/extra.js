@@ -192,6 +192,22 @@ document.addEventListener("DOMContentLoaded", function () {
     var pages = [];
     var seenPaths = {};
 
+    // Üst düzey bölümlerin ilk sayfalarını tespit et (sayfa kırılması için)
+    var sectionStartPaths = {};
+    var topLevelItems = document.querySelectorAll(
+      ".md-nav--primary > .md-nav__list > .md-nav__item"
+    );
+    topLevelItems.forEach(function (item) {
+      var firstLink = item.querySelector(".md-nav__link[href]");
+      if (firstLink && firstLink.href && !firstLink.href.includes("javascript:")) {
+        try {
+          var u = new URL(firstLink.href);
+          var p = u.pathname.replace(/\/$/, "") || "/";
+          sectionStartPaths[p] = true;
+        } catch (ex) {}
+      }
+    });
+
     navLinks.forEach(function (link) {
       var href = link.href;
       if (!href || href.includes("javascript:")) return;
@@ -204,7 +220,10 @@ document.addEventListener("DOMContentLoaded", function () {
         // Hash ve query parametrelerini yoksay, sadece path'e bak
         if (!seenPaths[path]) {
           seenPaths[path] = true;
-          pages.push(url.origin + url.pathname);
+          pages.push({
+            url: url.origin + url.pathname,
+            isSectionStart: !!sectionStartPaths[path]
+          });
         }
       } catch (ex) {
         // Geçersiz URL - atla
@@ -223,6 +242,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "body{font-family:system-ui,-apple-system,sans-serif;max-width:900px;margin:0 auto;padding:2rem;color:#1c1e21}" +
         ".page-section{padding-top:1.5rem;border-top:1px solid #ddd;margin-top:1.5rem}" +
         ".page-section:first-child{border-top:none;margin-top:0}" +
+        ".section-start{page-break-before:always;border-top:none;padding-top:0;margin-top:0}" +
         ".loading{text-align:center;padding:3rem;font-size:1.2rem;color:#666}" +
         ".loading-progress{margin-top:1rem;font-size:.9rem}" +
         "h1,h2,h3,h4{color:#1c1e21}" +
@@ -260,7 +280,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var loading = printWindow.document.getElementById("loading");
     var loaded = 0;
 
-    function fetchPage(url, index) {
+    function fetchPage(url, index, isSectionStart) {
       return fetch(url)
         .then(function (r) {
           return r.text();
@@ -295,7 +315,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
               });
 
-            return { index: index, html: articleContent.innerHTML };
+            return { index: index, html: articleContent.innerHTML, isSectionStart: isSectionStart };
           }
           return null;
         })
@@ -311,8 +331,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     Promise.all(
-      pages.map(function (url, i) {
-        return fetchPage(url, i);
+      pages.map(function (page, i) {
+        return fetchPage(page.url, i, page.isSectionStart);
       })
     ).then(function (results) {
       results
@@ -324,7 +344,10 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .forEach(function (r, i) {
           var section = printWindow.document.createElement("div");
-          section.className = i > 0 ? "page-section" : "";
+          var classes = [];
+          if (i > 0) classes.push("page-section");
+          if (r.isSectionStart && i > 0) classes.push("section-start");
+          section.className = classes.join(" ");
           section.innerHTML = r.html;
           content.appendChild(section);
         });
