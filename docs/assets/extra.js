@@ -221,8 +221,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "<!DOCTYPE html><html><head><title>ZetaCAD - Tüm Doküman</title>" +
         "<style>" +
         "body{font-family:system-ui,-apple-system,sans-serif;max-width:900px;margin:0 auto;padding:2rem;color:#1c1e21}" +
-        ".page-section{page-break-before:always;padding-top:1rem}" +
-        ".page-section:first-child{page-break-before:auto}" +
+        ".page-section{padding-top:1.5rem;border-top:1px solid #ddd;margin-top:1.5rem}" +
+        ".page-section:first-child{border-top:none;margin-top:0}" +
         ".loading{text-align:center;padding:3rem;font-size:1.2rem;color:#666}" +
         ".loading-progress{margin-top:1rem;font-size:.9rem}" +
         "h1,h2,h3,h4{color:#1c1e21}" +
@@ -231,6 +231,21 @@ document.addEventListener("DOMContentLoaded", function () {
         "th,td{border:1px solid #ddd;padding:8px;text-align:left}" +
         "pre{background:#f5f5f5;padding:1rem;overflow-x:auto;border-radius:4px}" +
         "code{font-family:SFMono-Regular,Consolas,monospace}" +
+        ".admonition,.details{border-left:4px solid #448aff;border-radius:4px;padding:0.6rem 0.8rem;margin:1rem 0;background:#f5f6f7;page-break-inside:avoid}" +
+        ".admonition-title,.summary{font-weight:700;margin-bottom:0.4rem;display:flex;align-items:center;gap:0.4rem}" +
+        ".admonition.note,.details.note{border-left-color:#448aff}" +
+        ".admonition.tip,.details.tip{border-left-color:#00c853;background:#e6f7e6}" +
+        ".admonition.info,.details.info{border-left-color:#00b8d4}" +
+        ".admonition.warning,.details.warning{border-left-color:#ff9100;background:#fff8e1}" +
+        ".admonition.danger,.details.danger{border-left-color:#ff1744;background:#ffeef0}" +
+        ".admonition.example,.details.example{border-left-color:#7c4dff}" +
+        ".admonition.quote,.details.quote{border-left-color:#9e9e9e}" +
+        ".admonition.abstract,.details.abstract,.admonition.summary,.details.summary{border-left-color:#00b0ff}" +
+        ".admonition.success,.details.success,.admonition.check,.details.check{border-left-color:#00c853}" +
+        ".admonition.question,.details.question,.admonition.faq,.details.faq{border-left-color:#64dd17}" +
+        ".admonition.failure,.details.failure{border-left-color:#ff1744}" +
+        ".admonition.bug,.details.bug{border-left-color:#f50057}" +
+        ".admonition p:last-child{margin-bottom:0}" +
         "@media print{.no-print{display:none}@page{margin:1.5cm;size:A4}}" +
         "</style></head><body>" +
         '<div class="loading" id="loading">Doküman hazırlanıyor...' +
