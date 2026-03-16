@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     printWindow.document.write(
-      "<!DOCTYPE html><html><head><title>" + (document.title || "ZetaCAD") + "</title>" +
+      "<!DOCTYPE html><html><head><title>" + (document.title || "ZetaCad") + "</title>" +
         "<style>" + printStyles + "</style></head><body>" +
         clone.innerHTML +
         "</body></html>"
@@ -288,7 +288,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     printWindow.document.write(
-      "<!DOCTYPE html><html><head><title>ZetaCAD - Tüm Doküman</title>" +
+      "<!DOCTYPE html><html><head><title>ZetaCad - Tüm Doküman</title>" +
         "<style>" + printStyles + "</style></head><body>" +
         '<div class="loading" id="loading">Doküman hazırlanıyor...' +
         '<div class="loading-progress" id="progress"></div></div>' +

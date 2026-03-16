@@ -1,6 +1,6 @@
-# ZetaCAD Docs
+# ZetaCad Docs
 
-ZetaCAD için hazırlanmış resmi Türkçe yardım dokumanı.
+ZetaCad için hazırlanmış resmi Türkçe yardım dokumanı.
 
 **📖 Canlı Site:** https://ahmedakbayir.github.io/zetacad-docs/
 
@@ -34,4 +34,4 @@ mkdocs build
 
 ## Lisans
 
-© ZetaCAD. Tüm hakları saklıdır.
+© ZetaCad. Tüm hakları saklıdır.
